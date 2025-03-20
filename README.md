@@ -10,6 +10,7 @@ Using a virtual environment is recommended, I am using conda to create one insid
 ```shell
 conda create -p .venv python==3.12
 conda activate .venv
+pip install cldfbench
 ```
 
 1. Create a new cldf structure. For consistency, make sure to provide as ID the name of the folder that you want to use.
