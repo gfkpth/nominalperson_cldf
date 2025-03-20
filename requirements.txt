@@ -1,0 +1,7 @@
+pandas
+psycopg2
+sqlalchemy
+python-dotenv
+cldfbench
+nltk
+TexSoup
