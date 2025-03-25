@@ -1,6 +1,7 @@
 import pathlib
 
 from cldfbench import Dataset as BaseDataset
+from cldfbench import CLDFWriter as Writer
 
 
 class Dataset(BaseDataset):
@@ -8,7 +9,9 @@ class Dataset(BaseDataset):
     id = "nominalperson_cldf"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
-        return super().cldf_specs()
+        from cldfbench import CLDFSpec
+        return CLDFSpec(dir=self.cldf_dir, module='StructureDataset') 
+#        return super().cldf_specs()
 
     def cmd_download(self, args):
         """
@@ -24,3 +27,21 @@ class Dataset(BaseDataset):
 
         >>> args.writer.objects['LanguageTable'].append(...)
         """
+        
+        with Writer(cldf_spec) as writer:
+            for row in self.raw_dir.read_csv(
+                'examples.csv',
+                dicts=True, 
+            ):
+                writer.objects['ExampleTable'].append({
+                    'ID': row['ID'],
+                    'Language_ID': row['Language_ID'],
+                    'Primary_Text': row['Primary_Text'],
+                    'Analyzed_Word': row['Analyzed_Word'],
+                    'Gloss': row['Gloss'],
+                    'Translated_Text': row['Translated_Text'],
+                    'Meta_Language_ID': row['Meta_Language_ID'],
+                    'LGR_Conformance': row['LGR_Conformance'],
+                    'Source': row['Source'],
+                    'Comments': row['Comments']
+                })
