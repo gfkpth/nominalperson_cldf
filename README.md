@@ -21,3 +21,14 @@ cldfbench new
 ```
 
 I am moving one level up in the file structure because I created my virtual environment inside the target folder. If you're using a system installed cldfbench (or create your virtual environment in a different location), you can just run `cldfbench new` in the parent folder of where you want your cldf folder to sit.
+
+2. Insert any raw data that should be integrated into the dataset into the `raw/` Folder.
+
+3. 
+
+
+# Questions:
+
+- What are possible values for `args.writer.objects['ValueTable']`?
+- How does the following part skipped over in the tutorial work when needed?
+  - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
