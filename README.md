@@ -3,6 +3,9 @@
 For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>
 In this file, I aim to document the conrete steps needed for my slightly more complex dataset.
 
+
+## Preliminaries
+
 0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). 
 
 Using a virtual environment is recommended, I am using conda to create one inside the folder I want to use for the cldf.
@@ -24,7 +27,29 @@ I am moving one level up in the file structure because I created my virtual envi
 
 2. Insert any raw data that should be integrated into the dataset into the `raw/` Folder.
 
-3. 
+3. Run catconfig to install a [glottolog](https://github.com/glottolog/glottolog) into the local system and create a catalog.ini file pointing to it. To make the API for glottolog available you also need to install the package `pyglottolog`, which I suggest installing before if it is not available in your system/virtual environment.
+
+```shell
+pip install pyglottolog
+cldfbench catconfig
+```
+
+This prompts you to install several auxiliary datasets. For the current use case, I want glottolog, so I pick yes to that and decline the concepticon and clts.
+Note that on Linux this clones <https://github.com/glottolog/glottolog> into ~/.config/cldf/glottolog, with a weight of about 1.5GB.
+
+Alternatively, you could download/`git clone https://github.com/glottolog/glottolog` into some other location and create a ~/.config/cldf/catalog.ini file with the appropriate path as follows (I'm not sure if this has any downsides to directly following the catconfig flow in use cases I haven't encountered yet):
+
+```shell
+# ~/.config/cldf/catalog.ini
+[clones]
+glottolog = /path/of/your/local/glottolog/repository
+```
+
+
+## Setting up the cldfbench_[projectname].py
+
+
+
 
 
 # Questions:
