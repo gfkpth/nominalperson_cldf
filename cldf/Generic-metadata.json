@@ -9,25 +9,25 @@
     "dc:identifier": "https://github.com/gfkpth/nominalperson_cldf/",
     "dc:license": "CC-BY",
     "dc:title": "Adnominal person database",
-    "dcat:accessURL": "https://github.com/gfkpth/nominalperson_cldf",
+    "dcat:accessURL": "https://github.com/gfkpth/nominalperson_cldf/",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/gfkpth/nominalperson_cldf",
+            "rdf:about": "https://github.com/gfkpth/nominalperson_cldf/",
             "rdf:type": "prov:Entity",
-            "dc:created": "66f2247",
+            "dc:created": "ed004cb",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.1-17-g06771a4e45",
+            "dc:created": "v5.1-18-gd886971439",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.12.0"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",
@@ -105,6 +105,14 @@
                     {
                         "datatype": "string",
                         "name": "Walscode"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z]{3}"
+                        },
+                        "separator": ";",
+                        "name": "ISOcodes"
                     }
                 ],
                 "primaryKey": [
@@ -114,60 +122,8 @@
             "url": "languages.csv"
         },
         {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CodeTable",
-            "tableSchema": {
-                "columns": [
-                    {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z0-9_\\-]+"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true,
-                        "name": "ID"
-                    },
-                    {
-                        "dc:description": "The parameter or variable the code belongs to.",
-                        "dc:extent": "singlevalued",
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                        "required": true,
-                        "name": "Parameter_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
-                        "required": false,
-                        "name": "Name"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
-                        "required": false,
-                        "name": "Description"
-                    }
-                ],
-                "foreignKeys": [
-                    {
-                        "columnReference": [
-                            "Parameter_ID"
-                        ],
-                        "reference": {
-                            "resource": "parameters.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    }
-                ],
-                "primaryKey": [
-                    "ID"
-                ]
-            },
-            "url": "codes.csv"
-        },
-        {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 2,
             "tableSchema": {
                 "columns": [
                     {
@@ -278,17 +234,6 @@
                     },
                     {
                         "columnReference": [
-                            "Code_ID"
-                        ],
-                        "reference": {
-                            "resource": "codes.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
                             "Parameter_ID"
                         ],
                         "reference": {
@@ -307,7 +252,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 22910,
+            "dc:extent": 154,
             "tableSchema": {
                 "columns": [
                     {
