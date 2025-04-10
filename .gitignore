@@ -102,3 +102,9 @@ ENV/
 
 # vscode
 *.code-workspace
+
+# temp files
+.~lock*
+
+# prevent (re)uploading WALS to github
+*/wals/
