@@ -275,7 +275,7 @@ class Dataset(BaseDataset):
                                 'Value': values_dict[val]['Value'],
                                 'Code_ID': values_dict[val]['Code_ID'],
                                 'Source': values_dict[val]['Source'],
-                                'Examples': values_dict[val]['Examples']             
+                                'Examples': ';'.join(values_dict[val]['Examples'])      
                                 })
             elif values_dict[val].get('Source') and not values_dict[val].get('Examples'):
                 args.writer.objects['ValueTable'].append({
@@ -295,7 +295,7 @@ class Dataset(BaseDataset):
                                 'Value': values_dict[val]['Value'],
                                 'Code_ID': values_dict[val]['Code_ID'],
                                 'Source': '',
-                                'Examples': values_dict[val]['Examples']
+                                'Examples': ';'.join(values_dict[val]['Examples'])
                                 })
             else:
                 args.writer.objects['ValueTable'].append({
