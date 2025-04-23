@@ -5,37 +5,38 @@ verb_object_orderNC,verb_object_order,NC,non-configurational (no dominant order)
 verb_object_orderunclear,verb_object_order,unclear,no clear information available
 verb_object_order_walsOV,verb_object_order_wals,OV,Object precedes verb (OV)
 verb_object_order_walsVO,verb_object_order_wals,VO,Object follows verb (VO)
-verb_object_order_walsNo dominant order,verb_object_order_wals,No dominant order,Both orders with neither order dominant
+verb_object_order_walsNodominantorder,verb_object_order_wals,No dominant order,Both orders with neither order dominant
 adposition_orderpre,adposition_order,pre,prepositions (adposition preceding nominal)
 adposition_orderpost,adposition_order,post,postpositions (adposition following nominal)
 adposition_orderNoDom,adposition_order,NoDom,no dominant order
-adposition_orderNo Adpos,adposition_order,No Adpos,no clear adpositional category
+adposition_orderNoAdpos,adposition_order,No Adpos,no clear adpositional category
 adposition_orderunclear,adposition_order,unclear,no clear information available
 adposition_order_walsPostpositions,adposition_order_wals,Postpositions,Postpositions
 adposition_order_walsPrepositions,adposition_order_wals,Prepositions,Prepositions
 adposition_order_walsInpositions,adposition_order_wals,Inpositions,Inpositions
-adposition_order_walsNo dominant order,adposition_order_wals,No dominant order,More than one adposition type with none dominant
-adposition_order_walsNo adpositions,adposition_order_wals,No adpositions,No adpositions
+adposition_order_walsNodominantorder,adposition_order_wals,No dominant order,More than one adposition type with none dominant
+adposition_order_walsNoadpositions,adposition_order_wals,No adpositions,No adpositions
 genitive_orderGenN,genitive_order,GenN,genitive preceding nominal
 genitive_orderNGen,genitive_order,NGen,genitive following nominal
 genitive_orderNoDom,genitive_order,NoDom,no dominant order of genitive modifier and nominal head
 genitive_orderunclear,genitive_order,unclear,no clear information available
 genitive_order_walsGenitive-Noun,genitive_order_wals,Genitive-Noun,Genitive-noun (GenN)
 genitive_order_walsNoun-Genitive,genitive_order_wals,Noun-Genitive,Noun-genitive (NGen)
-genitive_order_walsNo dominant order,genitive_order_wals,No dominant order,Both orders occur with neither order dominant
+genitive_order_walsNodominantorder,genitive_order_wals,No dominant order,Both orders occur with neither order dominant
 demonstrative_orderDemN,demonstrative_order,DemN,demonstrative preceding nominal
-demonstrative_orderNGen,demonstrative_order,NGen,demonstrative following nominal
+demonstrative_orderNDem,demonstrative_order,NDem,demonstrative following nominal
 demonstrative_ordermixed,demonstrative_order,mixed,no dominant order of demonstrative and nominal head
+demonstrative_orderboth,demonstrative_order,both,multi-part demonstrative marking preceding and following nominal head
 demonstrative_order_walsDemonstrative-Noun,demonstrative_order_wals,Demonstrative-Noun,Demonstrative word precedes noun (DemN)
 demonstrative_order_walsNoun-Demonstrative,demonstrative_order_wals,Noun-Demonstrative,Demonstrative word follows noun (NDem)
-demonstrative_order_walsDemonstrative prefix,demonstrative_order_wals,Demonstrative prefix,Demonstrative prefix on noun
-demonstrative_order_walsDemonstrative suffix,demonstrative_order_wals,Demonstrative suffix,Demonstrative suffix on noun
-demonstrative_order_walsDemonstrative before and after Noun,demonstrative_order_wals,Demonstrative before and after Noun,Demonstrative simultaneously before and after noun
+demonstrative_order_walsDemonstrativeprefix,demonstrative_order_wals,Demonstrative prefix,Demonstrative prefix on noun
+demonstrative_order_walsDemonstrativesuffix,demonstrative_order_wals,Demonstrative suffix,Demonstrative suffix on noun
+demonstrative_order_walsDemonstrativebeforeandafterNoun,demonstrative_order_wals,Demonstrative before and after Noun,Demonstrative simultaneously before and after noun
 demonstrative_order_walsMixed,demonstrative_order_wals,Mixed,Two or more of above types with none dominant
-article_distinct_thirdTrue,article_distinct_third,True,There is a distinct definite article.
-article_distinct_thirdFalse,article_distinct_third,False,There is no distinct definite article.
-demonstrative_as_thirdTrue,demonstrative_as_third,True,A demonstrative is systematically used as third person pronoun (i.e. no distinct third person pronoun).
-demonstrative_as_thirdFalse,demonstrative_as_third,False,There is a third person pronoun distinct from the demonstrative.
+article_distinct_thirdy,article_distinct_third,y,There is a distinct definite article.
+article_distinct_thirdn,article_distinct_third,n,There is no distinct definite article.
+demonstrative_as_thirdy,demonstrative_as_third,y,A demonstrative is systematically used as third person pronoun (i.e. no distinct third person pronoun).
+demonstrative_as_thirdn,demonstrative_as_third,n,There is a third person pronoun distinct from the demonstrative.
 nominal_persony,nominal_person,y,There are attested instances of (ad)nominal person marking.
 nominal_personn,nominal_person,n,There are explicit and plausible claims about the lack of adnominal person marking.
 APC_orderpre,APC_order,pre,adnominal pronoun preceding nominal
@@ -45,17 +46,17 @@ bound_person_orderpre,bound_person_order,pre,bound person marker precedes nomina
 bound_person_orderpost,bound_person_order,post,bound person marker follows nominal core
 bound_person_ordern,bound_person_order,n,no evidence for bound person constructions
 person_allowedall,person_allowed,all,any person can be marked adnominally
-person_allowedno 3,person_allowed,no 3,no adnominal marking for third person
-person_allowedonly 3,person_allowed,only 3,sources suggest only third person expressions allowed adnominally
+person_allowedno3,person_allowed,no 3,no adnominal marking for third person
+person_allowedonly3,person_allowed,only 3,sources suggest only third person expressions allowed adnominally
 person_allowedunclear,person_allowed,unclear,no clear information available
 person_third_availabley,person_third_available,y,third person adnominal person is attested
 person_third_availablen,person_third_available,n,"third person adnominal person is ruled out, cf. English *they linguists"
-person_third_availableonly 3,person_third_available,only 3,adnominal person attested only for third person
+person_third_availableonly3,person_third_available,only 3,adnominal person attested only for third person
 person_third_availableunclear,person_third_available,unclear,no clear information available
 number_allowedall,number_allowed,all,no reported number restrictions on adnominal person marking
 number_allowednon-sg,number_allowed,non-sg,only non-singular pronouns in adnominal person marking
 number_allowednonum,number_allowed,nonum,no grammatical number marking on pronouns
-number_allowedunclear (+pl),number_allowed,unclear (+pl),"plural is attested, other numbers unclear but feasible"
+number_allowedunclear(+pl),number_allowed,unclear (+pl),"plural is attested, other numbers unclear but feasible"
 number_allowedunclear,number_allowed,unclear,no clear information available
 PPDCy,PPDC,y,PPDC is attested
 PPDCy_nn,PPDC,y_nn,"attested PPDCs include only demonstrative and PersN-marking, but no lexical material"

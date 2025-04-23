@@ -43,8 +43,9 @@
         "descr": "dominant order of demonstrative modifiers relative to nominal head",
         "values": {
             "DemN": "demonstrative preceding nominal", 
-            "NGen": "demonstrative following nominal", 
-            "mixed": "no dominant order of demonstrative and nominal head"
+            "NDem": "demonstrative following nominal", 
+            "mixed": "no dominant order of demonstrative and nominal head",
+            "both": "multi-part demonstrative marking preceding and following nominal head"
         }
     },
     "demonstrative_order_wals": {
@@ -54,15 +55,15 @@
     "article_distinct_third": {
         "descr": "presence/absence of a definite article that is distinct from a third person pronoun",
         "values": {
-            "True": "There is a distinct definite article.",
-            "False": "There is no distinct definite article."
+            "y": "There is a distinct definite article.",
+            "n": "There is no distinct definite article."
         }
     },
     "demonstrative_as_third": {
         "descr": "marks whether the language has a third person pronoun that is distinct from a demonstrative pronoun",
         "values": {
-            "True": "A demonstrative is systematically used as third person pronoun (i.e. no distinct third person pronoun).",
-            "False": "There is a third person pronoun distinct from the demonstrative."
+            "y": "A demonstrative is systematically used as third person pronoun (i.e. no distinct third person pronoun).",
+            "n": "There is a third person pronoun distinct from the demonstrative."
         }
     },
     "nominal_person": {

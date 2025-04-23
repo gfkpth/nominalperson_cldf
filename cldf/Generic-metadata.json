@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/gfkpth/nominalperson_cldf",
             "rdf:type": "prov:Entity",
-            "dc:created": "1753458",
+            "dc:created": "32faca9",
             "dc:title": "Repository"
         },
         {
@@ -238,7 +238,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CodeTable",
-            "dc:extent": 61,
+            "dc:extent": 62,
             "tableSchema": {
                 "columns": [
                     {
@@ -331,7 +331,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 1872,
+            "dc:extent": 1800,
             "tableSchema": {
                 "columns": [
                     {

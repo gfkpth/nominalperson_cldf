@@ -102,7 +102,7 @@ class Dataset(BaseDataset):
             ))
             for code in param_dict[param]['values'].keys():  
                 args.writer.objects['CodeTable'].append(dict(
-                    ID=param+code,
+                    ID=param + code.replace(' ',''),
                     Parameter_ID=param,
                     Name=code,
                     Description=param_dict[param]['values'][code]
@@ -136,7 +136,7 @@ class Dataset(BaseDataset):
     
             # write languages table
             args.writer.objects['LanguageTable'].append({
-                'ID': row['glottocode'],
+                'ID': lang_id,
                 'Name': row['lang_name'] ,
                 'Macroarea': row['area_glottolog'],
                 'Latitude': lat,
@@ -164,7 +164,7 @@ class Dataset(BaseDataset):
                             values_dict[val_id]={'Language_ID': lang_id,  #row['glottocode'],
                                                  'Parameter_ID': param,
                                                  'Value': val,
-                                                 'Code_ID': param + val
+                                                 'Code_ID': param + val.replace(' ','')
                                                  }
                         else:
                             continue                                                    # if there's no WALS data available, consider next parameter
@@ -178,7 +178,7 @@ class Dataset(BaseDataset):
                             values_dict[val_id]={'Language_ID': lang_id,    #row['glottocode'],
                                                 'Parameter_ID': param,
                                                 'Value': val,
-                                                'Code_ID': param + val,
+                                                'Code_ID': param + val.replace(' ',''),
                                                 'Source': ppdc_sources
                             }
                         # otherwise provide general nominal person sources
@@ -187,17 +187,18 @@ class Dataset(BaseDataset):
                             values_dict[val_id]={'Language_ID': lang_id,    #row['glottocode'],
                                                     'Parameter_ID': param,
                                                     'Value': val,
-                                                    'Code_ID': param + val,
+                                                    'Code_ID': param + val.replace(' ',''),
                                                     'Source': nompers_sources
                                                 }
-                    case _ if row[param] != '':                               # only add value lines if there is a value :  
+                    # for all other, non-person-related parameters only add value lines if there is a value:  
+                    case x if not param_dict[x].get('person-rel') and row[param] != '':                               
                         
                         val = row[param]
                         # add data to working dictionary of values table                        
                         values_dict[val_id]={'Language_ID': lang_id,    #row['glottocode'],
                                                 'Parameter_ID': param,
                                                 'Value': val,
-                                                'Code_ID': param + val
+                                                'Code_ID': param + val.replace(' ','')
                                             }
                         
                 val_id+=1   # increase val_id counter after successful entry
@@ -224,6 +225,14 @@ class Dataset(BaseDataset):
                 continue
             else:
                 current_lang_id = lids.get(row['Language_ID'])[0]
+                
+                
+            # do the same lookup for the meta language of translation
+            if lids.get(row['Meta_Language_ID']) == None:
+                print(f"Couldn't resolve language ID for metalanguage with glottocode {row['Meta_Language_ID']} when processing example from {row['Language_Name']}. Check manually please.")
+                continue
+            else:
+                meta_lang_id = lids.get(row['Meta_Language_ID'])[0]            
 
             # enter row into ExampleTable
             args.writer.objects['ExampleTable'].append({
@@ -233,7 +242,7 @@ class Dataset(BaseDataset):
                 'Analyzed_Word': row['Analyzed_Word'].split(),
                 'Gloss': row['Gloss'].split(),
                 'Translated_Text': row['Translated_Text'],
-                'Meta_Language_ID': row['Meta_Language_ID'],
+                'Meta_Language_ID': meta_lang_id,
                 'LGR_Conformance': row['LGR_Conformance'],
                 'Comment': row['Comment'],
                 'Source': row['Source']                    
