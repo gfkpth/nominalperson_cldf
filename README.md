@@ -1,10 +1,27 @@
-# Notes on the setup of a new CLDF
+# Overview
+
+This repository contains a database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person. The code here creates a [CLDF](https://github.com/cldf/cldf/)-conformant database, a format designed for linguistic applications, from older (and somewhat unorderly) csv-files.
+
+**This is still work in progress.**
+
+A previous implementation of the data as a relational (SQL) database can be found [here](https://github.com/gfkpth/nominal_person). That repo also contains the a jupyter notebook extracting example sentences for nominal person from a LaTeX-file, see  [here](https://github.com/gfkpth/nominal_person/tree/main/db-creation-notes/CLDF).
+
+# (Ad-)nominal person
+
+ One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
+More detailed information on relevant phenomena and the range of cross-linguistic variation can be found in [Höhn (2020)](https://doi.org/10.5334/gjgl.1121) and [Höhn (2024)](https://doi.org/10.1515/lingty-2023-0080) as well as [my dissertation](https://ling.auf.net/lingbuzz/003618). If you use this data, I'd appreciate it if you'd let me know. If you are a linguist interested in (ad)nominal person and struggle with using this database, feel free to get in touch.
+
+
+Note that this is currently work in progress. 
+ involve the database in [CLDF](https://github.com/cldf/cldf/), a format designed for linguistic applications which will be compatible with generation of an sqlite database as well. I will publish a new repository for that once there is a usable version.
+
+## Notes on the setup of a new CLDF
 
 For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>
 In this file, I aim to document the conrete steps needed for my slightly more complex dataset.
 
 
-## Preliminaries
+### Preliminaries
 
 0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). 
 
@@ -23,11 +40,11 @@ cd ..
 cldfbench new
 ```
 
-I am moving one level up in the file structure because I created my virtual environment inside the target folder. If you're using a system installed cldfbench (or create your virtual environment in a different location), you can just run `cldfbench new` in the parent folder of where you want your cldf folder to sit.
+I am moving one level up in the file structure because I created my virtual environment inside the target folder. If you're using a system-installed cldfbench (or create your virtual environment in a different location), you can just run `cldfbench new` in the parent folder of where you want your cldf folder to sit.
 
 2. Insert any raw data that should be integrated into the dataset into the `raw/` Folder.
 
-3. Run catconfig to install a [glottolog](https://github.com/glottolog/glottolog) into the local system and create a catalog.ini file pointing to it. To make the API for glottolog available you also need to install the package `pyglottolog`, which I suggest installing before if it is not available in your system/virtual environment.
+3. Run catconfig to install [glottolog](https://github.com/glottolog/glottolog) into the local system and create a catalog.ini file pointing to it. To make the API for glottolog available you also need to install the package `pyglottolog`, which I suggest installing before if it is not available in your system/virtual environment.
 
 ```shell
 pip install pyglottolog
@@ -46,14 +63,28 @@ glottolog = /path/of/your/local/glottolog/repository
 ```
 
 
-## Setting up the cldfbench_[projectname].py
+### Setting up the cldfbench_[projectname].py
+
+As described in the available tutorials, `cldfbench new` creates a general template on which to build. The crucial code for converting my csv-data into CLDF needs to go to `cldfbench-[projectname].py`. 
 
 
 
+# To Do/Questions:
 
 
-# Questions:
+## Documentation
 
-- What are possible values for `args.writer.objects['ValueTable']`?
-- How does the following part skipped over in the tutorial work when needed?
-  - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
+- write-up for usage, especially regarding parameter-codes.json
+- details for tutorial-like guide
+  - What are possible values for `args.writer.objects['ValueTable']`?
+  - How does the following part skipped over in the tutorial work when needed?
+    - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
+
+
+## Implementation
+
+- Associating examples to values in case there is more than one relevant example
+  - For regular normalisation in standard relational tables I'd expect to set up a separate table linking example ids to value ids, but given the handling of sources, CLDF doesn't seem to strictly require transforming data into first normal form to avoid multiple values, is that right?
+  - So would it be better to just have a list (semicolon separated?)
+- fine-grained parameter-assignments of examples to values
+  - currently just a rough check: if demonstrative contained in gloss -> PPDC, otherwise just regular
