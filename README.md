@@ -86,5 +86,6 @@ As described in the available tutorials, `cldfbench new` creates a general templ
 - Associating examples to values in case there is more than one relevant example
   - For regular normalisation in standard relational tables I'd expect to set up a separate table linking example ids to value ids, but given the handling of sources, CLDF doesn't seem to strictly require transforming data into first normal form to avoid multiple values, is that right?
   - So would it be better to just have a list (semicolon separated?)
-- fine-grained parameter-assignments of examples to values
+- 
+- fine-grained parameter-assignments of examples (ExampleTable) to values (ValuesTable)
   - currently just a rough check: if demonstrative contained in gloss -> PPDC, otherwise just regular

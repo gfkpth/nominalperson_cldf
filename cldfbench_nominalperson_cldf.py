@@ -36,20 +36,23 @@ class Dataset(BaseDataset):
             'Walscode',
             {'name': 'ISOcodes', 'separator': ';', 'datatype': {'base': 'string', 'format': '[a-z]{3}'}}        # pre-coded ISO639P3code doesn't allow multiple values, but we have exceptional cases with two alternative iso codes
             )
-        args.writer.cldf.add_component('ExampleTable',
-                                       'Source')
+        args.writer.cldf.add_component('ExampleTable','Source')
 
         args.writer.cldf.add_component('CodeTable')
         args.writer.cldf.add_component('ParameterTable')
-        args.writer.cldf.add_component('ValueTable',
-                                       'Examples')
+        args.writer.cldf.add_component('ValueTable','Examples')
 
         # load glottocodes
+        print('Loading glottocodes')
         glangs = {lg.id: lg for lg in args.glottolog.api.languoids()}
+        print('Done\n')
 
         # loading parameters and code descriptions from parameter-codes.json
+        print('Loading parameters and codes')
         with open(self.raw_dir.joinpath('parameter-codes.json')) as parameters_file:
             param_dict = json.load(parameters_file)
+        
+        print('Done\n')
 
                 
         # extract WALS features of interest from parameters dictionary so the appropriate values are loaded from WALS
@@ -57,6 +60,7 @@ class Dataset(BaseDataset):
         # Those entries contain no other content specification, which is instead extracted from the WALS dataset directly.
         # 
         # (for now these are 83A (verb-object order), 85A (adposition order), 86A (genitive order) and 88A (demonstrative order))
+        print('Loading WALS data and extracting relevant parameters')
         wals_foi = [param_dict[param]['wals_param'] for param in param_dict if 'wals_param' in param_dict[param]]
         
         # WALS uses different feature names from the ones employed in grammarchecks.csv
@@ -87,6 +91,7 @@ class Dataset(BaseDataset):
                 if r['Parameter_ID'] == feature} 
             for feature in wals_foi                                    # list of the features of interest      
         }
+        print('Done\n')
         
         # write parameter and code tables based on param_dict
         for param in param_dict.keys():
@@ -104,6 +109,7 @@ class Dataset(BaseDataset):
                 ))
 
         # load data from grammarchecks
+        print('Loading data from grammarchecks.csv and writing LanguageTable')
         lids = {}           # working dictionary for looking up language ids given a glottocode
         values_dict = {}    # working dictionary for values table
         lang_id=0           # counter for assigning unique language IDs
@@ -198,7 +204,10 @@ class Dataset(BaseDataset):
             
             lang_id+=1      # increase lang_id counter finishing entries for language
 
+        print('Done\n')
+
         # load data from examples.csv
+        print('Reading examples.csv')
         for row in self.raw_dir.read_csv('examples.csv',dicts=True):
             
             # check if the example gloss contains a determiner
@@ -244,8 +253,10 @@ class Dataset(BaseDataset):
                             # add example ID to values_dict entry
                             values_dict[val]['Examples'].append(row['ID'])  
 
+        print('Done\n')
 
         # write ValuesTable
+        print('Writing ValuesTable')
         for val in values_dict:
             if values_dict[val].get('Source') and values_dict[val].get('Examples'):
                 args.writer.objects['ValueTable'].append({
@@ -288,6 +299,7 @@ class Dataset(BaseDataset):
                                 'Examples': ''
                                 })
         
+        print('Done\n')
         
         
         
