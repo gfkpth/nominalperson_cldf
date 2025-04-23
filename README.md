@@ -17,8 +17,8 @@ Note that this is currently work in progress.
 
 ## Notes on the setup of a new CLDF
 
-For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>
-In this file, I aim to document the conrete steps needed for my slightly more complex dataset.
+For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>. 
+In this section, I aim to document the concrete steps needed for my slightly more complex dataset.
 
 
 ### Preliminaries
