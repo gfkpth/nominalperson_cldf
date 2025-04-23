@@ -10,11 +10,7 @@
     },
     "verb_object_order_wals": {
         "descr": "dominant verb-object order as provided by WALS-83A",
-        "values": {
-            "OV": "direct object precedes verb",
-            "VO": "direct object follows verb",
-            "No dominant order": "no dominant order of verb and object identified"
-        }
+        "wals_param": "83A"
     },
     "adposition_order": {
         "descr": "dominant order of adpositions relative to nominal complement",
@@ -28,12 +24,7 @@
     },
     "adposition_order_wals": {
         "descr": "dominant order of adpositions relative to nominal complement as provided by WALS-85A",
-        "values": {
-            "pre": "prepositions (adposition preceding nominal)", 
-            "post": "postpositions (adposition following nominal)", 
-            "NoDom": "no dominant order",
-            "No Adpos": "no clear adpositional category"            
-        }
+        "wals_param": "85A"
     },
     "genitive_order": {
         "descr": "dominant order of genitive modifiers relative to nominal head",
@@ -46,11 +37,7 @@
     },
     "genitive_order_wals": {
         "descr": "dominant order of genitive modifiers relative to nominal head as provided by WALS-86A",
-        "values": {
-            "GenN": "genitive preceding nominal", 
-            "NGen": "genitive following nominal", 
-            "NoDom": "no dominant order of genitive modifier and nominal head"
-        }
+        "wals_param": "86A"
     },
     "demonstrative_order": {
         "descr": "dominant order of demonstrative modifiers relative to nominal head",
@@ -62,11 +49,7 @@
     },
     "demonstrative_order_wals": {
         "descr": "dominant order of demonstrative modifiers relative to nominal head as provided by WALS-88A",
-        "values": {
-            "GenN": "demonstrative preceding nominal", 
-            "NGen": "demonstrative following nominal", 
-            "mixed": "no dominant order of demonstrative and nominal head"
-        }
+        "wals_param": "88A"
     },
     "article_distinct_third": {
         "descr": "presence/absence of a definite article that is distinct from a third person pronoun",
@@ -85,9 +68,10 @@
     "nominal_person": {
         "descr": "Indicates whether an expression of nominal person is attested for the language; intended as a shorthand to identify languages with any expression of nominal person, equivalent to finding entries with explicit values in apc_order and either NULL or False values in bound_person_order",
         "values": {
-            "True": "There are attested instances of (ad)nominal person marking.",
-            "False": "There are explicit and plausible claims about the lack of adnominal person marking."
-        }
+            "y": "There are attested instances of (ad)nominal person marking.",
+            "n": "There are explicit and plausible claims about the lack of adnominal person marking."
+        },
+        "person-rel": "True"
     },
     "APC_order": {
         "descr": "relative order of an adnominal pronoun in an adnominal pronoun construction (APC, 'we linguists') relative to the remaining nominal expression",
@@ -95,7 +79,8 @@
             "pre": "adnominal pronoun preceding nominal", 
             "post": "adnominal pronoun following nominal",
             "both": "adnominal pronouns can precede and follow the nominal"
-        }
+        },
+        "person-rel": "True"
     },
     "bound_person_order": {
         "descr": "relative order of a bound person marker in an bound person construction (e.g. in Khoekhoe/Nama) relative to the remaining nominal expression",
@@ -103,7 +88,8 @@
             "pre": "bound person marker precedes nominal core",
             "post": "bound person marker follows nominal core",
             "n": "no evidence for bound person constructions"
-        }
+        },
+        "person-rel": "True"
     },
     "person_allowed": {
         "descr": "restrictions on grammatical persons occurring adnominally; contains question marks in cases where sources are suggestive, but not entirely specific (if a more clear-cut dataset is desired, check person_third_available)",
@@ -112,7 +98,8 @@
             "no 3": "no adnominal marking for third person",
             "only 3": "sources suggest only third person expressions allowed adnominally",
             "unclear": "no clear information available"
-        }
+        },
+        "person-rel": "True"
     },
     "person_third_available": {
         "descr": "availability of third person adnominal person marking; contains question marks in cases where sources are suggestive, but not entirely specific",
@@ -121,7 +108,8 @@
             "n": "third person adnominal person is ruled out, cf. English *they linguists",
             "only 3": "adnominal person attested only for third person",
             "unclear": "no clear information available"
-        }
+        },
+        "person-rel": "True"
     },
     "number_allowed": {
         "descr": "restrictions on number marking in adnominal person",
@@ -131,7 +119,8 @@
             "nonum": "no grammatical number marking on pronouns",
             "unclear (+pl)": "plural is attested, other numbers unclear but feasible",
             "unclear": "no clear information available"
-        }
+        },
+        "person-rel": "True"
     },
     "PPDC": {
         "descr": "person/pronoun-demonstrative construction, availability of demonstratives co-occurring in expressions with adnominal person marking",
@@ -139,6 +128,7 @@
             "y": "PPDC is attested",
             "y_nn": "attested PPDCs include only demonstrative and PersN-marking, but no lexical material",
             "n": "sufficient indications that PPDC is not available"
-        }
+        },
+        "person-rel": "True"
     }
 }
