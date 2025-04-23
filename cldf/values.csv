@@ -1,229 +1,1873 @@
-ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source
-0,nucl1643,apc_order,pre,,,
-1,nucl1643,constituent_order,OV,,,
-2,kore1280,apc_order,pre,,,
-3,kore1280,constituent_order,OV,,,
-4,even1259,apc_order,pre,,,
-5,even1259,constituent_order,OV,,,
-6,nucl1301,apc_order,pre,,,
-7,nucl1301,constituent_order,OV,,,
-8,mang1381,apc_order,pre,,,
-9,mang1381,constituent_order,OV,,,
-10,dier1241,apc_order,pre,,,
-11,dier1241,constituent_order,OV,,,
-12,warl1254,apc_order,post,,,
-13,warl1254,constituent_order,NC,,,
-14,pitj1243,apc_order,both,,,
-15,pitj1243,constituent_order,OV,,,
-16,gugu1255,apc_order,both,,,
-17,gugu1255,constituent_order,OV,,,
-18,kuku1273,apc_order,both,,,
-19,kuku1273,constituent_order,OV,,,
-20,kaya1319,apc_order,pre,,,
-21,kaya1319,constituent_order,NC,,,
-22,meny1245,apc_order,NA,,,
-23,meny1245,constituent_order,OV,,,
-24,fass1245,apc_order,pre,,,
-25,fass1245,constituent_order,OV,,,
-26,imon1245,apc_order,both,,,
-27,imon1245,constituent_order,OV,,,
-28,bilu1245,apc_order,pre,,,
-29,bilu1245,constituent_order,VO,,,
-30,lavu1241,apc_order,post,,,
-31,lavu1241,constituent_order,OV,,,
-32,mosk1236,apc_order,NA,,,
-33,mosk1236,constituent_order,VO,,,
-34,mani1235,apc_order,pre,,,
-35,mani1235,constituent_order,VO,,,
-36,hata1243,apc_order,pre,,,
-37,hata1243,constituent_order,VO,,,
-38,maib1239,apc_order,post,,,
-39,maib1239,constituent_order,VO,,,
-40,urim1252,apc_order,pre,,,
-41,urim1252,constituent_order,OV,,,
-42,savo1255,apc_order,post,,,
-43,savo1255,constituent_order,OV,,,
-44,mana1298,apc_order,pre,,,
-45,mana1298,constituent_order,OV,,,
-46,awtu1239,apc_order,pre,,,
-47,awtu1239,constituent_order,OV,,,
-48,alam1246,apc_order,NA,,,
-49,alam1246,constituent_order,OV,,,
-50,fore1270,apc_order,NA,,,
-51,fore1270,constituent_order,OV,,,
-52,huaa1250,apc_order,NA,,,
-53,huaa1250,constituent_order,OV,,,
-54,yaga1260,apc_order,post,,,
-55,yaga1260,constituent_order,OV,,,
-56,amel1241,apc_order,post,,,
-57,amel1241,constituent_order,OV,,,
-58,kobo1249,apc_order,post,,,
-59,kobo1249,constituent_order,OV,,,
-60,usan1239,apc_order,both,,,
-61,usan1239,constituent_order,OV,,,
-62,adan1251,apc_order,post,,,
-63,adan1251,constituent_order,OV,,,
-64,kaer1234,apc_order,post,,,
-65,kaer1234,constituent_order,OV,,,
-66,kama1365,apc_order,post,,,
-67,kama1365,constituent_order,OV,,,
-68,sawi1256,apc_order,post,,,
-69,sawi1256,constituent_order,OV,,,
-70,wers1238,apc_order,post,,,
-71,wers1238,constituent_order,OV,,,
-72,lamm1241,apc_order,post,,,
-73,lamm1241,constituent_order,OV,,,
-74,haus1257,apc_order,pre,,,
-75,haus1257,constituent_order,VO,,,
-76,mwag1236,apc_order,pre,,,
-77,mwag1236,constituent_order,VO,,,
-78,goro1270,apc_order,pre,,,
-79,goro1270,constituent_order,OV,,,
-80,kamb1316,apc_order,pre,,,
-81,kamb1316,constituent_order,OV,,,
-82,egyp1253,apc_order,pre,,,
-83,egyp1253,constituent_order,VO,,,
-84,gulf1241,apc_order,pre,,,
-85,gulf1241,constituent_order,VO,,,
-86,malt1254,apc_order,pre,,,
-87,malt1254,constituent_order,VO,,,
-88,mikm1235,apc_order,NA,,,
-89,mikm1235,constituent_order,NC,,,
-90,nucl1297,apc_order,both,,,
-91,nucl1297,constituent_order,unclear,,,
-92,mala1537,apc_order,pre,,,
-93,mala1537,constituent_order,VO,,,
-94,stin1234,apc_order,pre,,,
-95,stin1234,constituent_order,VO,,,
-96,papu1250,apc_order,post,,,
-97,papu1250,constituent_order,VO,,,
-98,loni1238,apc_order,pre,,,
-99,loni1238,constituent_order,VO,,,
-100,wame1241,apc_order,NA,,,
-101,wame1241,constituent_order,VO,,,
-102,maor1246,apc_order,pre,,,
-103,maor1246,constituent_order,VO,,,
-104,tuva1244,apc_order,pre,,,
-105,tuva1244,constituent_order,VO,,,
-106,kwai1243,apc_order,pre,,,
-107,kwai1243,constituent_order,VO,,,
-108,arop1243,apc_order,pre,,,
-109,arop1243,constituent_order,VO,,,
-110,chek1238,apc_order,pre,,,
-111,chek1238,constituent_order,VO,,,
-112,hoav1238,apc_order,pre,,,
-113,hoav1238,constituent_order,VO,,,
-114,koko1269,apc_order,pre,,,
-115,koko1269,constituent_order,VO,,,
-116,hixk1239,apc_order,,,,
-117,hixk1239,constituent_order,OV,,,
-118,wari1268,apc_order,pre,,,
-119,wari1268,constituent_order,VO,,,
-120,chit1248,apc_order,pre,,,
-121,chit1248,constituent_order,OV,,,
-122,ndyu1242,apc_order,pre,,,
-123,ndyu1242,constituent_order,VO,,,
-124,nige1257,apc_order,pre,,,
-125,nige1257,constituent_order,VO,,,
-126,mala1533,apc_order,pre,,,
-127,mala1533,constituent_order,VO,,,
-128,nucl1305,apc_order,pre,,,
-129,nucl1305,constituent_order,OV,,,
-130,mala1464,apc_order,pre,,,
-131,mala1464,constituent_order,OV,,,
-132,tami1289,apc_order,pre,,,
-133,tami1289,constituent_order,OV,,,
-134,kala1399,apc_order,post,,,
-135,kala1399,constituent_order,OV,,,
-136,wels1247,apc_order,pre,,,
-137,wels1247,constituent_order,VO,,,
-138,dani1285,apc_order,pre,,,
-139,dani1285,constituent_order,VO,,,
-140,icel1247,apc_order,pre,,,
-141,icel1247,constituent_order,VO,,,
-142,norw1258,apc_order,pre,,,
-143,norw1258,constituent_order,VO,,,
-144,swed1254,apc_order,pre,,,
-145,swed1254,constituent_order,VO,,,
-146,dutc1256,apc_order,pre,,,
-147,dutc1256,constituent_order,OV,,,
-148,stan1293,apc_order,pre,,,
-149,stan1293,constituent_order,VO,,,
-150,stan1295,apc_order,pre,,,
-151,stan1295,constituent_order,OV,,,
-152,aspr1238,apc_order,pre,,,
-153,aspr1238,constituent_order,VO,,,
-154,mode1248,apc_order,pre,,,
-155,mode1248,constituent_order,VO,,,
-156,kash1277,apc_order,pre,,,
-157,kash1277,constituent_order,OV,,,
-158,mara1378,apc_order,pre,,,
-159,mara1378,constituent_order,OV,,,
-160,panj1256,apc_order,pre,,,
-161,panj1256,constituent_order,OV,,,
-162,west2369,apc_order,pre,,,
-163,west2369,constituent_order,OV,,,
-164,arom1237,apc_order,pre,,,
-165,arom1237,constituent_order,VO,,,
-166,roma1327,apc_order,pre,,,
-167,roma1327,constituent_order,VO,,,
-168,stan1289,apc_order,pre,,,
-169,stan1289,constituent_order,VO,,,
-170,gali1258,apc_order,pre,,,
-171,gali1258,constituent_order,VO,,,
-172,port1283,apc_order,pre,,,
-173,port1283,constituent_order,VO,,,
-174,stan1288,apc_order,pre,,,
-175,stan1288,constituent_order,VO,,,
-176,ital1282,apc_order,pre,,,
-177,ital1282,constituent_order,VO,,,
-178,nort2612,apc_order,pre,,,
-179,nort2612,constituent_order,VO,,,
-180,sout2616,apc_order,pre,,,
-181,sout2616,constituent_order,VO,,,
-182,russ1263,apc_order,pre,,,
-183,russ1263,constituent_order,VO,,,
-184,bulg1262,apc_order,pre,,,
-185,bulg1262,constituent_order,VO,,,
-186,poma1238,apc_order,pre,,,
-187,poma1238,constituent_order,VO,,,
-188,poli1260,apc_order,pre,,,
-189,poli1260,constituent_order,VO,,,
-190,basq1248,apc_order,NA,,,
-191,basq1248,constituent_order,OV,,,
-192,nama1264,apc_order,NA,,,
-193,nama1264,constituent_order,OV,,,
-194,kxoe1243,apc_order,NA,,,
-195,kxoe1243,constituent_order,OV,,,
-196,kiny1244,apc_order,pre,,,
-197,kiny1244,constituent_order,VO,,,
-198,gand1255,apc_order,pre,,,
-199,gand1255,constituent_order,VO,,,
-200,nkor1241,apc_order,pre,,,
-201,nkor1241,constituent_order,VO,,,
-202,nzad1234,apc_order,pre,,,
-203,nzad1234,constituent_order,VO,,,
-204,swah1253,apc_order,pre,,,
-205,swah1253,constituent_order,VO,,,
-206,veng1238,apc_order,pre,,,
-207,veng1238,constituent_order,VO,,,
-208,koro1298,apc_order,pre,,,
-209,koro1298,constituent_order,VO,,,
-210,supy1237,apc_order,pre,,,
-211,supy1237,constituent_order,OV,,,
-212,lezg1247,apc_order,pre,,,
-213,lezg1247,constituent_order,OV,,,
-214,abkh1244,apc_order,pre,,,
-215,abkh1244,constituent_order,OV,,,
-216,gesh1238,apc_order,post,,,
-217,gesh1238,constituent_order,OV,,,
-218,mand1415,apc_order,pre,,,
-219,mand1415,constituent_order,VO,,,
-220,lakk1238,apc_order,pre,,,
-221,lakk1238,constituent_order,VO,,,
-222,hung1274,apc_order,pre,,,
-223,hung1274,constituent_order,VO,,,
-224,finn1318,apc_order,pre,,,
-225,finn1318,constituent_order,VO,,,
-226,clas1250,apc_order,NA,,,
-227,clas1250,constituent_order,NC,,,
+ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
+0,0,verb_object_order,OV,verb_object_orderOV,,,
+1,0,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+2,0,adposition_order,post,adposition_orderpost,,,
+3,0,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+4,0,genitive_order,GenN,genitive_orderGenN,,,
+5,0,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+6,0,demonstrative_order,DemN,demonstrative_orderDemN,,,
+7,0,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+8,0,article_distinct_third,n,article_distinct_thirdn,,,
+9,0,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+10,0,nominal_person,y,nominal_persony,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",['141']
+11,0,APC_order,pre,APC_orderpre,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",['141']
+12,0,bound_person_order,n,bound_person_ordern,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",['141']
+13,0,person_allowed,all,person_allowedall,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",['141']
+14,0,person_third_available,y,person_third_availabley,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",['141']
+15,0,number_allowed,non-sg,number_allowednon-sg,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",['141']
+16,0,PPDC,y_nn,PPDCy_nn,,"coulmas1982[214, Noguchi 1997:777, Furuya 2008:153]",
+17,1,verb_object_order,OV,verb_object_orderOV,,,
+18,1,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+19,1,adposition_order,post,adposition_orderpost,,,
+20,1,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+21,1,genitive_order,GenN,genitive_orderGenN,,,
+22,1,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+23,1,demonstrative_order,DemN,demonstrative_orderDemN,,,
+24,1,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+25,1,article_distinct_third,n,article_distinct_thirdn,,,
+26,1,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+27,1,nominal_person,y,nominal_persony,,"sohn1994[284, 292];choi2014[151-154]","['142', '143', '157']"
+28,1,APC_order,pre,APC_orderpre,,"sohn1994[284, 292];choi2014[151-154]","['142', '143', '157']"
+29,1,bound_person_order,n,bound_person_ordern,,"sohn1994[284, 292];choi2014[151-154]","['142', '143', '157']"
+30,1,person_allowed,all,person_allowedall,,"sohn1994[284, 292];choi2014[151-154]","['142', '143', '157']"
+31,1,person_third_available,y,person_third_availabley,,"sohn1994[284, 292];choi2014[151-154]","['142', '143', '157']"
+32,1,number_allowed,non-sg,number_allowednon-sg,,"sohn1994[284, 292];choi2014[151-154]","['142', '143', '157']"
+33,1,PPDC,y_nn,PPDCy_nn,,sohn1994[281],
+34,2,verb_object_order,OV,verb_object_orderOV,,,
+35,2,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+36,2,adposition_order,post,adposition_orderpost,,,
+37,2,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+38,2,genitive_order,GenN,genitive_orderGenN,,,
+39,2,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+40,2,demonstrative_order,DemN,demonstrative_orderDemN,,,
+41,2,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+42,2,article_distinct_third,n,article_distinct_thirdn,,,
+43,2,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+44,2,nominal_person,y,nominal_persony,,"nedjalkov1997[197, 199]",['138']
+45,2,APC_order,pre,APC_orderpre,,"nedjalkov1997[197, 199]",['138']
+46,2,bound_person_order,n,bound_person_ordern,,"nedjalkov1997[197, 199]",['138']
+47,2,person_allowed,all,person_allowedall,,"nedjalkov1997[197, 199]",['138']
+48,2,person_third_available,y,person_third_availabley,,"nedjalkov1997[197, 199]",['138']
+49,2,number_allowed,all,number_allowedall,,"nedjalkov1997[197, 199]",['138']
+51,3,verb_object_order,OV,verb_object_orderOV,,,
+52,3,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+53,3,adposition_order,post,adposition_orderpost,,,
+54,3,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+55,3,genitive_order,GenN,genitive_orderGenN,,,
+56,3,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+57,3,demonstrative_order,DemN,demonstrative_orderDemN,,,
+58,3,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+59,3,article_distinct_third,n,article_distinct_thirdn,,,
+60,3,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+61,3,nominal_person,y,nominal_persony,,"kornfilt1997[288, 297f.]",['147']
+62,3,APC_order,pre,APC_orderpre,,"kornfilt1997[288, 297f.]",['147']
+63,3,bound_person_order,n,bound_person_ordern,,"kornfilt1997[288, 297f.]",['147']
+64,3,person_allowed,all,person_allowedall,,"kornfilt1997[288, 297f.]",['147']
+65,3,person_third_available,y,person_third_availabley,,"kornfilt1997[288, 297f.]",['147']
+66,3,number_allowed,non-sg,number_allowednon-sg,,"kornfilt1997[288, 297f.]",['147']
+68,4,verb_object_order,OV,verb_object_orderOV,,,
+69,4,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+70,4,adposition_order,pre,adposition_orderpre,,,
+71,4,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+72,4,genitive_order,NoDom,genitive_orderNoDom,,,
+73,4,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+74,4,demonstrative_order,DemN,demonstrative_orderDemN,,,
+75,4,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+76,4,article_distinct_third,n,article_distinct_thirdn,,,
+77,4,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+78,4,nominal_person,y,nominal_persony,,"merlan1989[1982][103, 203]",['9']
+79,4,APC_order,pre,APC_orderpre,,"merlan1989[1982][103, 203]",['9']
+80,4,bound_person_order,n,bound_person_ordern,,"merlan1989[1982][103, 203]",['9']
+81,4,person_allowed,all,person_allowedall,,"merlan1989[1982][103, 203]",['9']
+82,4,person_third_available,y,person_third_availabley,,"merlan1989[1982][103, 203]",['9']
+83,4,number_allowed,non-sg,number_allowednon-sg,,"merlan1989[1982][103, 203]",['9']
+85,5,verb_object_order,OV,verb_object_orderOV,,,
+86,5,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+87,5,adposition_order,unclear,adposition_orderunclear,,,
+88,5,genitive_order,GenN,genitive_orderGenN,,,
+89,5,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+90,5,demonstrative_order,DemN,demonstrative_orderDemN,,,
+91,5,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+92,5,article_distinct_third,n,article_distinct_thirdn,,,
+93,5,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+94,5,nominal_person,y,nominal_persony,,"austin1981[97f.];austin2013[102f. (106), 119 (175), 150 (311)]","['10', '11', '12']"
+95,5,APC_order,pre,APC_orderpre,,"austin1981[97f.];austin2013[102f. (106), 119 (175), 150 (311)]","['10', '11', '12']"
+96,5,bound_person_order,n,bound_person_ordern,,"austin1981[97f.];austin2013[102f. (106), 119 (175), 150 (311)]","['10', '11', '12']"
+97,5,person_allowed,unclear,person_allowedunclear,,"austin1981[97f.];austin2013[102f. (106), 119 (175), 150 (311)]","['10', '11', '12']"
+98,5,person_third_available,y,person_third_availabley,,"austin1981[97f.];austin2013[102f. (106), 119 (175), 150 (311)]","['10', '11', '12']"
+99,5,number_allowed,all,number_allowedall,,"austin1981[97f.];austin2013[102f. (106), 119 (175), 150 (311)]","['10', '11', '12']"
+100,5,PPDC,y_nn,PPDCy_nn,,"austin1981[61, (36)]",['11']
+101,6,verb_object_order,NC,verb_object_orderNC,,,
+102,6,verb_object_order_wals,No dominant order,verb_object_order_walsNo dominant order,,,
+103,6,adposition_order,post,adposition_orderpost,,,
+104,6,genitive_order,GenN,genitive_orderGenN,,,
+105,6,demonstrative_order,NDem,demonstrative_orderNDem,,,
+106,6,article_distinct_third,n,article_distinct_thirdn,,,
+107,6,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+108,6,nominal_person,y,nominal_persony,,reece1970[70];hale1973[316f.],"['13', '14']"
+109,6,APC_order,post,APC_orderpost,,reece1970[70];hale1973[316f.],"['13', '14']"
+110,6,bound_person_order,n,bound_person_ordern,,reece1970[70];hale1973[316f.],"['13', '14']"
+111,6,person_allowed,all,person_allowedall,,reece1970[70];hale1973[316f.],"['13', '14']"
+112,6,person_third_available,y,person_third_availabley,,reece1970[70];hale1973[316f.],"['13', '14']"
+113,6,number_allowed,all,number_allowedall,,reece1970[70];hale1973[316f.],"['13', '14']"
+115,7,verb_object_order,OV,verb_object_orderOV,,,
+116,7,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+117,7,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+118,7,adposition_order_wals,No adpositions,adposition_order_walsNo adpositions,,,
+119,7,genitive_order,GenN,genitive_orderGenN,,,
+120,7,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+121,7,demonstrative_order,mixed,demonstrative_ordermixed,,,
+122,7,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+125,7,nominal_person,no info,nominal_personno info,,,
+127,7,bound_person_order,n,bound_person_ordern,,dixon1977,
+128,7,person_allowed,NA,person_allowedNA,,,
+129,7,person_third_available,NA,person_third_availableNA,,,
+130,7,number_allowed,NA,number_allowedNA,,,
+134,8,genitive_order,NoDom,genitive_orderNoDom,,,
+135,8,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+136,8,demonstrative_order,DemN,demonstrative_orderDemN,,,
+137,8,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+138,8,article_distinct_third,n,article_distinct_thirdn,,,
+140,8,nominal_person,no info,nominal_personno info,,,
+142,8,bound_person_order,n,bound_person_ordern,,meakinsnordlinger2014,
+143,8,person_allowed,NA,person_allowedNA,,,
+144,8,person_third_available,NA,person_third_availableNA,,,
+145,8,number_allowed,NA,number_allowedNA,,,
+147,9,verb_object_order,OV,verb_object_orderOV,,,
+148,9,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+149,9,adposition_order,post,adposition_orderpost,,,
+150,9,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+151,9,genitive_order,GenN,genitive_orderGenN,,,
+152,9,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+153,9,demonstrative_order,NDem,demonstrative_orderNDem,,,
+154,9,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+155,9,article_distinct_third,n,article_distinct_thirdn,,,
+156,9,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+157,9,nominal_person,y,nominal_persony,,bowe1990[49-51],"['15', '16']"
+158,9,APC_order,both,APC_orderboth,,bowe1990[49-51],"['15', '16']"
+159,9,bound_person_order,n,bound_person_ordern,,bowe1990[49-51],"['15', '16']"
+160,9,person_allowed,all?,person_allowedall?,,,"['15', '16']"
+161,9,person_third_available,y,person_third_availabley,,bowe1990[49-51],"['15', '16']"
+162,9,number_allowed,all?,number_allowedall?,,,"['15', '16']"
+163,9,PPDC,y,PPDCy,,bowe1990[48-51],
+164,10,verb_object_order,OV,verb_object_orderOV,,,
+165,10,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+166,10,adposition_order,unclear,adposition_orderunclear,,,
+167,10,genitive_order,NoDom,genitive_orderNoDom,,,
+168,10,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+169,10,demonstrative_order,DemN,demonstrative_orderDemN,,,
+170,10,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+171,10,article_distinct_third,n,article_distinct_thirdn,,,
+172,10,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+173,10,nominal_person,y,nominal_persony,,"haviland1979[104, 156f.]","['17', '18']"
+174,10,APC_order,both,APC_orderboth,,"haviland1979[104, 156f.]","['17', '18']"
+175,10,bound_person_order,n,bound_person_ordern,,"haviland1979[104, 156f.]","['17', '18']"
+176,10,person_allowed,all?,person_allowedall?,,,"['17', '18']"
+177,10,person_third_available,y,person_third_availabley,,"haviland1979[104, 156f.]","['17', '18']"
+178,10,number_allowed,unclear (+pl),number_allowedunclear (+pl),,"haviland1979[104, 156f.]","['17', '18']"
+179,10,PPDC,y,PPDCy,,"haviland1979[73, (107)];157,(423);160",
+180,11,verb_object_order,OV,verb_object_orderOV,,,
+181,11,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+182,11,adposition_order,pre,adposition_orderpre,,,
+183,11,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+184,11,genitive_order,NoDom,genitive_orderNoDom,,,
+185,11,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+186,11,demonstrative_order,mixed,demonstrative_ordermixed,,,
+187,11,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+188,11,article_distinct_third,n,article_distinct_thirdn,,,
+189,11,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+190,11,nominal_person,y,nominal_persony,,"patz2002[120f, 202f.]","['19', '20', '21', '22']"
+191,11,APC_order,both,APC_orderboth,,"patz2002[120f, 202f.]","['19', '20', '21', '22']"
+192,11,bound_person_order,n,bound_person_ordern,,"patz2002[120f, 202f.]","['19', '20', '21', '22']"
+193,11,person_allowed,all?,person_allowedall?,,,"['19', '20', '21', '22']"
+194,11,person_third_available,y,person_third_availabley,,"patz2002[120f, 202f.]","['19', '20', '21', '22']"
+195,11,number_allowed,all,number_allowedall,,"patz2002[120f, 202f.]","['19', '20', '21', '22']"
+196,11,PPDC,y,PPDCy,,"patz2002[204, (625)]",
+197,12,verb_object_order,NC,verb_object_orderNC,,,
+198,12,verb_object_order_wals,No dominant order,verb_object_order_walsNo dominant order,,,
+199,12,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+200,12,adposition_order_wals,No adpositions,adposition_order_walsNo adpositions,,,
+201,12,genitive_order,GenN,genitive_orderGenN,,,
+202,12,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+203,12,demonstrative_order,DemN,demonstrative_orderDemN,,,
+204,12,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+205,12,article_distinct_third,n,article_distinct_thirdn,,,
+206,12,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+207,12,nominal_person,y,nominal_persony,,"evans1995[239, 241];round2013[141]",['23']
+208,12,APC_order,pre,APC_orderpre,,"evans1995[239, 241];round2013[141]",['23']
+209,12,bound_person_order,n,bound_person_ordern,,"evans1995[239, 241];round2013[141]",['23']
+210,12,person_allowed,all,person_allowedall,,"evans1995[239, 241];round2013[141]",['23']
+211,12,person_third_available,y,person_third_availabley,,"evans1995[239, 241];round2013[141]",['23']
+212,12,number_allowed,all,number_allowedall,,"evans1995[239, 241];round2013[141]",['23']
+213,12,PPDC,y,PPDCy,,"evans1995[251, (6-37)]",
+240,15,verb_object_order,OV,verb_object_orderOV,,,
+241,15,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+242,15,adposition_order,post,adposition_orderpost,,,
+243,15,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+244,15,genitive_order,GenN,genitive_orderGenN,,,
+245,15,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+246,15,demonstrative_order,NDem,demonstrative_orderNDem,,,
+247,15,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+248,15,article_distinct_third,n,article_distinct_thirdn,,,
+249,15,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+250,15,nominal_person,y,nominal_persony,,"whitehead2006[40, 46, 56f.];whitehead2013[9f., 18f.]","['80', '81', '82']"
+251,15,APC_order,NA,APC_orderNA,,,"['80', '81', '82']"
+252,15,bound_person_order,post,bound_person_orderpost,,"whitehead2006[40, 46, 56f.];whitehead2013[9f., 18f.]","['80', '81', '82']"
+253,15,person_allowed,all,person_allowedall,,"whitehead2006[40, 46, 56f.];whitehead2013[9f., 18f.]","['80', '81', '82']"
+254,15,person_third_available,y,person_third_availabley,,"whitehead2006[40, 46, 56f.];whitehead2013[9f., 18f.]","['80', '81', '82']"
+255,15,number_allowed,all,number_allowedall,,"whitehead2006[40, 46, 56f.];whitehead2013[9f., 18f.]","['80', '81', '82']"
+256,15,PPDC,y,PPDCy,,"whitehead2006[30, (58/59)]","['80', '81']"
+257,16,verb_object_order,OV,verb_object_orderOV,,,
+258,16,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+259,16,adposition_order,post,adposition_orderpost,,,
+260,16,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+261,16,genitive_order,GenN,genitive_orderGenN,,,
+262,16,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+263,16,demonstrative_order,NDem,demonstrative_orderNDem,,,
+264,16,article_distinct_third,n,article_distinct_thirdn,,,
+265,16,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+266,16,nominal_person,y,nominal_persony,,honeyman2017[169f.],['83']
+267,16,APC_order,pre,APC_orderpre,,honeyman2017[169f.],['83']
+268,16,bound_person_order,n,bound_person_ordern,,honeyman2017[169f.],['83']
+269,16,person_allowed,no 3?,person_allowedno 3?,,,['83']
+270,16,person_third_available,n?,person_third_availablen?,,,['83']
+271,16,number_allowed,non-sg,number_allowednon-sg,,honeyman2017[169f.],['83']
+272,16,PPDC,y,PPDCy,,"honeyman2016[559, (9/10)]",
+273,17,verb_object_order,OV,verb_object_orderOV,,,
+274,17,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+275,17,adposition_order,post,adposition_orderpost,,,
+276,17,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+277,17,genitive_order,GenN,genitive_orderGenN,,,
+278,17,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+279,17,demonstrative_order,mixed,demonstrative_ordermixed,,,
+280,17,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+281,17,article_distinct_third,n,article_distinct_thirdn,,,
+282,17,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+283,17,nominal_person,y,nominal_persony,,"seiler1985[44, 61f.]",['84']
+284,17,APC_order,both,APC_orderboth,,"seiler1985[44, 61f.]",['84']
+285,17,bound_person_order,n,bound_person_ordern,,"seiler1985[44, 61f.]",['84']
+286,17,person_allowed,all,person_allowedall,,"seiler1985[44, 61f.]",['84']
+287,17,person_third_available,y,person_third_availabley,,"seiler1985[44, 61f.]",['84']
+288,17,number_allowed,nonum,number_allowednonum,,"seiler1985[44, 61f.]",['84']
+290,18,verb_object_order,VO,verb_object_orderVO,,,
+291,18,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+292,18,adposition_order,post,adposition_orderpost,,,
+293,18,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+294,18,genitive_order,GenN,genitive_orderGenN,,,
+295,18,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+296,18,demonstrative_order,DemN,demonstrative_orderDemN,,,
+297,18,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+298,18,article_distinct_third,n,article_distinct_thirdn,,,
+299,18,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+300,18,nominal_person,y,nominal_persony,,"obata2003[47-49, 76, 79, 84f., 87-89, 92f.]","['85', '86']"
+301,18,APC_order,pre,APC_orderpre,,"obata2003[47-49, 76, 79, 84f., 87-89, 92f.]","['85', '86']"
+302,18,bound_person_order,post,bound_person_orderpost,,"obata2003[47-49, 76, 79, 84f., 87-89, 92f.]","['85', '86']"
+303,18,person_allowed,all,person_allowedall,,"obata2003[47-49, 76, 79, 84f., 87-89, 92f.]","['85', '86']"
+304,18,person_third_available,y,person_third_availabley,,"obata2003[47-49, 76, 79, 84f., 87-89, 92f.]","['85', '86']"
+305,18,number_allowed,all,number_allowedall,,"obata2003[47-49, 76, 79, 84f., 87-89, 92f.]","['85', '86']"
+306,18,PPDC,y,PPDCy,,"obata2003[289, (8)]",
+307,19,verb_object_order,OV,verb_object_orderOV,,,
+308,19,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+309,19,adposition_order,post,adposition_orderpost,,,
+310,19,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+311,19,genitive_order,GenN,genitive_orderGenN,,,
+312,19,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+313,19,demonstrative_order,NDem,demonstrative_orderNDem,,,
+314,19,article_distinct_third,y,article_distinct_thirdy,,,
+315,19,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+316,19,nominal_person,y,nominal_persony,,terrill2003[171-173],['87']
+317,19,APC_order,post,APC_orderpost,,terrill2003[171-173],['87']
+318,19,bound_person_order,n,bound_person_ordern,,terrill2003[171-173],['87']
+319,19,person_allowed,all,person_allowedall,,terrill2003[171-173],['87']
+320,19,person_third_available,y,person_third_availabley,,terrill2003[171-173],['87']
+321,19,number_allowed,unclear (+pl),number_allowedunclear (+pl),,terrill2003[171-173],['87']
+322,19,PPDC,y_nn,PPDCy_nn,,"terrill2003[181, (220-1)]",
+323,20,verb_object_order,VO,verb_object_orderVO,,,
+324,20,adposition_order,pre,adposition_orderpre,,,
+325,20,genitive_order,GenN,genitive_orderGenN,,,
+326,20,demonstrative_order,NDem,demonstrative_orderNDem,,,
+327,20,article_distinct_third,n,article_distinct_thirdn,,,
+328,20,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+329,20,nominal_person,y,nominal_persony,,"gravelle2010[91, 222-224, 344]","['88', '89', '90']"
+330,20,APC_order,NA,APC_orderNA,,,"['88', '89', '90']"
+331,20,bound_person_order,pre,bound_person_orderpre,,"gravelle2010[91, 222-224, 344]","['88', '89', '90']"
+332,20,person_allowed,all,person_allowedall,,"gravelle2010[91, 222-224, 344]","['88', '89', '90']"
+333,20,person_third_available,y,person_third_availabley,,"gravelle2010[91, 222-224, 344]","['88', '89', '90']"
+334,20,number_allowed,unclear (+pl),number_allowedunclear (+pl),,"gravelle2010[91, 222-224, 344]","['88', '89', '90']"
+335,20,PPDC,y,PPDCy,,"gravelle2010[187, 224]",
+336,21,verb_object_order,VO,verb_object_orderVO,,,
+337,21,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+338,21,adposition_order,pre,adposition_orderpre,,,
+339,21,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+340,21,genitive_order,GenN,genitive_orderGenN,,,
+341,21,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+342,21,demonstrative_order,NDem,demonstrative_orderNDem,,,
+343,21,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+344,21,article_distinct_third,n,article_distinct_thirdn,,,
+346,21,nominal_person,y,nominal_persony,,"reesink2002[269f., 274]",['91']
+347,21,APC_order,pre,APC_orderpre,,"reesink2002[269f., 274]",['91']
+348,21,bound_person_order,n,bound_person_ordern,,"reesink2002[269f., 274]",['91']
+349,21,person_allowed,all,person_allowedall,,"reesink2002[269f., 274]",['91']
+350,21,person_third_available,y,person_third_availabley,,"reesink2002[269f., 274]",['91']
+351,21,number_allowed,unclear (+pl),number_allowedunclear (+pl),,"reesink2002[269f., 274]",['91']
+352,21,PPDC,y,PPDCy,,"reesink2002[271, (13)]",
+353,22,verb_object_order,VO,verb_object_orderVO,,,
+354,22,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+355,22,adposition_order,pre,adposition_orderpre,,,
+356,22,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+357,22,genitive_order,GenN,genitive_orderGenN,,,
+358,22,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+359,22,demonstrative_order,NDem,demonstrative_orderNDem,,,
+360,22,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+361,22,article_distinct_third,n,article_distinct_thirdn,,,
+363,22,nominal_person,y,nominal_persony,,reesink1999[195],['92']
+364,22,APC_order,pre,APC_orderpre,,reesink1999[195],['92']
+365,22,bound_person_order,n,bound_person_ordern,,reesink1999[195],['92']
+369,22,PPDC,y,PPDCy,,"reesink1999[41, 195]",
+370,23,verb_object_order,VO,verb_object_orderVO,,,
+371,23,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+372,23,adposition_order,pre,adposition_orderpre,,,
+373,23,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+374,23,genitive_order,NoDom,genitive_orderNoDom,,,
+375,23,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+376,23,demonstrative_order,NDem,demonstrative_orderNDem,,,
+377,23,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+378,23,article_distinct_third,n,article_distinct_thirdn,,,
+379,23,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+380,23,nominal_person,y,nominal_persony,,"dol2007[141, 158, 172,  (281)]",['93']
+381,23,APC_order,post,APC_orderpost,,"dol2007[141, 158, 172,  (281)]",['93']
+382,23,bound_person_order,n,bound_person_ordern,,"dol2007[141, 158, 172,  (281)]",['93']
+383,23,person_allowed,all,person_allowedall,,"dol2007[141, 158, 172,  (281)]",['93']
+384,23,person_third_available,y,person_third_availabley,,"dol2007[141, 158, 172,  (281)]",['93']
+385,23,number_allowed,unclear,number_allowedunclear,,"dol2007[141, 158, 172,  (281)]",['93']
+387,24,verb_object_order,OV,verb_object_orderOV,,,
+388,24,adposition_order,pre,adposition_orderpre,,,
+389,24,genitive_order,NoDom,genitive_orderNoDom,,,
+390,24,demonstrative_order,NDem,demonstrative_orderNDem,,,
+391,24,article_distinct_third,n,article_distinct_thirdn,,,
+392,24,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+393,24,nominal_person,y,nominal_persony,,"hemmilaeluoma1987[123, 125]","['94', '95', '96']"
+394,24,APC_order,pre,APC_orderpre,,"hemmilaeluoma1987[123, 125]","['94', '95', '96']"
+395,24,bound_person_order,n,bound_person_ordern,,"hemmilaeluoma1987[123, 125]","['94', '95', '96']"
+396,24,person_allowed,all,person_allowedall,,"hemmilaeluoma1987[123, 125]","['94', '95', '96']"
+397,24,person_third_available,y,person_third_availabley,,"hemmilaeluoma1987[123, 125]","['94', '95', '96']"
+398,24,number_allowed,all?,number_allowedall?,,,"['94', '95', '96']"
+399,24,PPDC,y,PPDCy,,hemmilaeluoma1987[140],
+400,25,verb_object_order,OV,verb_object_orderOV,,,
+401,25,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+402,25,adposition_order,post,adposition_orderpost,,,
+403,25,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+404,25,genitive_order,GenN,genitive_orderGenN,,,
+405,25,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+406,25,demonstrative_order,NDem,demonstrative_orderNDem,,,
+407,25,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+410,25,nominal_person,no info,nominal_personno info,,,
+412,25,bound_person_order,n,bound_person_ordern,,foley1991,
+417,26,verb_object_order,OV,verb_object_orderOV,,,
+418,26,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+419,26,adposition_order,post,adposition_orderpost,,,
+420,26,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+421,26,genitive_order,GenN,genitive_orderGenN,,,
+422,26,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+423,26,demonstrative_order,DemN,demonstrative_orderDemN,,,
+424,26,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+425,26,article_distinct_third,y,article_distinct_thirdy,,,
+426,26,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+427,26,nominal_person,y,nominal_persony,,"wegener2012[147, 155-159]",['97']
+428,26,APC_order,post,APC_orderpost,,"wegener2012[147, 155-159]",['97']
+429,26,bound_person_order,n,bound_person_ordern,,"wegener2012[147, 155-159]",['97']
+433,26,PPDC,y_nn,PPDCy_nn,,wegener2012[86],
+434,27,verb_object_order,OV,verb_object_orderOV,,,
+435,27,adposition_order,post,adposition_orderpost,,,
+436,27,genitive_order,GenN,genitive_orderGenN,,,
+437,27,demonstrative_order,DemN,demonstrative_orderDemN,,,
+438,27,article_distinct_third,n,article_distinct_thirdn,,,
+439,27,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+440,27,nominal_person,y,nominal_persony,,"aikhenvald2008[197f., 508-513]",['98']
+441,27,APC_order,pre,APC_orderpre,,"aikhenvald2008[197f., 508-513]",['98']
+442,27,bound_person_order,n,bound_person_ordern,,"aikhenvald2008[197f., 508-513]",['98']
+443,27,person_allowed,all,person_allowedall,,"aikhenvald2008[197f., 508-513]",['98']
+444,27,person_third_available,y,person_third_availabley,,"aikhenvald2008[197f., 508-513]",['98']
+445,27,number_allowed,all,number_allowedall,,"aikhenvald2008[197f., 508-513]",['98']
+446,27,PPDC,y,PPDCy,,aikhenvald2008[198],
+447,28,verb_object_order,OV,verb_object_orderOV,,,
+448,28,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+449,28,adposition_order,post,adposition_orderpost,,,
+450,28,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+451,28,genitive_order,GenN,genitive_orderGenN,,,
+452,28,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+453,28,demonstrative_order,DemN,demonstrative_orderDemN,,,
+454,28,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+455,28,article_distinct_third,n,article_distinct_thirdn,,,
+456,28,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+457,28,nominal_person,y,nominal_persony,,feldman1986[120-124],"['99', '100']"
+458,28,APC_order,pre,APC_orderpre,,feldman1986[120-124],"['99', '100']"
+459,28,bound_person_order,n,bound_person_ordern,,feldman1986[120-124],"['99', '100']"
+460,28,person_allowed,unclear,person_allowedunclear,,feldman1986[120-124],"['99', '100']"
+461,28,person_third_available,y,person_third_availabley,,feldman1986[120-124],"['99', '100']"
+462,28,number_allowed,all,number_allowedall,,feldman1986[120-124],"['99', '100']"
+464,29,verb_object_order,OV,verb_object_orderOV,,,
+465,29,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+466,29,adposition_order,post,adposition_orderpost,,,
+467,29,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+468,29,genitive_order,GenN,genitive_orderGenN,,,
+469,29,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+470,29,demonstrative_order,DemN,demonstrative_orderDemN,,,
+471,29,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+472,29,article_distinct_third,n,article_distinct_thirdn,,,
+473,29,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+474,29,nominal_person,y,nominal_persony,,"bruce1984[90-92, 96f.]","['101', '102', '103']"
+475,29,APC_order,NA,APC_orderNA,,,"['101', '102', '103']"
+476,29,bound_person_order,post,bound_person_orderpost,,"bruce1984[90-92, 96f.]","['101', '102', '103']"
+477,29,person_allowed,all,person_allowedall,,"bruce1984[90-92, 96f.]","['101', '102', '103']"
+478,29,person_third_available,y,person_third_availabley,,"bruce1984[90-92, 96f.]","['101', '102', '103']"
+479,29,number_allowed,unclear (+pl),number_allowedunclear (+pl),,"bruce1984[90-92, 96f.]","['101', '102', '103']"
+480,29,PPDC,y,PPDCy,,bruce1984[90],
+481,30,verb_object_order,OV,verb_object_orderOV,,,
+482,30,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+483,30,adposition_order,post,adposition_orderpost,,,
+484,30,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+485,30,genitive_order,GenN,genitive_orderGenN,,,
+486,30,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+487,30,demonstrative_order,DemN,demonstrative_orderDemN,,,
+488,30,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+489,30,article_distinct_third,n,article_distinct_thirdn,,,
+490,30,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+491,30,nominal_person,y,nominal_persony,,"scott1978[79f., 100f.]",['104']
+492,30,APC_order,NA,APC_orderNA,,,['104']
+493,30,bound_person_order,post,bound_person_orderpost,,"scott1978[79f., 100f.]",['104']
+494,30,person_allowed,all,person_allowedall,,"scott1978[79f., 100f.]",['104']
+495,30,person_third_available,y,person_third_availabley,,"scott1978[79f., 100f.]",['104']
+496,30,number_allowed,all,number_allowedall,,"scott1978[79f., 100f.]",['104']
+497,30,PPDC,n,PPDCn,,bruce1984[90],
+498,31,verb_object_order,OV,verb_object_orderOV,,,
+499,31,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+500,31,adposition_order,post,adposition_orderpost,,,
+501,31,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+502,31,genitive_order,GenN,genitive_orderGenN,,,
+503,31,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+504,31,demonstrative_order,DemN,demonstrative_orderDemN,,,
+505,31,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+506,31,article_distinct_third,n,article_distinct_thirdn,,,
+507,31,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+508,31,nominal_person,y,nominal_persony,,"haiman1980[226-232, 239f.]","['149', '150', '151', '152', '153', '154', '155']"
+509,31,APC_order,NA,APC_orderNA,,,"['149', '150', '151', '152', '153', '154', '155']"
+510,31,bound_person_order,post,bound_person_orderpost,,"haiman1980[226-232, 239f.]","['149', '150', '151', '152', '153', '154', '155']"
+511,31,person_allowed,all,person_allowedall,,"haiman1980[226-232, 239f.]","['149', '150', '151', '152', '153', '154', '155']"
+512,31,person_third_available,y,person_third_availabley,,"haiman1980[226-232, 239f.]","['149', '150', '151', '152', '153', '154', '155']"
+513,31,number_allowed,all,number_allowedall,,"haiman1980[226-232, 239f.]","['149', '150', '151', '152', '153', '154', '155']"
+514,31,PPDC,n,PPDCn,,bruce1984[90],
+515,32,verb_object_order,OV,verb_object_orderOV,,,
+516,32,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+517,32,adposition_order,post,adposition_orderpost,,,
+518,32,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+519,32,genitive_order,GenN,genitive_orderGenN,,,
+520,32,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+521,32,demonstrative_order,DemN,demonstrative_orderDemN,,,
+522,32,article_distinct_third,n,article_distinct_thirdn,,,
+523,32,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+524,32,nominal_person,y,nominal_persony,,"renck1975[17f., 166, 181]","['105', '106', '107']"
+525,32,APC_order,post,APC_orderpost,,"renck1975[17f., 166, 181]","['105', '106', '107']"
+526,32,bound_person_order,post,bound_person_orderpost,,"renck1975[17f., 166, 181]","['105', '106', '107']"
+527,32,person_allowed,all,person_allowedall,,"renck1975[17f., 166, 181]","['105', '106', '107']"
+528,32,person_third_available,y,person_third_availabley,,"renck1975[17f., 166, 181]","['105', '106', '107']"
+529,32,number_allowed,all,number_allowedall,,"renck1975[17f., 166, 181]","['105', '106', '107']"
+531,33,verb_object_order,OV,verb_object_orderOV,,,
+532,33,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+533,33,adposition_order,post,adposition_orderpost,,,
+534,33,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+535,33,genitive_order,GenN,genitive_orderGenN,,,
+536,33,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+537,33,demonstrative_order,NDem,demonstrative_orderNDem,,,
+538,33,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+539,33,article_distinct_third,n,article_distinct_thirdn,,,
+540,33,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+541,33,nominal_person,y,nominal_persony,,"roberts1987[162, 201, 209f.]",['108']
+542,33,APC_order,post,APC_orderpost,,"roberts1987[162, 201, 209f.]",['108']
+543,33,bound_person_order,n,bound_person_ordern,,"roberts1987[162, 201, 209f.]",['108']
+544,33,person_allowed,all,person_allowedall,,"roberts1987[162, 201, 209f.]",['108']
+545,33,person_third_available,y,person_third_availabley,,"roberts1987[162, 201, 209f.]",['108']
+546,33,number_allowed,all,number_allowedall,,"roberts1987[162, 201, 209f.]",['108']
+547,33,PPDC,y,PPDCy,,"roberts1987[210, (284)];218,(315)",
+548,34,verb_object_order,OV,verb_object_orderOV,,,
+549,34,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+550,34,adposition_order,post,adposition_orderpost,,,
+551,34,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+552,34,genitive_order,GenN,genitive_orderGenN,,,
+553,34,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+554,34,demonstrative_order,NDem,demonstrative_orderNDem,,,
+555,34,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+556,34,article_distinct_third,n,article_distinct_thirdn,,,
+557,34,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+558,34,nominal_person,y,nominal_persony,,"davies1989[107f., 157]","['109', '110']"
+559,34,APC_order,post,APC_orderpost,,"davies1989[107f., 157]","['109', '110']"
+560,34,bound_person_order,n,bound_person_ordern,,"davies1989[107f., 157]","['109', '110']"
+561,34,person_allowed,all,person_allowedall,,"davies1989[107f., 157]","['109', '110']"
+562,34,person_third_available,y,person_third_availabley,,"davies1989[107f., 157]","['109', '110']"
+563,34,number_allowed,all,number_allowedall,,"davies1989[107f., 157]","['109', '110']"
+564,34,PPDC,no info,PPDCno info,,,
+565,35,verb_object_order,OV,verb_object_orderOV,,,
+566,35,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+567,35,adposition_order,post,adposition_orderpost,,,
+568,35,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+569,35,genitive_order,GenN,genitive_orderGenN,,,
+570,35,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+571,35,demonstrative_order,NDem,demonstrative_orderNDem,,,
+572,35,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+573,35,article_distinct_third,y,article_distinct_thirdy,,,
+574,35,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+575,35,nominal_person,y,nominal_persony,,"reesink1987[53f., 167, 190f., 353]","['111', '112']"
+576,35,APC_order,both,APC_orderboth,,"reesink1987[53f., 167, 190f., 353]","['111', '112']"
+577,35,bound_person_order,n,bound_person_ordern,,"reesink1987[53f., 167, 190f., 353]","['111', '112']"
+578,35,person_allowed,unclear,person_allowedunclear,,"reesink1987[53f., 167, 190f., 353]","['111', '112']"
+579,35,person_third_available,y,person_third_availabley,,"reesink1987[53f., 167, 190f., 353]","['111', '112']"
+580,35,number_allowed,unclear,number_allowedunclear,,"reesink1987[53f., 167, 190f., 353]","['111', '112']"
+581,35,PPDC,y,PPDCy,,"reesinck1987[190, (141)]",
+582,36,verb_object_order,OV,verb_object_orderOV,,,
+583,36,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+584,36,adposition_order,post,adposition_orderpost,,,
+585,36,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+586,36,genitive_order,GenN,genitive_orderGenN,,,
+587,36,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+588,36,demonstrative_order,NDem,demonstrative_orderNDem,,,
+589,36,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+590,36,article_distinct_third,y,article_distinct_thirdy,,,
+591,36,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+592,36,nominal_person,y,nominal_persony,,robinsonhaan2014[261],['113']
+593,36,APC_order,post,APC_orderpost,,robinsonhaan2014[261],['113']
+594,36,bound_person_order,n,bound_person_ordern,,robinsonhaan2014[261],['113']
+595,36,person_allowed,only 3,person_allowedonly 3,,robinsonhaan2014[261],['113']
+596,36,person_third_available,only 3,person_third_availableonly 3,,robinsonhaan2014[261],['113']
+597,36,number_allowed,nonum,number_allowednonum,,robinsonhaan2014[261],['113']
+599,37,verb_object_order,OV,verb_object_orderOV,,,
+600,37,adposition_order,post,adposition_orderpost,,,
+601,37,genitive_order,GenN,genitive_orderGenN,,,
+602,37,demonstrative_order,NDem,demonstrative_orderNDem,,,
+603,37,article_distinct_third,n,article_distinct_thirdn,,,
+604,37,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+605,37,nominal_person,y,nominal_persony,,klamer2014[129],['114']
+606,37,APC_order,post,APC_orderpost,,klamer2014[129],['114']
+607,37,bound_person_order,n,bound_person_ordern,,klamer2014[129],['114']
+608,37,person_allowed,all?,person_allowedall?,,,['114']
+609,37,person_third_available,y,person_third_availabley,,klamer2014[129],['114']
+610,37,number_allowed,all,number_allowedall,,klamer2014[129],['114']
+611,37,PPDC,y,PPDCy,,"klamer2014[129, (99)]",
+612,38,verb_object_order,OV,verb_object_orderOV,,,
+613,38,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+614,38,adposition_order,NoDom,adposition_orderNoDom,,,
+615,38,adposition_order_wals,No dominant order,adposition_order_walsNo dominant order,,,
+616,38,genitive_order,GenN,genitive_orderGenN,,,
+617,38,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+618,38,demonstrative_order,NDem,demonstrative_orderNDem,,,
+619,38,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+620,38,article_distinct_third,y,article_distinct_thirdy,,,
+621,38,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+622,38,nominal_person,y,nominal_persony,,schapper2014[313f.],['115']
+623,38,APC_order,post,APC_orderpost,,schapper2014[313f.],['115']
+624,38,bound_person_order,n,bound_person_ordern,,schapper2014[313f.],['115']
+625,38,person_allowed,all?,person_allowedall?,,,['115']
+626,38,person_third_available,y,person_third_availabley,,schapper2014[313f.],['115']
+627,38,number_allowed,nonum,number_allowednonum,,schapper2014[313f.],['115']
+629,39,verb_object_order,OV,verb_object_orderOV,,,
+630,39,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+631,39,genitive_order,GenN,genitive_orderGenN,,,
+632,39,demonstrative_order,NDem,demonstrative_orderNDem,,,
+633,39,article_distinct_third,n,article_distinct_thirdn,,,
+634,39,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+635,39,nominal_person,y,nominal_persony,,kratchovíl2014[391],['116']
+636,39,APC_order,post,APC_orderpost,,kratchovíl2014[391],['116']
+637,39,bound_person_order,n,bound_person_ordern,,kratchovíl2014[391],['116']
+638,39,person_allowed,all,person_allowedall,,kratchovíl2014[391],['116']
+639,39,person_third_available,y,person_third_availabley,,kratchovíl2014[391],['116']
+640,39,number_allowed,all,number_allowedall,,kratchovíl2014[391],['116']
+642,40,verb_object_order,OV,verb_object_orderOV,,,
+643,40,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+644,40,genitive_order,GenN,genitive_orderGenN,,,
+645,40,demonstrative_order,NDem,demonstrative_orderNDem,,,
+646,40,article_distinct_third,y,article_distinct_thirdy,,,
+647,40,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+648,40,nominal_person,y,nominal_persony,,schapperhendery2014[472],['117']
+649,40,APC_order,post,APC_orderpost,,schapperhendery2014[472],['117']
+650,40,bound_person_order,n,bound_person_ordern,,schapperhendery2014[472],['117']
+651,40,person_allowed,only 3,person_allowedonly 3,,schapperhendery2014[472],['117']
+652,40,person_third_available,only 3,person_third_availableonly 3,,schapperhendery2014[472],['117']
+653,40,number_allowed,nonum,number_allowednonum,,schapperhendery2014[472],['117']
+655,41,verb_object_order,OV,verb_object_orderOV,,,
+656,41,adposition_order,post,adposition_orderpost,,,
+657,41,genitive_order,GenN,genitive_orderGenN,,,
+658,41,demonstrative_order,NDem,demonstrative_orderNDem,,,
+659,41,article_distinct_third,y,article_distinct_thirdy,,,
+660,41,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+661,41,nominal_person,y,nominal_persony,,holton2014[53f.],['118']
+662,41,APC_order,post,APC_orderpost,,holton2014[53f.],['118']
+663,41,bound_person_order,n,bound_person_ordern,,holton2014[53f.],['118']
+664,41,person_allowed,unclear,person_allowedunclear,,holton2014[53f.],['118']
+665,41,person_third_available,y,person_third_availabley,,holton2014[53f.],['118']
+666,41,number_allowed,all,number_allowedall,,holton2014[53f.],['118']
+668,42,verb_object_order,OV,verb_object_orderOV,,,
+669,42,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+670,42,genitive_order,GenN,genitive_orderGenN,,,
+671,42,demonstrative_order,NDem,demonstrative_orderNDem,,,
+672,42,article_distinct_third,n,article_distinct_thirdn,,,
+674,42,nominal_person,no info,nominal_personno info,,,
+676,42,bound_person_order,n,bound_person_ordern,,klamer2010,
+677,42,person_allowed,NA,person_allowedNA,,,
+678,42,person_third_available,NA,person_third_availableNA,,,
+679,42,number_allowed,NA,number_allowedNA,,,
+681,43,verb_object_order,OV,verb_object_orderOV,,,
+682,43,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+683,43,genitive_order,GenN,genitive_orderGenN,,,
+684,43,demonstrative_order,DemN,demonstrative_orderDemN,,,
+685,43,article_distinct_third,n,article_distinct_thirdn,,,
+686,43,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+687,43,nominal_person,y,nominal_persony,,doehler2016[552],
+688,43,APC_order,post?,APC_orderpost?,,,
+689,43,bound_person_order,n,bound_person_ordern,,doehler2016[552],
+694,44,verb_object_order,VO,verb_object_orderVO,,,
+695,44,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+696,44,adposition_order,pre,adposition_orderpre,,,
+697,44,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+698,44,genitive_order,NGen,genitive_orderNGen,,,
+699,44,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+700,44,demonstrative_order,mixed,demonstrative_ordermixed,,,
+701,44,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+702,44,article_distinct_third,y,article_distinct_thirdy,,,
+703,44,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+704,44,nominal_person,y,nominal_persony,,"newman2000[63, 155, 370f.];jaggar2001[330f.]","['0', '1', '2']"
+705,44,APC_order,pre,APC_orderpre,,"newman2000[63, 155, 370f.];jaggar2001[330f.]","['0', '1', '2']"
+706,44,bound_person_order,n,bound_person_ordern,,"newman2000[63, 155, 370f.];jaggar2001[330f.]","['0', '1', '2']"
+707,44,person_allowed,all,person_allowedall,,"newman2000[63, 155, 370f.];jaggar2001[330f.]","['0', '1', '2']"
+708,44,person_third_available,y,person_third_availabley,,"newman2000[63, 155, 370f.];jaggar2001[330f.]","['0', '1', '2']"
+709,44,number_allowed,all,number_allowedall,,"newman2000[63, 155, 370f.];jaggar2001[330f.]","['0', '1', '2']"
+710,44,PPDC,y,PPDCy,,"newman2000[155, 371];jaggar2001[331]","['1', '2']"
+711,45,verb_object_order,VO,verb_object_orderVO,,,
+712,45,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+713,45,adposition_order,pre,adposition_orderpre,,,
+714,45,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+715,45,genitive_order,NGen,genitive_orderNGen,,,
+716,45,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+717,45,demonstrative_order,NDem,demonstrative_orderNDem,,,
+718,45,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+719,45,article_distinct_third,y,article_distinct_thirdy,,,
+720,45,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+721,45,nominal_person,y,nominal_persony,,frajzyngier1993[172],['3']
+722,45,APC_order,pre,APC_orderpre,,frajzyngier1993[172],['3']
+723,45,bound_person_order,n,bound_person_ordern,,frajzyngier1993[172],['3']
+724,45,person_allowed,all?,person_allowedall?,,,['3']
+725,45,person_third_available,y,person_third_availabley,,frajzyngier1993[172],['3']
+726,45,number_allowed,all?,number_allowedall?,,,['3']
+728,46,verb_object_order,OV,verb_object_orderOV,,,
+729,46,adposition_order,pre,adposition_orderpre,,,
+730,46,genitive_order,NGen,genitive_orderNGen,,,
+731,46,demonstrative_order,NDem,demonstrative_orderNDem,,,
+732,46,article_distinct_third,n,article_distinct_thirdn,,,
+733,46,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+734,46,nominal_person,y,nominal_persony,,harvey2018[163],['4']
+735,46,APC_order,pre,APC_orderpre,,harvey2018[163],['4']
+736,46,bound_person_order,n,bound_person_ordern,,harvey2018[163],['4']
+740,46,PPDC,y,PPDCy,,harvey2018[116],
+741,47,verb_object_order,OV,verb_object_orderOV,,,
+742,47,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+743,47,genitive_order,GenN,genitive_orderGenN,,,
+744,47,demonstrative_order,DemN,demonstrative_orderDemN,,,
+745,47,article_distinct_third,y,article_distinct_thirdy,,,
+746,47,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+747,47,nominal_person,y,nominal_persony,,treis2008[335],['5']
+748,47,APC_order,pre,APC_orderpre,,treis2008[335],['5']
+749,47,bound_person_order,n,bound_person_ordern,,treis2008[335],['5']
+750,47,person_allowed,all?,person_allowedall?,,,['5']
+751,47,person_third_available,all?,person_third_availableall?,,,['5']
+752,47,number_allowed,unclear,number_allowedunclear,,treis2008[335],['5']
+754,48,verb_object_order,VO,verb_object_orderVO,,,
+755,48,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+756,48,adposition_order,pre,adposition_orderpre,,,
+757,48,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+758,48,genitive_order,NGen,genitive_orderNGen,,,
+759,48,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+760,48,demonstrative_order,NDem,demonstrative_orderNDem,,,
+761,48,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+762,48,article_distinct_third,y,article_distinct_thirdy,,,
+763,48,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+764,48,nominal_person,y,nominal_persony,,"garygamaleldin1982[78, 80]",['6']
+765,48,APC_order,pre,APC_orderpre,,"garygamaleldin1982[78, 80]",['6']
+766,48,bound_person_order,n,bound_person_ordern,,"garygamaleldin1982[78, 80]",['6']
+767,48,person_allowed,no 3,person_allowedno 3,,"garygamaleldin1982[78, 80]",['6']
+768,48,person_third_available,n,person_third_availablen,,"garygamaleldin1982[78, 80]",['6']
+769,48,number_allowed,non-sg,number_allowednon-sg,,"garygamaleldin1982[78, 80]",['6']
+771,49,verb_object_order,VO,verb_object_orderVO,,,
+772,49,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+773,49,adposition_order,pre,adposition_orderpre,,,
+774,49,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+775,49,genitive_order,NGen,genitive_orderNGen,,,
+776,49,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+777,49,demonstrative_order,mixed,demonstrative_ordermixed,,,
+778,49,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+779,49,article_distinct_third,y,article_distinct_thirdy,,,
+780,49,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+781,49,nominal_person,y,nominal_persony,,"holes1990[162, 165]",['7']
+782,49,APC_order,pre,APC_orderpre,,"holes1990[162, 165]",['7']
+783,49,bound_person_order,n,bound_person_ordern,,"holes1990[162, 165]",['7']
+784,49,person_allowed,no 3,person_allowedno 3,,"holes1990[162, 165]",['7']
+785,49,person_third_available,n,person_third_availablen,,"holes1990[162, 165]",['7']
+786,49,number_allowed,non-sg,number_allowednon-sg,,"holes1990[162, 165]",['7']
+788,50,verb_object_order,VO,verb_object_orderVO,,,
+789,50,adposition_order,pre,adposition_orderpre,,,
+790,50,genitive_order,NGen,genitive_orderNGen,,,
+791,50,demonstrative_order,DemN,demonstrative_orderDemN,,,
+792,50,article_distinct_third,y,article_distinct_thirdy,,,
+793,50,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+794,50,nominal_person,y,nominal_persony,,"borgazzopardialexander1997[187f., 202]",['8']
+795,50,APC_order,pre,APC_orderpre,,"borgazzopardialexander1997[187f., 202]",['8']
+796,50,bound_person_order,n,bound_person_ordern,,"borgazzopardialexander1997[187f., 202]",['8']
+797,50,person_allowed,no 3,person_allowedno 3,,"borgazzopardialexander1997[187f., 202]",['8']
+798,50,person_third_available,n,person_third_availablen,,"borgazzopardialexander1997[187f., 202]",['8']
+799,50,number_allowed,all,number_allowedall,,"borgazzopardialexander1997[187f., 202]",['8']
+801,51,verb_object_order,NC,verb_object_orderNC,,,
+802,51,adposition_order,NoDom,adposition_orderNoDom,,,
+803,51,genitive_order,GenN,genitive_orderGenN,,,
+804,51,demonstrative_order,DemN,demonstrative_orderDemN,,,
+805,51,article_distinct_third,n,article_distinct_thirdn,,,
+806,51,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+807,51,nominal_person,y,nominal_persony,,pacifiqueetal1990[188],['126']
+808,51,APC_order,NA,APC_orderNA,,,['126']
+809,51,bound_person_order,post,bound_person_orderpost,,pacifiqueetal1990[188],['126']
+814,52,verb_object_order,unclear,verb_object_orderunclear,,,
+815,52,adposition_order,pre,adposition_orderpre,,,
+816,52,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+817,52,genitive_order,NGen,genitive_orderNGen,,,
+818,52,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+819,52,demonstrative_order,NDem,demonstrative_orderNDem,,,
+820,52,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+821,52,article_distinct_third,n,article_distinct_thirdn,,,
+823,52,nominal_person,y,nominal_persony,,costello1969[28],"['127', '128', '129']"
+824,52,APC_order,both,APC_orderboth,,costello1969[28],"['127', '128', '129']"
+825,52,bound_person_order,n,bound_person_ordern,,costello1969[28],"['127', '128', '129']"
+828,52,number_allowed,unclear,number_allowedunclear,,costello1969[28],"['127', '128', '129']"
+830,53,verb_object_order,VO,verb_object_orderVO,,,
+831,53,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+832,53,adposition_order,pre,adposition_orderpre,,,
+833,53,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+834,53,genitive_order,GenN,genitive_orderGenN,,,
+835,53,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+836,53,demonstrative_order,NDem,demonstrative_orderNDem,,,
+837,53,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+847,54,verb_object_order,VO,verb_object_orderVO,,,
+848,54,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+849,54,adposition_order,pre,adposition_orderpre,,,
+850,54,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+851,54,genitive_order,NGen,genitive_orderNGen,,,
+852,54,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+853,54,demonstrative_order,both,demonstrative_orderboth,,,
+854,54,demonstrative_order_wals,Demonstrative before and after Noun,demonstrative_order_walsDemonstrative before and after Noun,,,
+855,54,article_distinct_third,y,article_distinct_thirdy,,,
+856,54,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+857,54,nominal_person,y,nominal_persony,,travispaul2019,['24']
+858,54,APC_order,pre,APC_orderpre,,travispaul2019,['24']
+859,54,bound_person_order,n,bound_person_ordern,,travispaul2019,['24']
+860,54,person_allowed,all,person_allowedall,,travispaul2019,['24']
+861,54,person_third_available,y,person_third_availabley,,travispaul2019,['24']
+862,54,number_allowed,all,number_allowedall,,travispaul2019,['24']
+863,54,PPDC,y,PPDCy,,paultravis2019[422],
+864,55,verb_object_order,VO,verb_object_orderVO,,,
+865,55,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+866,55,adposition_order,pre,adposition_orderpre,,,
+867,55,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+868,55,genitive_order,NGen,genitive_orderNGen,,,
+869,55,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+870,55,demonstrative_order,NDem,demonstrative_orderNDem,,,
+871,55,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+872,55,article_distinct_third,n,article_distinct_thirdn,,,
+873,55,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+874,55,nominal_person,y,nominal_persony,,sneddon1996[170];(ewing2005),['25']
+875,55,APC_order,pre,APC_orderpre,,sneddon1996[170];(ewing2005),['25']
+876,55,bound_person_order,n,bound_person_ordern,,sneddon1996[170];(ewing2005),['25']
+877,55,person_allowed,all?,person_allowedall?,,,['25']
+878,55,person_third_available,all?,person_third_availableall?,,,['25']
+879,55,number_allowed,unclear (+pl),number_allowedunclear (+pl),,sneddon1996[170];(ewing2005),['25']
+880,55,PPDC,y_nn,PPDCy_nn,,sneddon1996[169],
+881,56,verb_object_order,VO,verb_object_orderVO,,,
+882,56,adposition_order,pre,adposition_orderpre,,,
+883,56,genitive_order,GenN,genitive_orderGenN,,,
+884,56,demonstrative_order,NDem,demonstrative_orderNDem,,,
+885,56,article_distinct_third,n,article_distinct_thirdn,,,
+886,56,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+887,56,nominal_person,y,nominal_persony,,kluge2017[ch. 6.2],['26']
+888,56,APC_order,post,APC_orderpost,,kluge2017[ch. 6.2],['26']
+889,56,bound_person_order,n,bound_person_ordern,,kluge2017[ch. 6.2],['26']
+890,56,person_allowed,all,person_allowedall,,kluge2017[ch. 6.2],['26']
+891,56,person_third_available,y,person_third_availabley,,kluge2017[ch. 6.2],['26']
+892,56,number_allowed,all,number_allowedall,,kluge2017[ch. 6.2],['26']
+893,56,PPDC,y,PPDCy,,"kluge2017[353, (66/67)]",['26']
+894,57,verb_object_order,VO,verb_object_orderVO,,,
+895,57,adposition_order,pre,adposition_orderpre,,,
+897,57,demonstrative_order,NDem,demonstrative_orderNDem,,,
+898,57,article_distinct_third,y,article_distinct_thirdy,,,
+900,57,nominal_person,no info,nominal_personno info,,,
+902,57,bound_person_order,n,bound_person_ordern,,davies2010,
+903,57,person_allowed,NA,person_allowedNA,,,
+904,57,person_third_available,NA,person_third_availableNA,,,
+905,57,number_allowed,NA,number_allowedNA,,,
+907,58,verb_object_order,VO,verb_object_orderVO,,,
+908,58,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+909,58,adposition_order,pre,adposition_orderpre,,,
+910,58,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+911,58,genitive_order,NGen,genitive_orderNGen,,,
+912,58,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+913,58,demonstrative_order,NDem,demonstrative_orderNDem,,,
+914,58,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+915,58,article_distinct_third,y,article_distinct_thirdy,,,
+924,59,verb_object_order,VO,verb_object_orderVO,,,
+925,59,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+926,59,adposition_order,pre,adposition_orderpre,,,
+927,59,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+928,59,genitive_order,NGen,genitive_orderNGen,,,
+929,59,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+930,59,demonstrative_order,NDem,demonstrative_orderNDem,,,
+931,59,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+932,59,article_distinct_third,n,article_distinct_thirdn,,,
+933,59,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+934,59,nominal_person,y,nominal_persony,,hamel1994[90 (sec. 4.2.1)],"['27', '28']"
+935,59,APC_order,pre,APC_orderpre,,hamel1994[90 (sec. 4.2.1)],"['27', '28']"
+936,59,bound_person_order,n,bound_person_ordern,,hamel1994[90 (sec. 4.2.1)],"['27', '28']"
+937,59,person_allowed,all,person_allowedall,,hamel1994[90 (sec. 4.2.1)],"['27', '28']"
+938,59,person_third_available,y,person_third_availabley,,hamel1994[90 (sec. 4.2.1)],"['27', '28']"
+939,59,number_allowed,all,number_allowedall,,hamel1994[90 (sec. 4.2.1)],"['27', '28']"
+940,59,PPDC,y,PPDCy,,hamel1994[100],['28']
+941,60,verb_object_order,VO,verb_object_orderVO,,,
+942,60,adposition_order,pre,adposition_orderpre,,,
+943,60,genitive_order,GenN,genitive_orderGenN,,,
+944,60,demonstrative_order,NDem,demonstrative_orderNDem,,,
+945,60,article_distinct_third,y,article_distinct_thirdy,,,
+946,60,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+947,60,nominal_person,y,nominal_persony,,gasser2014[144],['29']
+948,60,APC_order,NA,APC_orderNA,,,['29']
+949,60,bound_person_order,post,bound_person_orderpost,,gasser2014[144],['29']
+950,60,person_allowed,all,person_allowedall,,gasser2014[144],['29']
+951,60,person_third_available,y,person_third_availabley,,gasser2014[144],['29']
+952,60,number_allowed,non-sg,number_allowednon-sg,,gasser2014[144],['29']
+954,61,verb_object_order,VO,verb_object_orderVO,,,
+955,61,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+956,61,adposition_order,pre,adposition_orderpre,,,
+957,61,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+958,61,genitive_order,NGen,genitive_orderNGen,,,
+959,61,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+960,61,demonstrative_order,mixed,demonstrative_ordermixed,,,
+961,61,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+962,61,article_distinct_third,y,article_distinct_thirdy,,,
+963,61,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+964,61,nominal_person,y,nominal_persony,,"bauer1993[368, 373];bauer1997[262f.]",['30']
+965,61,APC_order,pre,APC_orderpre,,"bauer1993[368, 373];bauer1997[262f.]",['30']
+966,61,bound_person_order,n,bound_person_ordern,,"bauer1993[368, 373];bauer1997[262f.]",['30']
+967,61,person_allowed,all,person_allowedall,,"bauer1993[368, 373];bauer1997[262f.]",['30']
+968,61,person_third_available,y,person_third_availabley,,"bauer1993[368, 373];bauer1997[262f.]",['30']
+969,61,number_allowed,all,number_allowedall,,"bauer1993[368, 373];bauer1997[262f.]",['30']
+970,61,PPDC,y_nn,PPDCy_nn,,bauer1997[263f.],['30']
+971,62,verb_object_order,VO,verb_object_orderVO,,,
+972,62,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+973,62,adposition_order,pre,adposition_orderpre,,,
+974,62,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+975,62,genitive_order,NGen,genitive_orderNGen,,,
+976,62,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+977,62,demonstrative_order,NDem,demonstrative_orderNDem,,,
+978,62,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+979,62,article_distinct_third,y,article_distinct_thirdy,,,
+980,62,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+981,62,nominal_person,y,nominal_persony,,besnier2000[392f.],"['31', '32']"
+982,62,APC_order,pre,APC_orderpre,,besnier2000[392f.],"['31', '32']"
+983,62,bound_person_order,n,bound_person_ordern,,besnier2000[392f.],"['31', '32']"
+984,62,person_allowed,all,person_allowedall,,besnier2000[392f.],"['31', '32']"
+985,62,person_third_available,y,person_third_availabley,,besnier2000[392f.],"['31', '32']"
+986,62,number_allowed,all,number_allowedall,,besnier2000[392f.],"['31', '32']"
+987,62,PPDC,y_nn,PPDCy_nn,,besnier2000[409],
+988,63,verb_object_order,VO,verb_object_orderVO,,,
+989,63,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+990,63,adposition_order,pre,adposition_orderpre,,,
+991,63,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+992,63,genitive_order,NGen,genitive_orderNGen,,,
+993,63,demonstrative_order,NDem,demonstrative_orderNDem,,,
+994,63,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+995,63,article_distinct_third,y,article_distinct_thirdy,,,
+996,63,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+997,63,nominal_person,y,nominal_persony,,keesing1985[104],"['33', '34']"
+998,63,APC_order,pre,APC_orderpre,,keesing1985[104],"['33', '34']"
+999,63,bound_person_order,n,bound_person_ordern,,keesing1985[104],"['33', '34']"
+1000,63,person_allowed,all?,person_allowedall?,,,"['33', '34']"
+1001,63,person_third_available,y,person_third_availabley,,keesing1985[104],"['33', '34']"
+1002,63,number_allowed,unclear,number_allowedunclear,,keesing1985[104],"['33', '34']"
+1004,64,verb_object_order,VO,verb_object_orderVO,,,
+1005,64,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1006,64,adposition_order,pre,adposition_orderpre,,,
+1007,64,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1008,64,genitive_order,NoDom,genitive_orderNoDom,,,
+1009,64,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1010,64,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1011,64,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1012,64,article_distinct_third,n,article_distinct_thirdn,,,
+1013,64,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1014,64,nominal_person,y,nominal_persony,,d’jernes2002[255],['35']
+1015,64,APC_order,pre,APC_orderpre,,d’jernes2002[255],['35']
+1016,64,bound_person_order,n,bound_person_ordern,,d’jernes2002[255],['35']
+1017,64,person_allowed,all,person_allowedall,,d’jernes2002[255],['35']
+1018,64,person_third_available,y,person_third_availabley,,d’jernes2002[255],['35']
+1019,64,number_allowed,non-sg?,number_allowednon-sg?,,,['35']
+1020,64,PPDC,y,PPDCy,,d’jernes2002[255],
+1021,65,verb_object_order,VO,verb_object_orderVO,,,
+1022,65,adposition_order,pre,adposition_orderpre,,,
+1023,65,genitive_order,NGen,genitive_orderNGen,,,
+1024,65,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1025,65,article_distinct_third,n,article_distinct_thirdn,,,
+1026,65,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1027,65,nominal_person,y,nominal_persony,,boswell2018[165],"['36', '37']"
+1028,65,APC_order,pre,APC_orderpre,,boswell2018[165],"['36', '37']"
+1029,65,bound_person_order,n,bound_person_ordern,,boswell2018[165],"['36', '37']"
+1032,65,number_allowed,non-sg?,number_allowednon-sg?,,,"['36', '37']"
+1033,65,PPDC,y,PPDCy,,boswell2018[165],['36']
+1034,66,verb_object_order,VO,verb_object_orderVO,,,
+1035,66,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1036,66,adposition_order,pre,adposition_orderpre,,,
+1037,66,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1038,66,genitive_order,NGen,genitive_orderNGen,,,
+1039,66,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1040,66,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1041,66,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1042,66,article_distinct_third,n,article_distinct_thirdn,,,
+1043,66,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1044,66,nominal_person,y,nominal_persony,,davis2003[47];palmer2017,['38']
+1045,66,APC_order,pre,APC_orderpre,,davis2003[47];palmer2017,['38']
+1046,66,bound_person_order,n,bound_person_ordern,,davis2003[47];palmer2017,['38']
+1047,66,person_allowed,all,person_allowedall,,davis2003[47];palmer2017,['38']
+1048,66,person_third_available,y,person_third_availabley,,davis2003[47];palmer2017,['38']
+1049,66,number_allowed,all?,number_allowedall?,,,['38']
+1050,66,PPDC,y,PPDCy,,davis2003[48],
+1051,67,verb_object_order,VO,verb_object_orderVO,,,
+1052,67,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1053,67,adposition_order,pre,adposition_orderpre,,,
+1054,67,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1055,67,genitive_order,NGen,genitive_orderNGen,,,
+1056,67,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1057,67,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1058,67,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1059,67,article_distinct_third,y,article_distinct_thirdy,,,
+1060,67,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1061,67,nominal_person,y,nominal_persony,,"palmer2008[68, 95, (115), 116, 119, 123, 131, 137, 163, 242, 300, 305, 327, 399, 414]","['39', '40']"
+1062,67,APC_order,pre,APC_orderpre,,"palmer2008[68, 95, (115), 116, 119, 123, 131, 137, 163, 242, 300, 305, 327, 399, 414]","['39', '40']"
+1063,67,bound_person_order,n,bound_person_ordern,,"palmer2008[68, 95, (115), 116, 119, 123, 131, 137, 163, 242, 300, 305, 327, 399, 414]","['39', '40']"
+1064,67,person_allowed,all,person_allowedall,,"palmer2008[68, 95, (115), 116, 119, 123, 131, 137, 163, 242, 300, 305, 327, 399, 414]","['39', '40']"
+1065,67,person_third_available,y,person_third_availabley,,"palmer2008[68, 95, (115), 116, 119, 123, 131, 137, 163, 242, 300, 305, 327, 399, 414]","['39', '40']"
+1066,67,number_allowed,unclear,number_allowedunclear,,"palmer2008[68, 95, (115), 116, 119, 123, 131, 137, 163, 242, 300, 305, 327, 399, 414]","['39', '40']"
+1067,67,PPDC,y,PPDCy,,palmer2008[116],
+1068,68,verb_object_order,VO,verb_object_orderVO,,,
+1069,68,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1070,68,adposition_order,pre,adposition_orderpre,,,
+1071,68,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1072,68,genitive_order,NGen,genitive_orderNGen,,,
+1073,68,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1074,68,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1075,68,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1076,68,article_distinct_third,y,article_distinct_thirdy,,,
+1078,68,nominal_person,no info,nominal_personno info,,,
+1080,68,bound_person_order,n,bound_person_ordern,,dufeu1996,
+1081,68,person_allowed,NA,person_allowedNA,,,
+1082,68,person_third_available,NA,person_third_availableNA,,,
+1083,68,number_allowed,NA,number_allowedNA,,,
+1085,69,verb_object_order,VO,verb_object_orderVO,,,
+1088,69,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1089,69,article_distinct_third,y,article_distinct_thirdy,,,
+1091,69,nominal_person,no info,nominal_personno info,,,
+1093,69,bound_person_order,n,bound_person_ordern,,næsshovdhaugen2011,
+1094,69,person_allowed,NA,person_allowedNA,,,
+1095,69,person_third_available,NA,person_third_availableNA,,,
+1096,69,number_allowed,NA,number_allowedNA,,,
+1098,70,verb_object_order,OV,verb_object_orderOV,,,
+1099,70,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1100,70,adposition_order,post,adposition_orderpost,,,
+1101,70,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1102,70,genitive_order,GenN,genitive_orderGenN,,,
+1103,70,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1105,70,article_distinct_third,n,article_distinct_thirdn,,,
+1107,70,nominal_person,n,nominal_personn,,derbyshire1979[131],"['139', '140']"
+1109,70,bound_person_order,n,bound_person_ordern,,derbyshire1979[131],"['139', '140']"
+1110,70,person_allowed,NA,person_allowedNA,,,"['139', '140']"
+1111,70,person_third_available,NA,person_third_availableNA,,,"['139', '140']"
+1112,70,number_allowed,NA,number_allowedNA,,,"['139', '140']"
+1114,71,verb_object_order,VO,verb_object_orderVO,,,
+1115,71,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1116,71,adposition_order,pre,adposition_orderpre,,,
+1117,71,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1118,71,genitive_order,NGen,genitive_orderNGen,,,
+1119,71,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1120,71,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1121,71,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1122,71,article_distinct_third,n,article_distinct_thirdn,,,
+1123,71,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1124,71,nominal_person,y,nominal_persony,,"everettkern1997[303, 310]",['130']
+1125,71,APC_order,pre,APC_orderpre,,"everettkern1997[303, 310]",['130']
+1126,71,bound_person_order,n,bound_person_ordern,,"everettkern1997[303, 310]",['130']
+1127,71,person_allowed,only 3,person_allowedonly 3,,"everettkern1997[303, 310]",['130']
+1128,71,person_third_available,only 3,person_third_availableonly 3,,"everettkern1997[303, 310]",['130']
+1129,71,number_allowed,unclear,number_allowedunclear,,"everettkern1997[303, 310]",['130']
+1130,71,PPDC,n,PPDCn,,palmer2008[116],
+1131,72,verb_object_order,OV,verb_object_orderOV,,,
+1132,72,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1133,72,adposition_order,post,adposition_orderpost,,,
+1134,72,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1135,72,genitive_order,GenN,genitive_orderGenN,,,
+1136,72,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1137,72,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1138,72,article_distinct_third,n,article_distinct_thirdn,,,
+1139,72,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1140,72,nominal_person,y,nominal_persony,,swadesh1967[333],['156']
+1141,72,APC_order,pre,APC_orderpre,,swadesh1967[333],['156']
+1142,72,bound_person_order,n,bound_person_ordern,,swadesh1967[333],['156']
+1147,73,verb_object_order,VO,verb_object_orderVO,,,
+1148,73,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1149,73,adposition_order,pre,adposition_orderpre,,,
+1150,73,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1151,73,genitive_order,NoDom,genitive_orderNoDom,,,
+1152,73,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1153,73,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1154,73,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1155,73,article_distinct_third,n,article_distinct_thirdn,,,
+1156,73,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1157,73,nominal_person,y,nominal_persony,,"huttarhuttar1994[224, 460, 466f.]",['123']
+1158,73,APC_order,pre,APC_orderpre,,"huttarhuttar1994[224, 460, 466f.]",['123']
+1159,73,bound_person_order,n,bound_person_ordern,,"huttarhuttar1994[224, 460, 466f.]",['123']
+1160,73,person_allowed,all,person_allowedall,,"huttarhuttar1994[224, 460, 466f.]",['123']
+1161,73,person_third_available,y,person_third_availabley,,"huttarhuttar1994[224, 460, 466f.]",['123']
+1162,73,number_allowed,non-sg,number_allowednon-sg,,"huttarhuttar1994[224, 460, 466f.]",['123']
+1163,73,PPDC,y_nn,PPDCy_nn,,"huttarhuttar1994[203, 329]",
+1164,74,verb_object_order,VO,verb_object_orderVO,,,
+1165,74,adposition_order,pre,adposition_orderpre,,,
+1166,74,genitive_order,GenN,genitive_orderGenN,,,
+1167,74,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1168,74,article_distinct_third,y,article_distinct_thirdy,,,
+1169,74,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1170,74,nominal_person,y,nominal_persony,,"faraclas1996[178, 181]",['124']
+1171,74,APC_order,pre,APC_orderpre,,"faraclas1996[178, 181]",['124']
+1172,74,bound_person_order,n,bound_person_ordern,,"faraclas1996[178, 181]",['124']
+1173,74,person_allowed,all,person_allowedall,,"faraclas1996[178, 181]",['124']
+1174,74,person_third_available,y,person_third_availabley,,"faraclas1996[178, 181]",['124']
+1175,74,number_allowed,all,number_allowedall,,"faraclas1996[178, 181]",['124']
+1177,75,verb_object_order,VO,verb_object_orderVO,,,
+1178,75,adposition_order,pre,adposition_orderpre,,,
+1179,75,genitive_order,GenN,genitive_orderGenN,,,
+1180,75,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1181,75,article_distinct_third,n,article_distinct_thirdn,,,
+1182,75,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1183,75,nominal_person,y,nominal_persony,,baxter1988[86],['125']
+1184,75,APC_order,pre,APC_orderpre,,baxter1988[86],['125']
+1185,75,bound_person_order,n,bound_person_ordern,,baxter1988[86],['125']
+1186,75,person_allowed,all,person_allowedall,,baxter1988[86],['125']
+1187,75,person_third_available,y,person_third_availabley,,baxter1988[86],['125']
+1188,75,number_allowed,non-sg,number_allowednon-sg,,baxter1988[86],['125']
+1190,76,verb_object_order,OV,verb_object_orderOV,,,
+1191,76,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1192,76,adposition_order,post,adposition_orderpost,,,
+1193,76,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1194,76,genitive_order,GenN,genitive_orderGenN,,,
+1195,76,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1196,76,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1197,76,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1198,76,article_distinct_third,n,article_distinct_thirdn,,,
+1199,76,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1200,76,nominal_person,y,nominal_persony,,"sridhar1990[205, 208f.]",['41']
+1201,76,APC_order,pre,APC_orderpre,,"sridhar1990[205, 208f.]",['41']
+1202,76,bound_person_order,n,bound_person_ordern,,"sridhar1990[205, 208f.]",['41']
+1203,76,person_allowed,all,person_allowedall,,"sridhar1990[205, 208f.]",['41']
+1204,76,person_third_available,y,person_third_availabley,,"sridhar1990[205, 208f.]",['41']
+1205,76,number_allowed,non-sg?,number_allowednon-sg?,,,['41']
+1207,77,verb_object_order,OV,verb_object_orderOV,,,
+1208,77,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1209,77,adposition_order,post,adposition_orderpost,,,
+1210,77,genitive_order,GenN,genitive_orderGenN,,,
+1211,77,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1212,77,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1213,77,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1214,77,article_distinct_third,n,article_distinct_thirdn,,,
+1215,77,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1216,77,nominal_person,y,nominal_persony,,asherkumari1997[262f.],['42']
+1217,77,APC_order,pre,APC_orderpre,,asherkumari1997[262f.],['42']
+1218,77,bound_person_order,n,bound_person_ordern,,asherkumari1997[262f.],['42']
+1219,77,person_allowed,all,person_allowedall,,asherkumari1997[262f.],['42']
+1220,77,person_third_available,y,person_third_availabley,,asherkumari1997[262f.],['42']
+1221,77,number_allowed,non-sg?,number_allowednon-sg?,,,['42']
+1223,78,verb_object_order,OV,verb_object_orderOV,,,
+1224,78,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1225,78,adposition_order,post,adposition_orderpost,,,
+1226,78,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1227,78,genitive_order,GenN,genitive_orderGenN,,,
+1228,78,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1229,78,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1230,78,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1231,78,article_distinct_third,n,article_distinct_thirdn,,,
+1232,78,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1233,78,nominal_person,y,nominal_persony,,"asher1985[142, 146]",['43']
+1234,78,APC_order,pre,APC_orderpre,,"asher1985[142, 146]",['43']
+1235,78,bound_person_order,n,bound_person_ordern,,"asher1985[142, 146]",['43']
+1236,78,person_allowed,all,person_allowedall,,"asher1985[142, 146]",['43']
+1237,78,person_third_available,y,person_third_availabley,,"asher1985[142, 146]",['43']
+1238,78,number_allowed,non-sg,number_allowednon-sg,,"asher1985[142, 146]",['43']
+1240,79,verb_object_order,OV,verb_object_orderOV,,,
+1241,79,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1242,79,adposition_order,post,adposition_orderpost,,,
+1243,79,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1244,79,genitive_order,GenN,genitive_orderGenN,,,
+1245,79,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1246,79,demonstrative_order,mixed,demonstrative_ordermixed,,,
+1247,79,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+1248,79,article_distinct_third,n,article_distinct_thirdn,,,
+1249,79,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1250,79,nominal_person,y,nominal_persony,,"fortescue1984[110, 253, 256f.]","['144', '145']"
+1251,79,APC_order,post,APC_orderpost,,"fortescue1984[110, 253, 256f.]","['144', '145']"
+1252,79,bound_person_order,n,bound_person_ordern,,"fortescue1984[110, 253, 256f.]","['144', '145']"
+1253,79,person_allowed,all,person_allowedall,,"fortescue1984[110, 253, 256f.]","['144', '145']"
+1254,79,person_third_available,y,person_third_availabley,,"fortescue1984[110, 253, 256f.]","['144', '145']"
+1255,79,number_allowed,all,number_allowedall,,"fortescue1984[110, 253, 256f.]","['144', '145']"
+1257,80,verb_object_order,VO,verb_object_orderVO,,,
+1258,80,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1259,80,adposition_order,pre,adposition_orderpre,,,
+1260,80,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1261,80,genitive_order,NGen,genitive_orderNGen,,,
+1262,80,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1263,80,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1264,80,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1265,80,article_distinct_third,y,article_distinct_thirdy,,,
+1266,80,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1267,80,nominal_person,y,nominal_persony,,"fortescue1984[110, 253, 256f.]",['44']
+1268,80,APC_order,pre,APC_orderpre,,"fortescue1984[110, 253, 256f.]",['44']
+1269,80,bound_person_order,n,bound_person_ordern,,"fortescue1984[110, 253, 256f.]",['44']
+1270,80,person_allowed,no 3,person_allowedno 3,,"fortescue1984[110, 253, 256f.]",['44']
+1271,80,person_third_available,n,person_third_availablen,,"fortescue1984[110, 253, 256f.]",['44']
+1272,80,number_allowed,non-sg,number_allowednon-sg,,"fortescue1984[110, 253, 256f.]",['44']
+1273,80,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1274,81,verb_object_order,VO,verb_object_orderVO,,,
+1275,81,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1276,81,adposition_order,pre,adposition_orderpre,,,
+1277,81,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1278,81,genitive_order,GenN,genitive_orderGenN,,,
+1279,81,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1280,81,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1281,81,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1282,81,article_distinct_third,y,article_distinct_thirdy,,,
+1283,81,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1284,81,nominal_person,y,nominal_persony,,johannessen2008;schroeter2021,['45']
+1285,81,APC_order,pre,APC_orderpre,,johannessen2008;schroeter2021,['45']
+1286,81,bound_person_order,n,bound_person_ordern,,johannessen2008;schroeter2021,['45']
+1287,81,person_allowed,all,person_allowedall,,johannessen2008;schroeter2021,['45']
+1288,81,person_third_available,y,person_third_availabley,,johannessen2008;schroeter2021,['45']
+1289,81,number_allowed,non-sg,number_allowednon-sg,,johannessen2008;schroeter2021,['45']
+1291,82,verb_object_order,VO,verb_object_orderVO,,,
+1292,82,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1293,82,adposition_order,pre,adposition_orderpre,,,
+1294,82,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1295,82,genitive_order,NGen,genitive_orderNGen,,,
+1296,82,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1297,82,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1298,82,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1299,82,article_distinct_third,y,article_distinct_thirdy,,,
+1300,82,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1301,82,nominal_person,y,nominal_persony,,johannessen2008;siggurdssonwood2020[11f.],['46']
+1302,82,APC_order,pre,APC_orderpre,,johannessen2008;siggurdssonwood2020[11f.],['46']
+1303,82,bound_person_order,n,bound_person_ordern,,johannessen2008;siggurdssonwood2020[11f.],['46']
+1304,82,person_allowed,all,person_allowedall,,johannessen2008;siggurdssonwood2020[11f.],['46']
+1305,82,person_third_available,y,person_third_availabley,,johannessen2008;siggurdssonwood2020[11f.],['46']
+1306,82,number_allowed,non-sg,number_allowednon-sg,,johannessen2008;siggurdssonwood2020[11f.],['46']
+1308,83,verb_object_order,VO,verb_object_orderVO,,,
+1309,83,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1310,83,adposition_order,pre,adposition_orderpre,,,
+1311,83,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1312,83,genitive_order,NoDom,genitive_orderNoDom,,,
+1313,83,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1314,83,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1315,83,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1316,83,article_distinct_third,y,article_distinct_thirdy,,,
+1317,83,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1318,83,nominal_person,y,nominal_persony,,"julien2005[127, 129];johannessen2008",['47']
+1319,83,APC_order,pre,APC_orderpre,,"julien2005[127, 129];johannessen2008",['47']
+1320,83,bound_person_order,n,bound_person_ordern,,"julien2005[127, 129];johannessen2008",['47']
+1321,83,person_allowed,all,person_allowedall,,"julien2005[127, 129];johannessen2008",['47']
+1322,83,person_third_available,y,person_third_availabley,,"julien2005[127, 129];johannessen2008",['47']
+1323,83,number_allowed,non-sg,number_allowednon-sg,,"julien2005[127, 129];johannessen2008",['47']
+1324,83,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1325,84,verb_object_order,VO,verb_object_orderVO,,,
+1326,84,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1327,84,adposition_order,pre,adposition_orderpre,,,
+1328,84,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1329,84,genitive_order,GenN,genitive_orderGenN,,,
+1330,84,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1331,84,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1332,84,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1333,84,article_distinct_third,y,article_distinct_thirdy,,,
+1334,84,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1335,84,nominal_person,y,nominal_persony,,julien2005[128];johannessen2008,['48']
+1336,84,APC_order,pre,APC_orderpre,,julien2005[128];johannessen2008,['48']
+1337,84,bound_person_order,n,bound_person_ordern,,julien2005[128];johannessen2008,['48']
+1338,84,person_allowed,all,person_allowedall,,julien2005[128];johannessen2008,['48']
+1339,84,person_third_available,y,person_third_availabley,,julien2005[128];johannessen2008,['48']
+1340,84,number_allowed,non-sg,number_allowednon-sg,,julien2005[128];johannessen2008,['48']
+1342,85,verb_object_order,VO,verb_object_orderVO,,,
+1343,85,adposition_order,pre,adposition_orderpre,,,
+1346,85,article_distinct_third,y,article_distinct_thirdy,,,
+1350,85,bound_person_order,n,bound_person_ordern,,julien2005[128];johannessen2008,
+1355,86,verb_object_order,OV,verb_object_orderOV,,,
+1356,86,verb_object_order_wals,No dominant order,verb_object_order_walsNo dominant order,,,
+1357,86,adposition_order,pre,adposition_orderpre,,,
+1358,86,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1359,86,genitive_order,NGen,genitive_orderNGen,,,
+1360,86,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1361,86,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1362,86,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1363,86,article_distinct_third,y,article_distinct_thirdy,,,
+1364,86,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1365,86,nominal_person,y,nominal_persony,,corver2008[52],['49']
+1366,86,APC_order,pre,APC_orderpre,,corver2008[52],['49']
+1367,86,bound_person_order,n,bound_person_ordern,,corver2008[52],['49']
+1368,86,person_allowed,no 3,person_allowedno 3,,corver2008[52],['49']
+1369,86,person_third_available,n,person_third_availablen,,corver2008[52],['49']
+1370,86,number_allowed,non-sg,number_allowednon-sg,,corver2008[52],['49']
+1371,86,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1372,87,verb_object_order,VO,verb_object_orderVO,,,
+1373,87,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1374,87,adposition_order,pre,adposition_orderpre,,,
+1375,87,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1376,87,genitive_order,NoDom,genitive_orderNoDom,,,
+1377,87,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1378,87,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1379,87,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1380,87,article_distinct_third,y,article_distinct_thirdy,,,
+1381,87,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1382,87,nominal_person,y,nominal_persony,,postal1969;delormedougherty1972;sommerstein1972;pesetsky1978;keizer2016,['148']
+1383,87,APC_order,pre,APC_orderpre,,postal1969;delormedougherty1972;sommerstein1972;pesetsky1978;keizer2016,['148']
+1384,87,bound_person_order,n,bound_person_ordern,,postal1969;delormedougherty1972;sommerstein1972;pesetsky1978;keizer2016,['148']
+1385,87,person_allowed,no 3,person_allowedno 3,,postal1969;delormedougherty1972;sommerstein1972;pesetsky1978;keizer2016,['148']
+1386,87,person_third_available,n,person_third_availablen,,postal1969;delormedougherty1972;sommerstein1972;pesetsky1978;keizer2016,['148']
+1387,87,number_allowed,non-sg,number_allowednon-sg,,postal1969;delormedougherty1972;sommerstein1972;pesetsky1978;keizer2016,['148']
+1388,87,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1389,88,verb_object_order,OV,verb_object_orderOV,,,
+1390,88,verb_object_order_wals,No dominant order,verb_object_order_walsNo dominant order,,,
+1391,88,adposition_order,pre,adposition_orderpre,,,
+1392,88,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1393,88,genitive_order,NGen,genitive_orderNGen,,,
+1394,88,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1395,88,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1396,88,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1397,88,article_distinct_third,y,article_distinct_thirdy,,,
+1398,88,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1399,88,nominal_person,y,nominal_persony,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",['50']
+1400,88,APC_order,pre,APC_orderpre,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",['50']
+1401,88,bound_person_order,n,bound_person_ordern,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",['50']
+1402,88,person_allowed,no 3,person_allowedno 3,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",['50']
+1403,88,person_third_available,n,person_third_availablen,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",['50']
+1404,88,number_allowed,all,number_allowedall,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",['50']
+1405,88,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1406,89,verb_object_order,VO,verb_object_orderVO,,,
+1407,89,adposition_order,pre,adposition_orderpre,,,
+1408,89,genitive_order,NGen,genitive_orderNGen,,,
+1409,89,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1410,89,article_distinct_third,y,article_distinct_thirdy,,,
+1411,89,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1412,89,nominal_person,y,nominal_persony,,"hoehn,silvestrisquillaci2017[274]",['52']
+1413,89,APC_order,pre,APC_orderpre,,"hoehn,silvestrisquillaci2017[274]",['52']
+1414,89,bound_person_order,n,bound_person_ordern,,"hoehn,silvestrisquillaci2017[274]",['52']
+1415,89,person_allowed,all,person_allowedall,,"hoehn,silvestrisquillaci2017[274]",['52']
+1416,89,person_third_available,y,person_third_availabley,,"hoehn,silvestrisquillaci2017[274]",['52']
+1417,89,number_allowed,all,number_allowedall,,"hoehn,silvestrisquillaci2017[274]",['52']
+1419,90,verb_object_order,VO,verb_object_orderVO,,,
+1420,90,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1421,90,adposition_order,pre,adposition_orderpre,,,
+1422,90,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1423,90,genitive_order,NGen,genitive_orderNGen,,,
+1424,90,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1425,90,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1426,90,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1427,90,article_distinct_third,y,article_distinct_thirdy,,,
+1428,90,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1429,90,nominal_person,y,nominal_persony,,choi2014[chs. 1+2];hoehn2016[sec. 5],['51']
+1430,90,APC_order,pre,APC_orderpre,,choi2014[chs. 1+2];hoehn2016[sec. 5],['51']
+1431,90,bound_person_order,n,bound_person_ordern,,choi2014[chs. 1+2];hoehn2016[sec. 5],['51']
+1432,90,person_allowed,all,person_allowedall,,choi2014[chs. 1+2];hoehn2016[sec. 5],['51']
+1433,90,person_third_available,y,person_third_availabley,,choi2014[chs. 1+2];hoehn2016[sec. 5],['51']
+1434,90,number_allowed,all,number_allowedall,,choi2014[chs. 1+2];hoehn2016[sec. 5],['51']
+1435,90,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1436,91,verb_object_order,OV,verb_object_orderOV,,,
+1437,91,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1438,91,adposition_order,post,adposition_orderpost,,,
+1439,91,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1440,91,genitive_order,GenN,genitive_orderGenN,,,
+1441,91,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1442,91,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1443,91,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1444,91,article_distinct_third,n,article_distinct_thirdn,,,
+1445,91,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1446,91,nominal_person,y,nominal_persony,,walikoul1997[200],['53']
+1447,91,APC_order,pre,APC_orderpre,,walikoul1997[200],['53']
+1448,91,bound_person_order,n,bound_person_ordern,,walikoul1997[200],['53']
+1449,91,person_allowed,all,person_allowedall,,walikoul1997[200],['53']
+1450,91,person_third_available,y,person_third_availabley,,walikoul1997[200],['53']
+1451,91,number_allowed,non-sg?,number_allowednon-sg?,,,['53']
+1452,91,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
+1453,92,verb_object_order,OV,verb_object_orderOV,,,
+1454,92,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1455,92,adposition_order,post,adposition_orderpost,,,
+1456,92,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1457,92,genitive_order,GenN,genitive_orderGenN,,,
+1458,92,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1459,92,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1460,92,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1461,92,article_distinct_third,n,article_distinct_thirdn,,,
+1462,92,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1463,92,nominal_person,y,nominal_persony,,pandharipande1997[386],['54']
+1464,92,APC_order,pre,APC_orderpre,,pandharipande1997[386],['54']
+1465,92,bound_person_order,n,bound_person_ordern,,pandharipande1997[386],['54']
+1466,92,person_allowed,all,person_allowedall,,pandharipande1997[386],['54']
+1467,92,person_third_available,y,person_third_availabley,,pandharipande1997[386],['54']
+1468,92,number_allowed,non-sg?,number_allowednon-sg?,,,['54']
+1470,93,verb_object_order,OV,verb_object_orderOV,,,
+1471,93,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1472,93,adposition_order,post,adposition_orderpost,,,
+1473,93,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1474,93,genitive_order,GenN,genitive_orderGenN,,,
+1475,93,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1476,93,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1477,93,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1478,93,article_distinct_third,n,article_distinct_thirdn,,,
+1479,93,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1480,93,nominal_person,y,nominal_persony,,bhatia1993[228],['55']
+1481,93,APC_order,pre,APC_orderpre,,bhatia1993[228],['55']
+1482,93,bound_person_order,n,bound_person_ordern,,bhatia1993[228],['55']
+1483,93,person_allowed,all,person_allowedall,,bhatia1993[228],['55']
+1484,93,person_third_available,y,person_third_availabley,,bhatia1993[228],['55']
+1485,93,number_allowed,non-sg?,number_allowednon-sg?,,,['55']
+1487,94,verb_object_order,OV,verb_object_orderOV,,,
+1488,94,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1489,94,adposition_order,pre,adposition_orderpre,,,
+1490,94,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1491,94,genitive_order,NGen,genitive_orderNGen,,,
+1492,94,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1493,94,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1494,94,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1495,94,article_distinct_third,n,article_distinct_thirdn,,,
+1496,94,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1497,94,nominal_person,y,nominal_persony,,"mahootian1997[209, 212]",['56']
+1498,94,APC_order,pre,APC_orderpre,,"mahootian1997[209, 212]",['56']
+1499,94,bound_person_order,n,bound_person_ordern,,"mahootian1997[209, 212]",['56']
+1500,94,person_allowed,all,person_allowedall,,"mahootian1997[209, 212]",['56']
+1501,94,person_third_available,y,person_third_availabley,,"mahootian1997[209, 212]",['56']
+1502,94,number_allowed,non-sg,number_allowednon-sg,,"mahootian1997[209, 212]",['56']
+1504,95,verb_object_order,VO,verb_object_orderVO,,,
+1505,95,adposition_order,pre,adposition_orderpre,,,
+1506,95,genitive_order,NGen,genitive_orderNGen,,,
+1507,95,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1508,95,article_distinct_third,y,article_distinct_thirdy,,,
+1509,95,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1510,95,nominal_person,y,nominal_persony,,"hoehn2016[546, 560]",['57']
+1511,95,APC_order,pre,APC_orderpre,,"hoehn2016[546, 560]",['57']
+1512,95,bound_person_order,n,bound_person_ordern,,"hoehn2016[546, 560]",['57']
+1517,96,verb_object_order,VO,verb_object_orderVO,,,
+1518,96,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1519,96,adposition_order,pre,adposition_orderpre,,,
+1520,96,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1521,96,genitive_order,NGen,genitive_orderNGen,,,
+1522,96,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1523,96,demonstrative_order,mixed,demonstrative_ordermixed,,,
+1524,96,demonstrative_order_wals,Mixed,demonstrative_order_walsMixed,,,
+1525,96,article_distinct_third,y,article_distinct_thirdy,,,
+1526,96,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1527,96,nominal_person,y,nominal_persony,,"mallinson1986[255, 258];cornilescunicolae2014[6, 10, 20f.]",['58']
+1528,96,APC_order,pre,APC_orderpre,,"mallinson1986[255, 258];cornilescunicolae2014[6, 10, 20f.]",['58']
+1529,96,bound_person_order,n,bound_person_ordern,,"mallinson1986[255, 258];cornilescunicolae2014[6, 10, 20f.]",['58']
+1530,96,person_allowed,all,person_allowedall,,"mallinson1986[255, 258];cornilescunicolae2014[6, 10, 20f.]",['58']
+1531,96,person_third_available,y,person_third_availabley,,"mallinson1986[255, 258];cornilescunicolae2014[6, 10, 20f.]",['58']
+1532,96,number_allowed,non-sg,number_allowednon-sg,,"mallinson1986[255, 258];cornilescunicolae2014[6, 10, 20f.]",['58']
+1534,97,verb_object_order,VO,verb_object_orderVO,,,
+1535,97,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1536,97,adposition_order,pre,adposition_orderpre,,,
+1537,97,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1538,97,genitive_order,NGen,genitive_orderNGen,,,
+1539,97,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1540,97,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1541,97,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1542,97,article_distinct_third,y,article_distinct_thirdy,,,
+1543,97,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1544,97,nominal_person,y,nominal_persony,,"hualde1992[287, 290];hoehn2016[560]",['59']
+1545,97,APC_order,pre,APC_orderpre,,"hualde1992[287, 290];hoehn2016[560]",['59']
+1546,97,bound_person_order,n,bound_person_ordern,,"hualde1992[287, 290];hoehn2016[560]",['59']
+1547,97,person_allowed,all?,person_allowedall?,,,['59']
+1548,97,person_third_available,all?,person_third_availableall?,,,['59']
+1549,97,number_allowed,non-sg,number_allowednon-sg,,"hualde1992[287, 290];hoehn2016[560]",['59']
+1551,98,verb_object_order,VO,verb_object_orderVO,,,
+1552,98,adposition_order,pre,adposition_orderpre,,,
+1553,98,genitive_order,NGen,genitive_orderNGen,,,
+1554,98,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1555,98,article_distinct_third,y,article_distinct_thirdy,,,
+1556,98,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1557,98,nominal_person,y,nominal_persony,,"alvarezetal1986[152, 301];hoehn2016[560]",['60']
+1558,98,APC_order,pre,APC_orderpre,,"alvarezetal1986[152, 301];hoehn2016[560]",['60']
+1559,98,bound_person_order,n,bound_person_ordern,,"alvarezetal1986[152, 301];hoehn2016[560]",['60']
+1560,98,person_allowed,no 3,person_allowedno 3,,"alvarezetal1986[152, 301];hoehn2016[560]",['60']
+1561,98,person_third_available,n,person_third_availablen,,"alvarezetal1986[152, 301];hoehn2016[560]",['60']
+1562,98,number_allowed,non-sg,number_allowednon-sg,,"alvarezetal1986[152, 301];hoehn2016[560]",['60']
+1564,99,verb_object_order,VO,verb_object_orderVO,,,
+1565,99,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1566,99,adposition_order,pre,adposition_orderpre,,,
+1567,99,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1568,99,genitive_order,NGen,genitive_orderNGen,,,
+1569,99,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1570,99,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1571,99,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1572,99,article_distinct_third,y,article_distinct_thirdy,,,
+1573,99,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1574,99,nominal_person,y,nominal_persony,,"hoehn2016[555, 560]",['61']
+1575,99,APC_order,pre,APC_orderpre,,"hoehn2016[555, 560]",['61']
+1576,99,bound_person_order,n,bound_person_ordern,,"hoehn2016[555, 560]",['61']
+1581,100,verb_object_order,VO,verb_object_orderVO,,,
+1582,100,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1583,100,adposition_order,pre,adposition_orderpre,,,
+1584,100,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1585,100,genitive_order,NGen,genitive_orderNGen,,,
+1586,100,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1587,100,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1588,100,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1589,100,article_distinct_third,y,article_distinct_thirdy,,,
+1590,100,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1591,100,nominal_person,y,nominal_persony,,debruyne1995[145];choi2014[210f.];hoehn2016[560],['62']
+1592,100,APC_order,pre,APC_orderpre,,debruyne1995[145];choi2014[210f.];hoehn2016[560],['62']
+1593,100,bound_person_order,n,bound_person_ordern,,debruyne1995[145];choi2014[210f.];hoehn2016[560],['62']
+1594,100,person_allowed,no 3,person_allowedno 3,,debruyne1995[145];choi2014[210f.];hoehn2016[560],['62']
+1595,100,person_third_available,n,person_third_availablen,,debruyne1995[145];choi2014[210f.];hoehn2016[560],['62']
+1596,100,number_allowed,non-sg,number_allowednon-sg,,debruyne1995[145];choi2014[210f.];hoehn2016[560],['62']
+1598,101,verb_object_order,VO,verb_object_orderVO,,,
+1599,101,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1600,101,adposition_order,pre,adposition_orderpre,,,
+1601,101,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1602,101,genitive_order,NGen,genitive_orderNGen,,,
+1603,101,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1604,101,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1605,101,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1606,101,article_distinct_third,y,article_distinct_thirdy,,,
+1607,101,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1608,101,nominal_person,y,nominal_persony,,cardinaletti1994[202f.];hoehn2016[559],['63']
+1609,101,APC_order,pre,APC_orderpre,,cardinaletti1994[202f.];hoehn2016[559],['63']
+1610,101,bound_person_order,n,bound_person_ordern,,cardinaletti1994[202f.];hoehn2016[559],['63']
+1611,101,person_allowed,no 3,person_allowedno 3,,cardinaletti1994[202f.];hoehn2016[559],['63']
+1612,101,person_third_available,n,person_third_availablen,,cardinaletti1994[202f.];hoehn2016[559],['63']
+1613,101,number_allowed,all,number_allowedall,,cardinaletti1994[202f.];hoehn2016[559],['63']
+1615,102,verb_object_order,VO,verb_object_orderVO,,,
+1616,102,adposition_order,pre,adposition_orderpre,,,
+1617,102,genitive_order,NGen,genitive_orderNGen,,,
+1618,102,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1619,102,article_distinct_third,y,article_distinct_thirdy,,,
+1620,102,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1621,102,nominal_person,y,nominal_persony,,"hoehn,silvestrisquillaci2016[142]",['64']
+1622,102,APC_order,pre,APC_orderpre,,"hoehn,silvestrisquillaci2016[142]",['64']
+1623,102,bound_person_order,n,bound_person_ordern,,"hoehn,silvestrisquillaci2016[142]",['64']
+1624,102,person_allowed,no 3,person_allowedno 3,,"hoehn,silvestrisquillaci2016[142]",['64']
+1625,102,person_third_available,n,person_third_availablen,,"hoehn,silvestrisquillaci2016[142]",['64']
+1626,102,number_allowed,all,number_allowedall,,"hoehn,silvestrisquillaci2016[142]",['64']
+1628,103,verb_object_order,VO,verb_object_orderVO,,,
+1629,103,adposition_order,pre,adposition_orderpre,,,
+1630,103,genitive_order,NGen,genitive_orderNGen,,,
+1631,103,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1632,103,article_distinct_third,y,article_distinct_thirdy,,,
+1633,103,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1634,103,nominal_person,y,nominal_persony,,"hoehn,silvestrisquillaci2016[142]",['65']
+1635,103,APC_order,pre,APC_orderpre,,"hoehn,silvestrisquillaci2016[142]",['65']
+1636,103,bound_person_order,n,bound_person_ordern,,"hoehn,silvestrisquillaci2016[142]",['65']
+1637,103,person_allowed,no 3,person_allowedno 3,,"hoehn,silvestrisquillaci2016[142]",['65']
+1638,103,person_third_available,n,person_third_availablen,,"hoehn,silvestrisquillaci2016[142]",['65']
+1639,103,number_allowed,all,number_allowedall,,"hoehn,silvestrisquillaci2016[142]",['65']
+1641,104,verb_object_order,VO,verb_object_orderVO,,,
+1642,104,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1643,104,adposition_order,pre,adposition_orderpre,,,
+1644,104,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1645,104,genitive_order,NGen,genitive_orderNGen,,,
+1646,104,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1647,104,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1648,104,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1649,104,article_distinct_third,n,article_distinct_thirdn,,,
+1650,104,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1651,104,nominal_person,y,nominal_persony,,pesetsky1978[352],['66']
+1652,104,APC_order,pre,APC_orderpre,,pesetsky1978[352],['66']
+1653,104,bound_person_order,n,bound_person_ordern,,pesetsky1978[352],['66']
+1654,104,person_allowed,no 3,person_allowedno 3,,pesetsky1978[352],['66']
+1655,104,person_third_available,n,person_third_availablen,,pesetsky1978[352],['66']
+1656,104,number_allowed,non-sg,number_allowednon-sg,,pesetsky1978[352],['66']
+1658,105,verb_object_order,VO,verb_object_orderVO,,,
+1659,105,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1660,105,adposition_order,pre,adposition_orderpre,,,
+1661,105,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1662,105,genitive_order,NoDom,genitive_orderNoDom,,,
+1663,105,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1664,105,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1665,105,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1666,105,article_distinct_third,y,article_distinct_thirdy,,,
+1667,105,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1668,105,nominal_person,y,nominal_persony,,hoehn2016[560],['67']
+1669,105,APC_order,pre,APC_orderpre,,hoehn2016[560],['67']
+1670,105,bound_person_order,n,bound_person_ordern,,hoehn2016[560],['67']
+1671,105,person_allowed,no 3,person_allowedno 3,,hoehn2016[560],['67']
+1672,105,person_third_available,n,person_third_availablen,,hoehn2016[560],['67']
+1673,105,number_allowed,non-sg,number_allowednon-sg,,hoehn2016[560],['67']
+1675,106,verb_object_order,VO,verb_object_orderVO,,,
+1676,106,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1677,106,adposition_order,pre,adposition_orderpre,,,
+1678,106,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1679,106,genitive_order,NoDom,genitive_orderNoDom,,,
+1680,106,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1681,106,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1682,106,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1683,106,article_distinct_third,"y (suffix, deictic distinctions)","article_distinct_thirdy (suffix, deictic distinctions)",,,
+1687,106,bound_person_order,n,bound_person_ordern,,"friedman2002,tomic2012",
+1692,107,verb_object_order,VO,verb_object_orderVO,,,
+1693,107,adposition_order,pre,adposition_orderpre,,,
+1694,107,genitive_order,NoDom,genitive_orderNoDom,,,
+1695,107,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1696,107,article_distinct_third,y,article_distinct_thirdy,,,
+1697,107,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1698,107,nominal_person,y,nominal_persony,,papadimitriou2008[582 (144?)],['68']
+1699,107,APC_order,pre,APC_orderpre,,papadimitriou2008[582 (144?)],['68']
+1700,107,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582 (144?)],['68']
+1704,107,PPDC,y_nn,PPDCy_nn,,papadimitriou2008[581],
+1705,108,verb_object_order,VO,verb_object_orderVO,,,
+1706,108,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1707,108,adposition_order,pre,adposition_orderpre,,,
+1708,108,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1709,108,genitive_order,NoDom,genitive_orderNoDom,,,
+1710,108,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1711,108,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1712,108,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1713,108,article_distinct_third,n,article_distinct_thirdn,,,
+1715,108,nominal_person,y,nominal_persony,,papadimitriou2008[582 (144?)],
+1716,108,APC_order,pre,APC_orderpre,,papadimitriou2008[582 (144?)],
+1717,108,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582 (144?)],
+1722,109,verb_object_order,VO,verb_object_orderVO,,,
+1723,109,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1724,109,adposition_order,pre,adposition_orderpre,,,
+1725,109,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1726,109,genitive_order,NoDom,genitive_orderNoDom,,,
+1727,109,genitive_order_wals,No dominant order,genitive_order_walsNo dominant order,,,
+1728,109,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1729,109,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1730,109,article_distinct_third,(n),article_distinct_third(n),,,
+1732,109,nominal_person,y,nominal_persony,,papadimitriou2008[582 (144?)],
+1733,109,APC_order,pre,APC_orderpre,,papadimitriou2008[582 (144?)],
+1734,109,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582 (144?)],
+1737,109,number_allowed,non-sg,number_allowednon-sg,,papadimitriou2008[582 (144?)],
+1739,110,verb_object_order,VO,verb_object_orderVO,,,
+1740,110,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1741,110,adposition_order,pre,adposition_orderpre,,,
+1742,110,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1743,110,genitive_order,NGen,genitive_orderNGen,,,
+1744,110,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1745,110,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1746,110,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1747,110,article_distinct_third,n,article_distinct_thirdn,,,
+1748,110,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1749,110,nominal_person,y,nominal_persony,,rutkowski2002[161],['69']
+1750,110,APC_order,pre,APC_orderpre,,rutkowski2002[161],['69']
+1751,110,bound_person_order,n,bound_person_ordern,,rutkowski2002[161],['69']
+1752,110,person_allowed,no 3,person_allowedno 3,,rutkowski2002[161],['69']
+1753,110,person_third_available,n,person_third_availablen,,rutkowski2002[161],['69']
+1754,110,number_allowed,non-sg,number_allowednon-sg,,rutkowski2002[161],['69']
+1756,111,verb_object_order,OV,verb_object_orderOV,,,
+1757,111,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1758,111,adposition_order,post,adposition_orderpost,,,
+1759,111,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1760,111,genitive_order,GenN,genitive_orderGenN,,,
+1761,111,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1762,111,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1763,111,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1764,111,article_distinct_third,y,article_distinct_thirdy,,,
+1765,111,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1766,111,nominal_person,y,nominal_persony,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012","['133', '134']"
+1767,111,APC_order,NA,APC_orderNA,,,"['133', '134']"
+1768,111,bound_person_order,post,bound_person_orderpost,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012","['133', '134']"
+1769,111,person_allowed,no 3,person_allowedno 3,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012","['133', '134']"
+1770,111,person_third_available,n,person_third_availablen,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012","['133', '134']"
+1771,111,number_allowed,all,number_allowedall,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012","['133', '134']"
+1772,111,PPDC,n,PPDCn,,papadimitriou2008[581],
+1773,112,verb_object_order,OV,verb_object_orderOV,,,
+1774,112,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1775,112,adposition_order,post,adposition_orderpost,,,
+1776,112,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1777,112,genitive_order,GenN,genitive_orderGenN,,,
+1778,112,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1779,112,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1780,112,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1781,112,article_distinct_third,y,article_distinct_thirdy,,,
+1782,112,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1783,112,nominal_person,y,nominal_persony,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",['70']
+1784,112,APC_order,NA,APC_orderNA,,,['70']
+1785,112,bound_person_order,post,bound_person_orderpost,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",['70']
+1786,112,person_allowed,all,person_allowedall,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",['70']
+1787,112,person_third_available,y,person_third_availabley,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",['70']
+1788,112,number_allowed,all,number_allowedall,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",['70']
+1789,112,PPDC,y,PPDCy,,haacke1977[54],
+1790,113,verb_object_order,OV,verb_object_orderOV,,,
+1791,113,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1792,113,adposition_order,post,adposition_orderpost,,,
+1793,113,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1794,113,genitive_order,GenN,genitive_orderGenN,,,
+1795,113,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1796,113,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1797,113,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1798,113,article_distinct_third,y,article_distinct_thirdy,,,
+1799,113,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1800,113,nominal_person,y,nominal_persony,,"kilianhatz2008[40-43, 79]",['71']
+1801,113,APC_order,NA,APC_orderNA,,,['71']
+1802,113,bound_person_order,post,bound_person_orderpost,,"kilianhatz2008[40-43, 79]",['71']
+1803,113,person_allowed,all,person_allowedall,,"kilianhatz2008[40-43, 79]",['71']
+1804,113,person_third_available,y,person_third_availabley,,"kilianhatz2008[40-43, 79]",['71']
+1805,113,number_allowed,all,number_allowedall,,"kilianhatz2008[40-43, 79]",['71']
+1806,113,PPDC,y,PPDCy,,"kilianhatz2008[41, (2/3)];49,(25)",['71']
+1807,114,verb_object_order,VO,verb_object_orderVO,,,
+1808,114,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1810,114,genitive_order,NGen,genitive_orderNGen,,,
+1811,114,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1813,114,article_distinct_third,n,article_distinct_thirdn,,,
+1814,114,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1815,114,nominal_person,y,nominal_persony,,heath1980[95],
+1816,114,APC_order,NA,APC_orderNA,,,
+1817,114,bound_person_order,pre,bound_person_orderpre,,heath1980[95],
+1818,114,person_allowed,no 3,person_allowedno 3,,heath1980[95],
+1819,114,person_third_available,n,person_third_availablen,,heath1980[95],
+1820,114,number_allowed,non-sg?,number_allowednon-sg?,,,
+1822,115,verb_object_order,VO,verb_object_orderVO,,,
+1823,115,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1824,115,adposition_order,pre,adposition_orderpre,,,
+1825,115,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1826,115,genitive_order,NGen,genitive_orderNGen,,,
+1827,115,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1828,115,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1829,115,article_distinct_third,n,article_distinct_thirdn,,,
+1831,115,nominal_person,y,nominal_persony,,vanderwal2022[68f.],['72']
+1832,115,APC_order,pre,APC_orderpre,,vanderwal2022[68f.],['72']
+1833,115,bound_person_order,n,bound_person_ordern,,vanderwal2022[68f.],['72']
+1836,115,number_allowed,all,number_allowedall,,vanderwal2022[68f.],['72']
+1844,116,nominal_person,y,nominal_persony,,vanderwal2022[68f.],
+1845,116,APC_order,pre,APC_orderpre,,vanderwal2022[68f.],
+1846,116,bound_person_order,n,bound_person_ordern,,vanderwal2022[68f.],
+1849,116,number_allowed,all,number_allowedall,,vanderwal2022[68f.],
+1857,117,nominal_person,y,nominal_persony,,vanderwal(2022[68)],
+1858,117,APC_order,pre,APC_orderpre,,vanderwal(2022[68)],
+1859,117,bound_person_order,n,bound_person_ordern,,vanderwal(2022[68)],
+1862,117,number_allowed,all,number_allowedall,,vanderwal(2022[68)],
+1864,118,verb_object_order,VO,verb_object_orderVO,,,
+1865,118,adposition_order,pre,adposition_orderpre,,,
+1866,118,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1867,118,genitive_order,NGen,genitive_orderNGen,,,
+1868,118,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1869,118,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1870,118,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1873,118,nominal_person,y,nominal_persony,,ashtonetal1954[102],['73']
+1874,118,APC_order,pre,APC_orderpre,,ashtonetal1954[102],['73']
+1875,118,bound_person_order,n,bound_person_ordern,,ashtonetal1954[102],['73']
+1878,118,number_allowed,all,number_allowedall,,ashtonetal1954[102],['73']
+1880,119,verb_object_order,VO,verb_object_orderVO,,,
+1881,119,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1882,119,adposition_order,pre,adposition_orderpre,,,
+1883,119,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1884,119,genitive_order,NGen,genitive_orderNGen,,,
+1885,119,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1886,119,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1887,119,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1888,119,article_distinct_third,n,article_distinct_thirdn,,,
+1889,119,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1890,119,nominal_person,y,nominal_persony,,taylor1985[131],['74']
+1891,119,APC_order,pre,APC_orderpre,,taylor1985[131],['74']
+1892,119,bound_person_order,n,bound_person_ordern,,taylor1985[131],['74']
+1893,119,person_allowed,unclear,person_allowedunclear,,taylor1985[131],['74']
+1894,119,person_third_available,unclear,person_third_availableunclear,,taylor1985[131],['74']
+1895,119,number_allowed,all,number_allowedall,,taylor1985[131],['74']
+1897,120,verb_object_order,VO,verb_object_orderVO,,,
+1898,120,adposition_order,pre,adposition_orderpre,,,
+1899,120,genitive_order,NGen,genitive_orderNGen,,,
+1900,120,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1901,120,article_distinct_third,n,article_distinct_thirdn,,,
+1902,120,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1903,120,nominal_person,y,nominal_persony,,"craneetal2011[210, 279]",['75']
+1904,120,APC_order,pre,APC_orderpre,,"craneetal2011[210, 279]",['75']
+1905,120,bound_person_order,n,bound_person_ordern,,"craneetal2011[210, 279]",['75']
+1910,121,verb_object_order,VO,verb_object_orderVO,,,
+1911,121,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1912,121,adposition_order,pre,adposition_orderpre,,,
+1913,121,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1914,121,genitive_order,NGen,genitive_orderNGen,,,
+1915,121,genitive_order_wals,Noun-Genitive,genitive_order_walsNoun-Genitive,,,
+1916,121,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1917,121,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1918,121,article_distinct_third,n,article_distinct_thirdn,,,
+1919,121,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1920,121,nominal_person,y,nominal_persony,,"craneetal2011[210, 279]",['76']
+1921,121,APC_order,pre,APC_orderpre,,"craneetal2011[210, 279]",['76']
+1922,121,bound_person_order,n,bound_person_ordern,,"craneetal2011[210, 279]",['76']
+1925,121,number_allowed,all,number_allowedall,,"craneetal2011[210, 279]",['76']
+1927,122,verb_object_order,VO,verb_object_orderVO,,,
+1928,122,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1929,122,adposition_order,pre,adposition_orderpre,,,
+1930,122,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
+1931,122,genitive_order,NGen,genitive_orderNGen,,,
+1932,122,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1933,122,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1934,122,article_distinct_third,n,article_distinct_thirdn,,,
+1935,122,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1936,122,nominal_person,y,nominal_persony,,schaub1985[197f.],['77']
+1937,122,APC_order,pre,APC_orderpre,,schaub1985[197f.],['77']
+1938,122,bound_person_order,n,bound_person_ordern,,schaub1985[197f.],['77']
+1939,122,person_allowed,all,person_allowedall,,schaub1985[197f.],['77']
+1940,122,person_third_available,y,person_third_availabley,,schaub1985[197f.],['77']
+1941,122,number_allowed,all,number_allowedall,,schaub1985[197f.],['77']
+1943,123,verb_object_order,VO,verb_object_orderVO,,,
+1944,123,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+1945,123,adposition_order,NoDom,adposition_orderNoDom,,,
+1946,123,adposition_order_wals,No dominant order,adposition_order_walsNo dominant order,,,
+1947,123,genitive_order,GenN,genitive_orderGenN,,,
+1948,123,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1949,123,demonstrative_order,NDem,demonstrative_orderNDem,,,
+1950,123,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
+1951,123,article_distinct_third,y,article_distinct_thirdy,,,
+1952,123,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+1953,123,nominal_person,y,nominal_persony,,"rennison1997[242, 250f.]",['78']
+1954,123,APC_order,pre,APC_orderpre,,"rennison1997[242, 250f.]",['78']
+1955,123,bound_person_order,n,bound_person_ordern,,"rennison1997[242, 250f.]",['78']
+1956,123,person_allowed,all,person_allowedall,,"rennison1997[242, 250f.]",['78']
+1957,123,person_third_available,y,person_third_availabley,,"rennison1997[242, 250f.]",['78']
+1958,123,number_allowed,all,number_allowedall,,"rennison1997[242, 250f.]",['78']
+1959,123,PPDC,y,PPDCy,,johnrennison(pc),
+1960,124,verb_object_order,OV,verb_object_orderOV,,,
+1961,124,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1962,124,adposition_order,post,adposition_orderpost,,,
+1963,124,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1964,124,genitive_order,GenN,genitive_orderGenN,,,
+1965,124,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1966,124,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1967,124,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1968,124,article_distinct_third,y,article_distinct_thirdy,,,
+1969,124,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1970,124,nominal_person,y,nominal_persony,,carlson1994[207f.],['79']
+1971,124,APC_order,pre,APC_orderpre,,carlson1994[207f.],['79']
+1972,124,bound_person_order,n,bound_person_ordern,,carlson1994[207f.],['79']
+1973,124,person_allowed,all,person_allowedall,,carlson1994[207f.],['79']
+1974,124,person_third_available,y,person_third_availabley,,carlson1994[207f.],['79']
+1975,124,number_allowed,no-sg?,number_allowedno-sg?,,,['79']
+1976,124,PPDC,n,PPDCn,,johnrennison(pc),
+1977,125,verb_object_order,OV,verb_object_orderOV,,,
+1978,125,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1979,125,adposition_order,post,adposition_orderpost,,,
+1980,125,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1981,125,genitive_order,GenN,genitive_orderGenN,,,
+1982,125,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+1983,125,demonstrative_order,DemN,demonstrative_orderDemN,,,
+1984,125,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+1985,125,article_distinct_third,n,article_distinct_thirdn,,,
+1986,125,demonstrative_as_third,y,demonstrative_as_thirdy,,,
+1987,125,nominal_person,y,nominal_persony,,haspelmath1993[259],['131']
+1988,125,APC_order,pre,APC_orderpre,,haspelmath1993[259],['131']
+1989,125,bound_person_order,n,bound_person_ordern,,haspelmath1993[259],['131']
+1990,125,person_allowed,all?,person_allowedall?,,,['131']
+1991,125,person_third_available,y,person_third_availabley,,haspelmath1993[259],['131']
+1992,125,number_allowed,unclear,number_allowedunclear,,haspelmath1993[259],['131']
+1993,125,PPDC,n,PPDCn,,johnrennison(pc),
+1994,126,verb_object_order,OV,verb_object_orderOV,,,
+1995,126,verb_object_order_wals,OV,verb_object_order_walsOV,,,
+1996,126,adposition_order,post,adposition_orderpost,,,
+1997,126,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+1998,126,genitive_order,GenN,genitive_orderGenN,,,
+1999,126,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+2000,126,demonstrative_order,DemN,demonstrative_orderDemN,,,
+2001,126,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+2002,126,article_distinct_third,y,article_distinct_thirdy,,,
+2003,126,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+2004,126,nominal_person,y,nominal_persony,,"hewitt1989[157, 159]",['132']
+2005,126,APC_order,pre,APC_orderpre,,"hewitt1989[157, 159]",['132']
+2006,126,bound_person_order,n,bound_person_ordern,,"hewitt1989[157, 159]",['132']
+2007,126,person_allowed,all,person_allowedall,,"hewitt1989[157, 159]",['132']
+2008,126,person_third_available,y,person_third_availabley,,"hewitt1989[157, 159]",['132']
+2009,126,number_allowed,all,number_allowedall,,"hewitt1989[157, 159]",['132']
+2011,127,verb_object_order,VO,verb_object_orderVO,,,
+2012,127,adposition_order,pre,adposition_orderpre,,,
+2013,127,genitive_order,NGen,genitive_orderNGen,,,
+2014,127,demonstrative_order,DemN,demonstrative_orderDemN,,,
+2024,128,verb_object_order,OV,verb_object_orderOV,,,
+2025,128,adposition_order,post,adposition_orderpost,,,
+2026,128,genitive_order,GenN,genitive_orderGenN,,,
+2027,128,demonstrative_order,DemN,demonstrative_orderDemN,,,
+2028,128,article_distinct_third,n,article_distinct_thirdn,,,
+2029,128,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+2030,128,nominal_person,y,nominal_persony,,"honkasalo2019[388, 400, 438, 480, 507, 646]",['119']
+2031,128,APC_order,post,APC_orderpost,,"honkasalo2019[388, 400, 438, 480, 507, 646]",['119']
+2032,128,bound_person_order,n,bound_person_ordern,,"honkasalo2019[388, 400, 438, 480, 507, 646]",['119']
+2033,128,person_allowed,all,person_allowedall,,"honkasalo2019[388, 400, 438, 480, 507, 646]",['119']
+2034,128,person_third_available,y,person_third_availabley,,"honkasalo2019[388, 400, 438, 480, 507, 646]",['119']
+2035,128,number_allowed,unclear (+pl),number_allowedunclear (+pl),,"honkasalo2019[388, 400, 438, 480, 507, 646]",['119']
+2036,128,PPDC,y,PPDCy,,"honkasalo2019[301f.,400]",
+2037,129,verb_object_order,VO,verb_object_orderVO,,,
+2038,129,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+2039,129,adposition_order,NoDom,adposition_orderNoDom,,,
+2040,129,adposition_order_wals,No dominant order,adposition_order_walsNo dominant order,,,
+2041,129,genitive_order,GenN,genitive_orderGenN,,,
+2042,129,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+2043,129,demonstrative_order,DemN,demonstrative_orderDemN,,,
+2044,129,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+2045,129,article_distinct_third,n,article_distinct_thirdn,,,
+2046,129,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+2047,129,nominal_person,y,nominal_persony,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",['120']
+2048,129,APC_order,pre,APC_orderpre,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",['120']
+2049,129,bound_person_order,n,bound_person_ordern,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",['120']
+2050,129,person_allowed,all,person_allowedall,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",['120']
+2051,129,person_third_available,y,person_third_availabley,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",['120']
+2052,129,number_allowed,non-sg,number_allowednon-sg,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",['120']
+2053,129,PPDC,y,PPDCy,,"huangetal2009[298f., Mengying Xia (p.c.)]",
+2054,130,verb_object_order,VO,verb_object_orderVO,,,
+2055,130,adposition_order,pre,adposition_orderpre,,,
+2056,130,genitive_order,GenN,genitive_orderGenN,,,
+2057,130,demonstrative_order,NDem,demonstrative_orderNDem,,,
+2058,130,article_distinct_third,n,article_distinct_thirdn,,,
+2059,130,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+2060,130,nominal_person,y,nominal_persony,,fan2019[137],['146']
+2061,130,APC_order,pre,APC_orderpre,,fan2019[137],['146']
+2062,130,bound_person_order,n,bound_person_ordern,,fan2019[137],['146']
+2064,130,person_third_available,?,person_third_available?,,,['146']
+2067,131,verb_object_order,VO,verb_object_orderVO,,,
+2068,131,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+2069,131,adposition_order,post,adposition_orderpost,,,
+2070,131,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+2071,131,genitive_order,GenN,genitive_orderGenN,,,
+2072,131,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+2073,131,demonstrative_order,DemN,demonstrative_orderDemN,,,
+2074,131,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+2075,131,article_distinct_third,y,article_distinct_thirdy,,,
+2076,131,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+2077,131,nominal_person,y,nominal_persony,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",['121']
+2078,131,APC_order,pre,APC_orderpre,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",['121']
+2079,131,bound_person_order,n,bound_person_ordern,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",['121']
+2080,131,person_allowed,no 3,person_allowedno 3,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",['121']
+2081,131,person_third_available,n,person_third_availablen,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",['121']
+2082,131,number_allowed,non-sg,number_allowednon-sg,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",['121']
+2084,132,verb_object_order,VO,verb_object_orderVO,,,
+2085,132,verb_object_order_wals,VO,verb_object_order_walsVO,,,
+2086,132,adposition_order,post,adposition_orderpost,,,
+2087,132,adposition_order_wals,Postpositions,adposition_order_walsPostpositions,,,
+2088,132,genitive_order,GenN,genitive_orderGenN,,,
+2089,132,genitive_order_wals,Genitive-Noun,genitive_order_walsGenitive-Noun,,,
+2090,132,demonstrative_order,DemN,demonstrative_orderDemN,,,
+2091,132,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
+2092,132,article_distinct_third,n,article_distinct_thirdn,,,
+2093,132,demonstrative_as_third,n,demonstrative_as_thirdn,,,
+2094,132,nominal_person,y,nominal_persony,,sulkalakarjalainen1992[277],['122']
+2095,132,APC_order,pre,APC_orderpre,,sulkalakarjalainen1992[277],['122']
+2096,132,bound_person_order,n,bound_person_ordern,,sulkalakarjalainen1992[277],['122']
+2097,132,person_allowed,all,person_allowedall,,sulkalakarjalainen1992[277],['122']
+2098,132,person_third_available,y,person_third_availabley,,sulkalakarjalainen1992[277],['122']
+2099,132,number_allowed,non-sg,number_allowednon-sg,,sulkalakarjalainen1992[277],['122']
+2101,133,verb_object_order,NC,verb_object_orderNC,,,
+2102,133,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
+2103,133,genitive_order,unclear,genitive_orderunclear,,,
+2104,133,demonstrative_order,mixed,demonstrative_ordermixed,,,
+2105,133,article_distinct_third,n,article_distinct_thirdn,,,
+2107,133,nominal_person,y,nominal_persony,,andrews1975[192-194];andrews2003[ch. 17.3],"['135', '136', '137']"
+2108,133,APC_order,NA,APC_orderNA,,,"['135', '136', '137']"
+2109,133,bound_person_order,pre,bound_person_orderpre,,andrews1975[192-194];andrews2003[ch. 17.3],"['135', '136', '137']"
+2110,133,person_allowed,all,person_allowedall,,andrews1975[192-194];andrews2003[ch. 17.3],"['135', '136', '137']"
+2111,133,person_third_available,y,person_third_availabley,,andrews1975[192-194];andrews2003[ch. 17.3],"['135', '136', '137']"
+2112,133,number_allowed,all,number_allowedall,,andrews1975[192-194];andrews2003[ch. 17.3],"['135', '136', '137']"

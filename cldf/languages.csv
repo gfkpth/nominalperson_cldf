@@ -6,10 +6,14 @@ nucl1301,Turkish,Eurasia,39.8667,32.8667,nucl1301,,tur,tur
 mang1381,Mangarrayi,Australia,-14.8,133.5,mang1381,,myi,mpc
 dier1241,Diyari,Australia,-28.1667,138,dier1241,,diy,dif
 warl1254,Warlpiri,Australia,-20.1008,131.05,warl1254,,wrl,wbp
+yidi1250,Yidiny,,-17.1332,145.876,yidi1250,,yid,yii
+bili1250,Bilinarra,Australia,-16.868771,130.533991,bili1250,,bnr,nbj
 pitj1243,Pitjantjatjara,Australia,-26.9704,131.357,pitj1243,,pit,pjt
 gugu1255,Guugu Yimidhirr,Australia,-14.9424,144.831,gugu1255,,guu,kky
 kuku1273,Kuku-Yalanji,Australia,-16.0036,145.188,kuku1273,,kya,gvn
 kaya1319,Kayardild,Australia,-17.0695,139.489,kaya1319,,kay,gyd
+kara1499,Kalamang,,-17.0695,,kara1499,,#N/A,kgv
+siri1273,Siroi,,-17.0695,,siri1273,,ssd,ssd
 meny1245,Menya,Papunesia,-7.17425,146.071,meny1245,,mey,mcr
 fass1245,Momu,Papunesia,-3.10868,141.64,fass1245,,fqs,fqs
 imon1245,Imonda,Papunesia,-3.31228,141.171,imon1245,,imo,imn
@@ -20,6 +24,7 @@ mani1235,Sougb,Papunesia,-1.49611,133.95,mani1235,,sgb,mnx
 hata1243,Hatam,Papunesia,-1.13531,134.037,hata1243,,hat,had
 maib1239,Maybrat,Papunesia,-1.3679,132.591,maib1239,,may,ayz
 urim1252,Urim,Papunesia,-3.58018,142.653,urim1252,,uri,uri
+yima1243,Yimas,,-4.71731,143.572,yima1243,,yim,yee
 savo1255,Savosavo,Papunesia,-9.12853,159.814,savo1255,,svs,svs
 mana1298,Manambu,Papunesia,-4.19082,142.862,mana1298,,mbu,mle
 awtu1239,Awtuw,Papunesia,-3.53129,141.928,awtu1239,,awt,kmn
@@ -36,6 +41,8 @@ kama1365,Kamang,Papunesia,-8.26897,124.792,kama1365,,woi,woi
 sawi1256,Sawila,Papunesia,-8.29105,125.078,sawi1256,,#N/A,swt
 wers1238,Wersing,Papunesia,-8.33936,124.932,wers1238,,kln,kvw
 lamm1241,Western Pantar,Papunesia,-8.52787,124.057,lamm1241,,#N/A,lev
+teiw1235,Teiwa,Papunesia,-8.37662,124.174,teiw1235,,#N/A,twe
+wara1294,Komnzo,Papunesia,-8.64917,141.52,wara1294,,#N/A,tci
 haus1257,Hausa,Africa,11.1513,8.7804,haus1257,,hau,hau
 mwag1236,Mupun,Africa,9.47205,8.96522,mwag1236,,mup,sur
 goro1270,Gorwaa,Africa,-4.23575,35.7996,goro1270,,gor,gow
@@ -45,9 +52,12 @@ gulf1241,Gulf Arabic,Eurasia,30.17,47.5,gulf1241,,arg,afb
 malt1254,Maltese,Eurasia,35.8884,14.4508,malt1254,,mlt,mlt
 mikm1235,Mi’kmaq,North America,45.9941,-65.5766,mikm1235,,mic,mic
 nucl1297,Katu,Eurasia,15.8553,107.644,nucl1297,,ktu,ktv;kuf
+ulit1238,Ulithian,,15.8553,,ulit1238,,uli,uli
 mala1537,Malagasy,Africa,-19.59,47.12,mala1537,,mal,mlg
-stin1234,Indonesian,Papunesia,,,stin1234,,ind,ind
+stin1234,Indonesian,Papunesia,-19.59,,stin1234,,ind,ind
 papu1250,Papuan Malay,Papunesia,-2.53482,139.651,papu1250,,iir,pmy
+nucl1460,Madurese,Papunesia,-7,113,nucl1460,,mdr,mad
+fiji1243,Standard Fijian,Papunesia,-18,178.33,fiji1243,,fij,fij
 loni1238,Loniu,Papunesia,-2.06124,147.35,loni1238,,lon,los
 wame1241,Windesi Wamesa (Wandamen),Papunesia,-2.25622,133.996,wame1241,,#N/A,wad
 maor1246,Maori,Papunesia,-38.2881,176.541,maor1246,,mao,mri
@@ -57,6 +67,8 @@ arop1243,Arop-Lokep,Papunesia,-5.31671,147.103,arop1243,,alk,apr
 chek1238,Cheke Holo,Papunesia,-8.27055,159.625,chek1238,,ckh,mrn
 hoav1238,Hoava,Papunesia,-8.19679,157.595,hoav1238,,hoa,hoa
 koko1269,Kokota,Papunesia,-8.16481,159.191,koko1269,,kkt,kkk
+rapa1244,Rapanui,Papunesia,-27.113,-109.342,rapa1244,,rap,rap
+pile1238,Vaeakau-Taumako,Papunesia,-10.173335,166.247188,pile1238,,pil,piv
 hixk1239,Hixkaryana,South America,-0.16265,-58.80153,hixk1239,,hix,hix
 wari1268,Wari',South America,-10.69948,-64.56152,wari1268,,war,pav
 chit1248,Chitimacha,North America,30.3386,-90.9123,chit1248,,ctm,ctm
@@ -72,6 +84,7 @@ dani1285,Danish,Eurasia,54.8655,9.36284,dani1285,,dsh,dan
 icel1247,Icelandic,Eurasia,63.4837,-19.0212,icel1247,,ice,isl
 norw1258,Norwegian,Eurasia,61,8,norw1258,,nor,nno;nob;nor
 swed1254,Swedish,Eurasia,59.800634,17.389526,swed1254,,swe,swe
+afri1274,Afrikaans,Africa,-22,30,afri1274,,afr,afr
 dutc1256,Dutch,Eurasia,52,5,dutc1256,,dut,nld
 stan1293,English,Eurasia,53,-1,stan1293,,eng,eng
 stan1295,German,Eurasia,52,10,stan1295,,ger,deu
@@ -92,12 +105,18 @@ nort2612,Northern Calabrian,Eurasia,39.45,15.55,nort2612,,#N/A,nap
 sout2616,Southern Calabrian,Eurasia,37.56,15.55,sout2616,,#N/A,scn
 russ1263,Russian,Eurasia,59,50,russ1263,,rus,rus
 bulg1262,Bulgarian,Eurasia,43.3646,25.047,bulg1262,,bul,bul
+mace1250,Macedonian,Eurasia,41.5957,21.7932,mace1250,,mcd,mkd
 poma1238,Pomak,Eurasia,41.8,25.43,poma1238,,#N/A,
+sout1528,Serbocroatian,Eurasia,42,19,sout1528,,scr,hbs
+slov1268,Slovenian,Eurasia,46.2543,14.7766,slov1268,,slo,slv
 poli1260,Polish,Eurasia,51.8439,18.6255,poli1260,,pol,pol
 basq1248,Basque,Eurasia,43.2787,-1.31622,basq1248,,bsq,eus
 nama1264,Khoekhoe (Nama),Africa,-25.0747,17.9767,nama1264,,kho,naq
 kxoe1243,Khwe/Kxoe,Africa,-16.59051,22.599835,kxoe1243,,kxo,xuu
+wand1263,Warndarang,Australia,-14.2996,135.705,wand1263,,wrn,wnd
 kiny1244,Kinyarwanda,Africa,-1.56771,29.6441,kiny1244,,kin,kin
+rund1242,Kirundi,Africa,-2.94,29.97,rund1242,,rnd,run
+buku1249,Lubukusu,Africa,0.68043,34.7719,buku1249,,buk,bxk
 gand1255,Luganda,Africa,0.66884,32.15153,gand1255,,lda,lug
 nkor1241,Nkore-Kiga,Africa,-1.04,29.91,nkor1241,,nko,cgg;nyn
 nzad1234,Nzadi,Africa,-4.102208,20.194462,nzad1234,,#N/A,nzd
@@ -107,6 +126,7 @@ koro1298,Koromfe,Africa,14.046,-1.96187,koro1298,,kfe,kfz
 supy1237,Supyire,Africa,11.632,-5.87709,supy1237,,sup,spp
 lezg1247,Lezgian,Eurasia,41.5157,47.8951,lezg1247,,lez,lez
 abkh1244,Abkhaz,Eurasia,43.056218,41.159115,abkh1244,,abk,abk
+chil1281,Chilliwack Halkomelem,North America,49.1169072,-122.7078057,chil1281,,#N/A,hur
 gesh1238,East Geshiza,Eurasia,31.1026,101.72,gesh1238,,#N/A,ero
 mand1415,Mandarin,Eurasia,40.0209,116.228,mand1415,,mnd,cmn
 lakk1238,Lakkia,Eurasia,24.1169,110.106,lakk1238,,lkk,lbc
