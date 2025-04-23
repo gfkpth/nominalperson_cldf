@@ -108,3 +108,6 @@ ENV/
 
 # prevent (re)uploading WALS to github
 */wals/
+
+# personal notes
+todo-file
