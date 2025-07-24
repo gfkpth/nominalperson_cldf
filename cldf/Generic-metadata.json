@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/gfkpth/nominalperson_cldf",
             "rdf:type": "prov:Entity",
-            "dc:created": "b0f2ea8",
+            "dc:created": "4128de8",
             "dc:title": "Repository"
         },
         {
@@ -27,7 +27,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.12.0"
+            "dc:description": "3.13.5"
         },
         {
             "dc:title": "python-packages",

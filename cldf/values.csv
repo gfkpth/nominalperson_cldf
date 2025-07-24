@@ -153,7 +153,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 174,10,APC_order,both,APC_orderboth,,"haviland1979[104, 156f.]",17;18
 175,10,bound_person_order,n,bound_person_ordern,,"haviland1979[104, 156f.]",17;18
 177,10,person_third_available,y,person_third_availabley,,"haviland1979[104, 156f.]",17;18
-178,10,number_allowed,unclear (+pl),number_allowedunclear(+pl),,"haviland1979[104, 156f.]",17;18
+178,10,number_allowed,unclear (+pl),number_allowedunclearpl,,"haviland1979[104, 156f.]",17;18
 179,10,PPDC,y,PPDCy,,"haviland1979[73, (107)];157,(423);160",
 180,11,verb_object_order,OV,verb_object_orderOV,,,
 181,11,verb_object_order_wals,OV,verb_object_order_walsOV,,,
@@ -265,7 +265,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 318,19,bound_person_order,n,bound_person_ordern,,terrill2003[171-173],87
 319,19,person_allowed,all,person_allowedall,,terrill2003[171-173],87
 320,19,person_third_available,y,person_third_availabley,,terrill2003[171-173],87
-321,19,number_allowed,unclear (+pl),number_allowedunclear(+pl),,terrill2003[171-173],87
+321,19,number_allowed,unclear (+pl),number_allowedunclearpl,,terrill2003[171-173],87
 322,19,PPDC,y_nn,PPDCy_nn,,"terrill2003[181, (220-1)]",
 323,20,verb_object_order,VO,verb_object_orderVO,,,
 324,20,adposition_order,pre,adposition_orderpre,,,
@@ -277,7 +277,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 331,20,bound_person_order,pre,bound_person_orderpre,,"gravelle2010[91, 222-224, 344]",88;89;90
 332,20,person_allowed,all,person_allowedall,,"gravelle2010[91, 222-224, 344]",88;89;90
 333,20,person_third_available,y,person_third_availabley,,"gravelle2010[91, 222-224, 344]",88;89;90
-334,20,number_allowed,unclear (+pl),number_allowedunclear(+pl),,"gravelle2010[91, 222-224, 344]",88;89;90
+334,20,number_allowed,unclear (+pl),number_allowedunclearpl,,"gravelle2010[91, 222-224, 344]",88;89;90
 335,20,PPDC,y,PPDCy,,"gravelle2010[187, 224]",
 336,21,verb_object_order,VO,verb_object_orderVO,,,
 337,21,verb_object_order_wals,VO,verb_object_order_walsVO,,,
@@ -293,7 +293,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 348,21,bound_person_order,n,bound_person_ordern,,"reesink2002[269f., 274]",91
 349,21,person_allowed,all,person_allowedall,,"reesink2002[269f., 274]",91
 350,21,person_third_available,y,person_third_availabley,,"reesink2002[269f., 274]",91
-351,21,number_allowed,unclear (+pl),number_allowedunclear(+pl),,"reesink2002[269f., 274]",91
+351,21,number_allowed,unclear (+pl),number_allowedunclearpl,,"reesink2002[269f., 274]",91
 352,21,PPDC,y,PPDCy,,"reesink2002[271, (13)]",
 353,22,verb_object_order,VO,verb_object_orderVO,,,
 354,22,verb_object_order_wals,VO,verb_object_order_walsVO,,,
@@ -402,7 +402,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 476,29,bound_person_order,post,bound_person_orderpost,,"bruce1984[90-92, 96f.]",101;102;103
 477,29,person_allowed,all,person_allowedall,,"bruce1984[90-92, 96f.]",101;102;103
 478,29,person_third_available,y,person_third_availabley,,"bruce1984[90-92, 96f.]",101;102;103
-479,29,number_allowed,unclear (+pl),number_allowedunclear(+pl),,"bruce1984[90-92, 96f.]",101;102;103
+479,29,number_allowed,unclear (+pl),number_allowedunclearpl,,"bruce1984[90-92, 96f.]",101;102;103
 480,29,PPDC,y,PPDCy,,bruce1984[90],
 481,30,verb_object_order,OV,verb_object_orderOV,,,
 482,30,verb_object_order_wals,OV,verb_object_order_walsOV,,,
@@ -747,7 +747,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 874,55,nominal_person,y,nominal_persony,,sneddon1996[170];(ewing2005),25
 875,55,APC_order,pre,APC_orderpre,,sneddon1996[170];(ewing2005),25
 876,55,bound_person_order,n,bound_person_ordern,,sneddon1996[170];(ewing2005),25
-879,55,number_allowed,unclear (+pl),number_allowedunclear(+pl),,sneddon1996[170];(ewing2005),25
+879,55,number_allowed,unclear (+pl),number_allowedunclearpl,,sneddon1996[170];(ewing2005),25
 880,55,PPDC,y_nn,PPDCy_nn,,sneddon1996[169],
 881,56,verb_object_order,VO,verb_object_orderVO,,,
 882,56,adposition_order,pre,adposition_orderpre,,,
@@ -1729,7 +1729,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 2032,128,bound_person_order,n,bound_person_ordern,,"honkasalo2019[388, 400, 438, 480, 507, 646]",119
 2033,128,person_allowed,all,person_allowedall,,"honkasalo2019[388, 400, 438, 480, 507, 646]",119
 2034,128,person_third_available,y,person_third_availabley,,"honkasalo2019[388, 400, 438, 480, 507, 646]",119
-2035,128,number_allowed,unclear (+pl),number_allowedunclear(+pl),,"honkasalo2019[388, 400, 438, 480, 507, 646]",119
+2035,128,number_allowed,unclear (+pl),number_allowedunclearpl,,"honkasalo2019[388, 400, 438, 480, 507, 646]",119
 2036,128,PPDC,y,PPDCy,,"honkasalo2019[301f.,400]",
 2037,129,verb_object_order,VO,verb_object_orderVO,,,
 2038,129,verb_object_order_wals,VO,verb_object_order_walsVO,,,

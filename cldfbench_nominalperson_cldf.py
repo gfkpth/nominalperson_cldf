@@ -30,6 +30,13 @@ class Dataset(BaseDataset):
         rec.download_dataset(wals_dir)
 
     def cmd_makecldf(self, args):
+        # simplification of complex parameter values for creation of Code_IDs
+        # applies only to number-related parameters, which currently contain brackets and the special signs + and ?
+        # is used below in the generation of the CodeTable and the values_dict
+        # this might be addressed by a revision of the annotation scheme later, but for now this should do
+        simplify_value = str.maketrans('','',' (+)?')
+        
+        
         # Extend the schema:
         args.writer.cldf.add_component(
             'LanguageTable',
@@ -102,13 +109,13 @@ class Dataset(BaseDataset):
             ))
             for code in param_dict[param]['values'].keys():  
                 args.writer.objects['CodeTable'].append(dict(
-                    ID=param + code.replace(' ',''),
+                    ID=param + code.translate(simplify_value),              # remove spaces, brackets and special signs for making the code_id
                     Parameter_ID=param,
                     Name=code,
                     Description=param_dict[param]['values'][code]
                 ))
 
-        # load data from grammarchecks
+        # load main data from grammarchecks
         print('Loading data from grammarchecks.csv and writing LanguageTable')
         lids = {}           # working dictionary for looking up language ids given a glottocode
         values_dict = {}    # working dictionary for values table
@@ -164,7 +171,7 @@ class Dataset(BaseDataset):
                             values_dict[val_id]={'Language_ID': lang_id,  #row['glottocode'],
                                                  'Parameter_ID': param,
                                                  'Value': val,
-                                                 'Code_ID': param + val.replace(' ','')
+                                                 'Code_ID': param + val.translate(simplify_value)              # remove spaces, brackets and special signs for making the code id
                                                  }
                         else:
                             continue                                                    # if there's no WALS data available, consider next parameter
@@ -178,7 +185,7 @@ class Dataset(BaseDataset):
                             values_dict[val_id]={'Language_ID': lang_id,    #row['glottocode'],
                                                 'Parameter_ID': param,
                                                 'Value': val,
-                                                'Code_ID': param + val.replace(' ',''),
+                                                'Code_ID': param + val.translate(simplify_value),             # remove spaces, brackets and special signs for making the code id
                                                 'Source': ppdc_sources
                             }
                         # otherwise provide general nominal person sources
@@ -187,7 +194,7 @@ class Dataset(BaseDataset):
                             values_dict[val_id]={'Language_ID': lang_id,    #row['glottocode'],
                                                     'Parameter_ID': param,
                                                     'Value': val,
-                                                    'Code_ID': param + val.replace(' ',''),
+                                                    'Code_ID': param + val.translate(simplify_value),              # remove spaces, brackets and special signs for making the code id
                                                     'Source': nompers_sources
                                                 }
                     # for all other, non-person-related parameters only add value lines if there is a value:  
@@ -198,7 +205,7 @@ class Dataset(BaseDataset):
                         values_dict[val_id]={'Language_ID': lang_id,    #row['glottocode'],
                                                 'Parameter_ID': param,
                                                 'Value': val,
-                                                'Code_ID': param + val.replace(' ','')
+                                                'Code_ID': param + val.translate(simplify_value)              # remove spaces, brackets and special signs for making the code id
                                             }
                         
                 val_id+=1   # increase val_id counter after successful entry
@@ -321,7 +328,7 @@ class Dataset(BaseDataset):
         
         returns:
         - sourcelist: list of entries in normalised format (e.g. ["hallemarantz1993[244]";"siddiqi2011";"schoenlein2026"])
-        - qbased: the index of any source that is based on 
+        - qbased: the index of grammar sources that are based on the Comrie & Smith (1977) questionnaire  
         
         '''
         # define list of correspondences for potential special characters in the input

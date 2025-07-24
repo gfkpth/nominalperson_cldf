@@ -56,7 +56,7 @@ person_third_availableunclear,person_third_available,unclear,no clear informatio
 number_allowedall,number_allowed,all,no reported number restrictions on adnominal person marking
 number_allowednon-sg,number_allowed,non-sg,only non-singular pronouns in adnominal person marking
 number_allowednonum,number_allowed,nonum,no grammatical number marking on pronouns
-number_allowedunclear(+pl),number_allowed,unclear (+pl),"plural is attested, other numbers unclear but feasible"
+number_allowedunclearpl,number_allowed,unclear (+pl),"plural is attested, other numbers unclear but feasible"
 number_allowedunclear,number_allowed,unclear,no clear information available
 PPDCy,PPDC,y,PPDC is attested
 PPDCy_nn,PPDC,y_nn,"attested PPDCs include only demonstrative and PersN-marking, but no lexical material"
