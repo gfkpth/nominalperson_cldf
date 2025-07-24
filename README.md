@@ -8,12 +8,10 @@ A previous implementation of the data as a relational (SQL) database can be foun
 
 # (Ad-)nominal person
 
- One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
+One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
 More detailed information on relevant phenomena and the range of cross-linguistic variation can be found in [Höhn (2020)](https://doi.org/10.5334/gjgl.1121) and [Höhn (2024)](https://doi.org/10.1515/lingty-2023-0080) as well as [my dissertation](https://ling.auf.net/lingbuzz/003618). If you use this data, I'd appreciate it if you'd let me know. If you are a linguist interested in (ad)nominal person and struggle with using this database, feel free to get in touch.
 
-
 Note that this is currently work in progress. 
- involve the database in [CLDF](https://github.com/cldf/cldf/), a format designed for linguistic applications which will be compatible with generation of an sqlite database as well. I will publish a new repository for that once there is a usable version.
 
 ## Notes on the setup of a new CLDF
 
@@ -23,15 +21,17 @@ In this section, I aim to document the concrete steps needed for my slightly mor
 
 ### Preliminaries
 
-0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). 
+0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). [`pycldf`](https://github.com/cldf/pycldf) is going to be useful as well.
 
 Using a virtual environment is recommended, I am using conda to create one inside the folder I want to use for the cldf.
 
 ```shell
 conda create -p .venv python==3.12
 conda activate .venv
-pip install cldfbench
+pip install cldfbench pycldf
 ```
+
+ c
 
 1. Create a new cldf structure. For consistency, make sure to provide as ID the name of the folder that you want to use.
 
@@ -67,18 +67,20 @@ glottolog = /path/of/your/local/glottolog/repository
 
 As described in the available tutorials, `cldfbench new` creates a general template on which to build. The crucial code for converting my csv-data into CLDF needs to go to `cldfbench-[projectname].py`. 
 
+The following code generates the CLDF-conformant dataset in the `cldf/` folder:
+
+```shell
+cldfbench makecldf cldfbench_nominalperson_cldf.py
+```
+
+The following code validates the generated dataset and displays errors or warnings encountered during validation:
+
+```shell
+cldf validate cldf/
+```
 
 
 # To Do/Questions:
-
-
-## Documentation
-
-- write-up for usage, especially regarding parameter-codes.json
-- details for tutorial-like guide
-  - What are possible values for `args.writer.objects['ValueTable']`?
-  - How does the following part skipped over in the tutorial work when needed?
-    - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
 
 
 ## Implementation
@@ -86,6 +88,15 @@ As described in the available tutorials, `cldfbench new` creates a general templ
 - Associating examples to values in case there is more than one relevant example
   - For regular normalisation in standard relational tables I'd expect to set up a separate table linking example ids to value ids, but given the handling of sources, CLDF doesn't seem to strictly require transforming data into first normal form to avoid multiple values, is that right?
   - So would it be better to just have a list (semicolon separated?)
-- How to deal with complex words in examples, i.e. analyzed_words has two elements separated by space that are glossed as one element in original source. In LaTeX I encompass both elements in {} and have kept this for the examplestable for now, but it fails at validation. (Applies to examples 72 and 146)
+- How to deal with complex words in examples, i.e. analyzed_words has two elements separated by space that are glossed as one element in original source. In LaTeX I encompass both elements in {} and have kept this for the examples.csv for now, but it fails at validation. (Applies to rows 73 and 148)
 - fine-grained parameter-assignments of examples (ExampleTable) to values (ValuesTable)
   - currently just a rough check: if demonstrative contained in gloss -> PPDC, otherwise just regular
+- still missing the `SourceTable`
+
+  ## Documentation
+
+- write-up for usage, especially regarding parameter-codes.json
+- details for tutorial-like guide
+  - What are possible values for `args.writer.objects['ValueTable']`?
+  - How does the following part skipped over in the tutorial work when needed?
+    - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
