@@ -91,7 +91,8 @@ cldf validate cldf/
 - How to deal with complex words in examples, i.e. analyzed_words has two elements separated by space that are glossed as one element in original source. In LaTeX I encompass both elements in {} and have kept this for the examples.csv for now, but it fails at validation. (Applies to rows 73 and 148)
 - fine-grained parameter-assignments of examples (ExampleTable) to values (ValuesTable)
   - currently just a rough check: if demonstrative contained in gloss -> PPDC, otherwise just regular
-- still missing the `SourceTable`
+- tried copying in source.bib to allow generation of sqlite db, but still `cldf createdb --infer-primary-keys cldf nominalperson.sqlite` still fails at writing the ValueTable_SourceTable (i.e. probably a mapping table?) 
+  - found the issue: inconsistencies in naming of references in sources.bib and the versions automatically generated from the regular references in the grammarchecks.csv table (examples.csv, by contrast, has direct access to the correct bib keys); to unify
 
   ## Documentation
 
