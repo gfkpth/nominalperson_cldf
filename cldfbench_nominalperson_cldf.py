@@ -28,6 +28,11 @@ class Dataset(BaseDataset):
             wals_dir.mkdir()
         rec = Record.from_doi('10.5281/zenodo.13950591')
         rec.download_dataset(wals_dir)
+        
+        # download examples.csv from github repo
+        examples_gh = 'https://raw.githubusercontent.com/gfkpth/nominal_person/refs/heads/main/db-creation-notes/CLDF/examples.csv'
+        self.raw_dir.download(examples_gh, 'examples.csv')
+        
 
     def cmd_makecldf(self, args):
         # simplification of complex parameter values for creation of Code_IDs
@@ -217,7 +222,6 @@ class Dataset(BaseDataset):
         # load data from examples.csv
         print('Reading examples.csv')
         for row in self.raw_dir.read_csv('examples.csv',dicts=True):
-            
             # check if the example gloss contains a determiner
             # if so, set a flag to mark the example as relevant for PPDC 
             # (Somewhat simplistic, a more detailed treatment could be considered later)
