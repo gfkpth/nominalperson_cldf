@@ -1,17 +1,19 @@
 # Overview
 
-This repository contains a database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person. The code here creates a [CLDF](https://github.com/cldf/cldf/)-conformant database, a format designed for linguistic applications, from older (and somewhat unorderly) csv-files.
-
-**This is still work in progress.**
+This repository contains a database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person. The code here creates a [CLDF](https://github.com/cldf/cldf/)-conformant database, a format designed for linguistic applications, from older (and somewhat unorderly) csv-files. The format also allows the automatic generation of an SQLite database.
 
 A previous implementation of the data as a relational (SQL) database can be found [here](https://github.com/gfkpth/nominal_person). That repo also contains the a jupyter notebook extracting example sentences for nominal person from a LaTeX-file, see  [here](https://github.com/gfkpth/nominal_person/tree/main/db-creation-notes/CLDF).
 
-# (Ad-)nominal person
+## Background: (Ad-)nominal person
 
 One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
 More detailed information on relevant phenomena and the range of cross-linguistic variation can be found in [Höhn (2020)](https://doi.org/10.5334/gjgl.1121) and [Höhn (2024)](https://doi.org/10.1515/lingty-2023-0080) as well as [my dissertation](https://ling.auf.net/lingbuzz/003618). If you use this data, I'd appreciate it if you'd let me know. If you are a linguist interested in (ad)nominal person and struggle with using this database, feel free to get in touch.
 
 Note that this is currently work in progress. 
+
+# Files
+
+
 
 ## Notes on the setup of a new CLDF
 
@@ -79,16 +81,24 @@ The following code validates the generated dataset and displays errors or warnin
 cldf validate cldf/
 ```
 
+### Generating an SQLite database
+
+The following code generates an SQLite database from the CLDF
+
+```shell
+cldf createdb cldf nominalperson.sqlite
+```
+
 
 # To Do/Questions:
 
 
 ## Implementation
 
+- How to deal with complex words in examples, i.e. analyzed_words has two elements separated by space that are glossed as one element in original source. In LaTeX I encompass both elements in {} and have kept this for the examples.csv for now, but it fails at validation. (Applies to rows 73 and 148)
 - Associating examples to values in case there is more than one relevant example
   - For regular normalisation in standard relational tables I'd expect to set up a separate table linking example ids to value ids, but given the handling of sources, CLDF doesn't seem to strictly require transforming data into first normal form to avoid multiple values, is that right?
-  - So would it be better to just have a list (semicolon separated?)
-- How to deal with complex words in examples, i.e. analyzed_words has two elements separated by space that are glossed as one element in original source. In LaTeX I encompass both elements in {} and have kept this for the examples.csv for now, but it fails at validation. (Applies to rows 73 and 148)
+  - Apparently CLDF just needs a semicolon-separated list of example IDs and there is no actual enforced linking of the ValuesTable to the ExamplesTable (verify?)
 - fine-grained parameter-assignments of examples (ExampleTable) to values (ValuesTable)
   - currently just a rough check: if demonstrative contained in gloss -> PPDC, otherwise just regular
 - tried copying in source.bib to allow generation of sqlite db, but still `cldf createdb --infer-primary-keys cldf nominalperson.sqlite` still fails at writing the ValueTable_SourceTable (i.e. probably a mapping table?) 
@@ -101,3 +111,5 @@ cldf validate cldf/
   - What are possible values for `args.writer.objects['ValueTable']`?
   - How does the following part skipped over in the tutorial work when needed?
     - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
+- adding sources requires sources as list (not as string, otherwise you need to reconvert to a list as I am doing now)
+  - 
