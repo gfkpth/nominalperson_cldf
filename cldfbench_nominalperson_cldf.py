@@ -1,6 +1,7 @@
 import re
 import pathlib
 import json
+import shutil
 
 from cldfbench import Dataset as BaseDataset
 from cldfzenodo import Record
@@ -160,11 +161,11 @@ class Dataset(BaseDataset):
             
             # extract sources on nominal person if available
             if row['refs'] != '':
-                nompers_sources,nompers_qindex = self.bibify_source(row['refs'])
+                nompers_sources = row['refs_bib'].split(';')
             # extract sources on PPDCs
             if row['PPDC_ref'] != '':
-                ppdc_sources,ppdc_qindex = self.bibify_source(row['PPDC_ref'])
-                
+                ppdc_sources = row['PPDC_ref_bib'].split(';')
+            
             
             for param in param_dict.keys():
                 match param:
@@ -279,6 +280,7 @@ class Dataset(BaseDataset):
         print('Writing ValuesTable')
         for val in values_dict:
             if values_dict[val].get('Source') and values_dict[val].get('Examples'):
+                print(values_dict[val]['Source'], type(values_dict[val]['Source']))
                 args.writer.objects['ValueTable'].append({
                                 'ID': val,
                                 'Language_ID': values_dict[val]['Language_ID'],
@@ -295,8 +297,7 @@ class Dataset(BaseDataset):
                                 'Parameter_ID': values_dict[val]['Parameter_ID'],
                                 'Value': values_dict[val]['Value'],
                                 'Code_ID': values_dict[val]['Code_ID'],
-                                'Source': values_dict[val]['Source'],
-                                'Examples': ''                         
+                                'Source': values_dict[val]['Source'] 
                                 })
             elif (not values_dict[val].get('Source')) and values_dict[val].get('Examples'):
                 args.writer.objects['ValueTable'].append({
@@ -305,7 +306,6 @@ class Dataset(BaseDataset):
                                 'Parameter_ID': values_dict[val]['Parameter_ID'],
                                 'Value': values_dict[val]['Value'],
                                 'Code_ID': values_dict[val]['Code_ID'],
-                                'Source': '',
                                 'Examples': ';'.join(values_dict[val]['Examples'])
                                 })
             else:
@@ -314,56 +314,20 @@ class Dataset(BaseDataset):
                                 'Language_ID': values_dict[val]['Language_ID'],
                                 'Parameter_ID': values_dict[val]['Parameter_ID'],
                                 'Value': values_dict[val]['Value'],
-                                'Code_ID': values_dict[val]['Code_ID'],
-                                'Source': '',
-                                'Examples': ''
+                                'Code_ID': values_dict[val]['Code_ID']
                                 })
         
         print('Done\n')
         
+        # copy sources.bib into cldf
+        print("Copying sources.bib")
+        raw_sources_path = self.raw_dir.joinpath('sources.bib')
+        target_sources_path = self.cldf_dir.joinpath('sources.bib')
+        if raw_sources_path.exists():
+            shutil.copy2(raw_sources_path, target_sources_path)
+        
+        # add to the dataset
+        args.writer.cldf.add_sources(str(target_sources_path))
         
         
-    def bibify_source(self, regsource):
-        '''function for converting references to standard format for bibtex employed here
         
-        input: 
-        - regsource: a string containing regular references in Name (Year) format, multiple entries separated by semicola
-          e.g. "Halle & Marantz (1993: 244); Siddiqi (2011); Schönlein (2026)"
-        
-        returns:
-        - sourcelist: list of entries in normalised format (e.g. ["hallemarantz1993[244]";"siddiqi2011";"schoenlein2026"])
-        - qbased: the index of grammar sources that are based on the Comrie & Smith (1977) questionnaire  
-        
-        '''
-        # define list of correspondences for potential special characters in the input
-        specialsigns = {'ä': 'ae',
-            'ö': 'oe',
-            'ü': 'ue',
-            'ß': 'ss',
-            'ć': 'c',
-            'č': 'c'}
-        qbased = None                                 # variable to indicate index of any entry that is based on a questionnaire-based grammar
-        
-        sourcelist = regsource.split(';')           # split input string at semicola into list of sources
-        for i in range(len(sourcelist)):            # iterate through all entries in the list
-            sourcelist[i]=sourcelist[i].split(':',1)  # colon separates potential page or section references, split this off; limit to one split (further colons retained inside square brackets)
-            sourcelist[i][0]=sourcelist[i][0].replace(r' ','').replace(r'&','').replace(r'.','').replace(r'-','').lower() # normalise author/year reference by removing all commas, ampersands, hyphens and full stops and turn into lower case 
-            
-            for special in specialsigns:          # convert special signs
-                if special in sourcelist[i][0]:
-                    sourcelist[i][0] = sourcelist[i][0].replace(special,specialsigns[special])
-                    
-            if '(q)' in sourcelist[i][0]:                               # save index of source with marker (q), indicating that it's a reference to a grammar based on the Comrie & Smith questionnaire
-                qbased = i
-                sourcelist[i][0] = sourcelist[i][0].replace('(q)','')   # remove '(q)' afterwards
-            
-            # format output by joining normalised references and possible page numbers into one string
-            if len(sourcelist[i]) == 2:              # in case there was a colon followed by page information
-                sourcelist[i][1] = sourcelist[i][1].strip()   # get rid of extra spaces
-                sourcelist[i]='['.join(sourcelist[i])+']'   # join reference and page infos, put latter in square brackets 
-            elif len(sourcelist[i]) > 2:            #  the code above should only split for the first colon in a reference and sourcelist should have two items at maximum; this is just to issue a warning in case any more splits took place by accident
-                print(f'Warning: reference {sourcelist[i]} contains more than one colon, automatic conversion to bibformat skipped.')
-            else:
-                sourcelist[i]=sourcelist[i][0]              # flatten references without second part
-                
-        return sourcelist,qbased   
