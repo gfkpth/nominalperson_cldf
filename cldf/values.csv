@@ -15,7 +15,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 13,0,person_allowed,all,person_allowedall,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",141
 14,0,person_third_available,y,person_third_availabley,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",141
 15,0,number_allowed,non-sg,number_allowednon-sg,,"hinds1988[254, 261];noguchi1997[780];furuya2008[sec. 3.2];inokuma2009",141
-16,0,PPDC,y_nn,PPDCy_nn,,"coulmas1982[214, Noguchi 1997:777, Furuya 2008:153]",
+16,0,PPDC,y_nn,PPDCy_nn,,coulmas1982[214];noguchi1997[777];furuya2008[153],
 17,1,verb_object_order,OV,verb_object_orderOV,,,
 18,1,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 19,1,adposition_order,post,adposition_orderpost,,,
@@ -26,12 +26,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 24,1,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 25,1,article_distinct_third,n,article_distinct_thirdn,,,
 26,1,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-27,1,nominal_person,y,nominal_persony,,"sohn1994[284, 292];choi2014[151-154]",142;143;157
-28,1,APC_order,pre,APC_orderpre,,"sohn1994[284, 292];choi2014[151-154]",142;143;157
-29,1,bound_person_order,n,bound_person_ordern,,"sohn1994[284, 292];choi2014[151-154]",142;143;157
-30,1,person_allowed,all,person_allowedall,,"sohn1994[284, 292];choi2014[151-154]",142;143;157
-31,1,person_third_available,y,person_third_availabley,,"sohn1994[284, 292];choi2014[151-154]",142;143;157
-32,1,number_allowed,non-sg,number_allowednon-sg,,"sohn1994[284, 292];choi2014[151-154]",142;143;157
+27,1,nominal_person,y,nominal_persony,,"sohn1994[284, 292];choi2014phd[151-154]",142;143;157
+28,1,APC_order,pre,APC_orderpre,,"sohn1994[284, 292];choi2014phd[151-154]",142;143;157
+29,1,bound_person_order,n,bound_person_ordern,,"sohn1994[284, 292];choi2014phd[151-154]",142;143;157
+30,1,person_allowed,all,person_allowedall,,"sohn1994[284, 292];choi2014phd[151-154]",142;143;157
+31,1,person_third_available,y,person_third_availabley,,"sohn1994[284, 292];choi2014phd[151-154]",142;143;157
+32,1,number_allowed,non-sg,number_allowednon-sg,,"sohn1994[284, 292];choi2014phd[151-154]",142;143;157
 33,1,PPDC,y_nn,PPDCy_nn,,sohn1994[281],
 34,2,verb_object_order,OV,verb_object_orderOV,,,
 35,2,verb_object_order_wals,OV,verb_object_order_walsOV,,,
@@ -75,12 +75,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 75,4,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 76,4,article_distinct_third,n,article_distinct_thirdn,,,
 77,4,demonstrative_as_third,y,demonstrative_as_thirdy,,,
-78,4,nominal_person,y,nominal_persony,,"merlan1989[1982][103, 203]",9
-79,4,APC_order,pre,APC_orderpre,,"merlan1989[1982][103, 203]",9
-80,4,bound_person_order,n,bound_person_ordern,,"merlan1989[1982][103, 203]",9
-81,4,person_allowed,all,person_allowedall,,"merlan1989[1982][103, 203]",9
-82,4,person_third_available,y,person_third_availabley,,"merlan1989[1982][103, 203]",9
-83,4,number_allowed,non-sg,number_allowednon-sg,,"merlan1989[1982][103, 203]",9
+78,4,nominal_person,y,nominal_persony,,"merlan1989[103, 203]",9
+79,4,APC_order,pre,APC_orderpre,,"merlan1989[103, 203]",9
+80,4,bound_person_order,n,bound_person_ordern,,"merlan1989[103, 203]",9
+81,4,person_allowed,all,person_allowedall,,"merlan1989[103, 203]",9
+82,4,person_third_available,y,person_third_availabley,,"merlan1989[103, 203]",9
+83,4,number_allowed,non-sg,number_allowednon-sg,,"merlan1989[103, 203]",9
 85,5,verb_object_order,OV,verb_object_orderOV,,,
 86,5,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 87,5,adposition_order,unclear,adposition_orderunclear,,,
@@ -154,7 +154,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 175,10,bound_person_order,n,bound_person_ordern,,"haviland1979[104, 156f.]",17;18
 177,10,person_third_available,y,person_third_availabley,,"haviland1979[104, 156f.]",17;18
 178,10,number_allowed,unclear (+pl),number_allowedunclearpl,,"haviland1979[104, 156f.]",17;18
-179,10,PPDC,y,PPDCy,,"haviland1979[73, (107)];157,(423);160",
+179,10,PPDC,y,PPDCy,,"haviland1979[73, (107), 157,(423), 160]",
 180,11,verb_object_order,OV,verb_object_orderOV,,,
 181,11,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 182,11,adposition_order,pre,adposition_orderpre,,,
@@ -213,10 +213,10 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 263,16,demonstrative_order,NDem,demonstrative_orderNDem,,,
 264,16,article_distinct_third,n,article_distinct_thirdn,,,
 265,16,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-266,16,nominal_person,y,nominal_persony,,honeyman2017[169f.],83
-267,16,APC_order,pre,APC_orderpre,,honeyman2017[169f.],83
-268,16,bound_person_order,n,bound_person_ordern,,honeyman2017[169f.],83
-271,16,number_allowed,non-sg,number_allowednon-sg,,honeyman2017[169f.],83
+266,16,nominal_person,y,nominal_persony,,honeyman2016[169f.],83
+267,16,APC_order,pre,APC_orderpre,,honeyman2016[169f.],83
+268,16,bound_person_order,n,bound_person_ordern,,honeyman2016[169f.],83
+271,16,number_allowed,non-sg,number_allowednon-sg,,honeyman2016[169f.],83
 272,16,PPDC,y,PPDCy,,"honeyman2016[559, (9/10)]",
 273,17,verb_object_order,OV,verb_object_orderOV,,,
 274,17,verb_object_order_wals,OV,verb_object_order_walsOV,,,
@@ -260,12 +260,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 313,19,demonstrative_order,NDem,demonstrative_orderNDem,,,
 314,19,article_distinct_third,y,article_distinct_thirdy,,,
 315,19,demonstrative_as_third,y,demonstrative_as_thirdy,,,
-316,19,nominal_person,y,nominal_persony,,terrill2003[171-173],87
-317,19,APC_order,post,APC_orderpost,,terrill2003[171-173],87
-318,19,bound_person_order,n,bound_person_ordern,,terrill2003[171-173],87
-319,19,person_allowed,all,person_allowedall,,terrill2003[171-173],87
-320,19,person_third_available,y,person_third_availabley,,terrill2003[171-173],87
-321,19,number_allowed,unclear (+pl),number_allowedunclearpl,,terrill2003[171-173],87
+316,19,nominal_person,y,nominal_persony,,"terrill2003[171-173];terrill2004[435, (27)]",87
+317,19,APC_order,post,APC_orderpost,,"terrill2003[171-173];terrill2004[435, (27)]",87
+318,19,bound_person_order,n,bound_person_ordern,,"terrill2003[171-173];terrill2004[435, (27)]",87
+319,19,person_allowed,all,person_allowedall,,"terrill2003[171-173];terrill2004[435, (27)]",87
+320,19,person_third_available,y,person_third_availabley,,"terrill2003[171-173];terrill2004[435, (27)]",87
+321,19,number_allowed,unclear (+pl),number_allowedunclearpl,,"terrill2003[171-173];terrill2004[435, (27)]",87
 322,19,PPDC,y_nn,PPDCy_nn,,"terrill2003[181, (220-1)]",
 323,20,verb_object_order,VO,verb_object_orderVO,,,
 324,20,adposition_order,pre,adposition_orderpre,,,
@@ -288,13 +288,13 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 342,21,demonstrative_order,NDem,demonstrative_orderNDem,,,
 343,21,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
 344,21,article_distinct_third,n,article_distinct_thirdn,,,
-346,21,nominal_person,y,nominal_persony,,"reesink2002[269f., 274]",91
-347,21,APC_order,pre,APC_orderpre,,"reesink2002[269f., 274]",91
-348,21,bound_person_order,n,bound_person_ordern,,"reesink2002[269f., 274]",91
-349,21,person_allowed,all,person_allowedall,,"reesink2002[269f., 274]",91
-350,21,person_third_available,y,person_third_availabley,,"reesink2002[269f., 274]",91
-351,21,number_allowed,unclear (+pl),number_allowedunclearpl,,"reesink2002[269f., 274]",91
-352,21,PPDC,y,PPDCy,,"reesink2002[271, (13)]",
+346,21,nominal_person,y,nominal_persony,,"reesink2002sougb[200, 269f., 274]",91
+347,21,APC_order,pre,APC_orderpre,,"reesink2002sougb[200, 269f., 274]",91
+348,21,bound_person_order,n,bound_person_ordern,,"reesink2002sougb[200, 269f., 274]",91
+349,21,person_allowed,all,person_allowedall,,"reesink2002sougb[200, 269f., 274]",91
+350,21,person_third_available,y,person_third_availabley,,"reesink2002sougb[200, 269f., 274]",91
+351,21,number_allowed,unclear (+pl),number_allowedunclearpl,,"reesink2002sougb[200, 269f., 274]",91
+352,21,PPDC,y,PPDCy,,"reesink2002sougb[271, (13)]",
 353,22,verb_object_order,VO,verb_object_orderVO,,,
 354,22,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 355,22,adposition_order,pre,adposition_orderpre,,,
@@ -461,13 +461,13 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 538,33,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
 539,33,article_distinct_third,n,article_distinct_thirdn,,,
 540,33,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-541,33,nominal_person,y,nominal_persony,,"roberts1987[162, 201, 209f.]",108
-542,33,APC_order,post,APC_orderpost,,"roberts1987[162, 201, 209f.]",108
-543,33,bound_person_order,n,bound_person_ordern,,"roberts1987[162, 201, 209f.]",108
-544,33,person_allowed,all,person_allowedall,,"roberts1987[162, 201, 209f.]",108
-545,33,person_third_available,y,person_third_availabley,,"roberts1987[162, 201, 209f.]",108
-546,33,number_allowed,all,number_allowedall,,"roberts1987[162, 201, 209f.]",108
-547,33,PPDC,y,PPDCy,,"roberts1987[210, (284)];218,(315)",
+541,33,nominal_person,y,nominal_persony,,"roberts1987amele[162, 201, 209f.]",108
+542,33,APC_order,post,APC_orderpost,,"roberts1987amele[162, 201, 209f.]",108
+543,33,bound_person_order,n,bound_person_ordern,,"roberts1987amele[162, 201, 209f.]",108
+544,33,person_allowed,all,person_allowedall,,"roberts1987amele[162, 201, 209f.]",108
+545,33,person_third_available,y,person_third_availabley,,"roberts1987amele[162, 201, 209f.]",108
+546,33,number_allowed,all,number_allowedall,,"roberts1987amele[162, 201, 209f.]",108
+547,33,PPDC,y,PPDCy,,"roberts1987amele[210, (284), 218,(315)]",
 548,34,verb_object_order,OV,verb_object_orderOV,,,
 549,34,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 550,34,adposition_order,post,adposition_orderpost,,,
@@ -500,7 +500,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 578,35,person_allowed,unclear,person_allowedunclear,,"reesink1987[53f., 167, 190f., 353]",111;112
 579,35,person_third_available,y,person_third_availabley,,"reesink1987[53f., 167, 190f., 353]",111;112
 580,35,number_allowed,unclear,number_allowedunclear,,"reesink1987[53f., 167, 190f., 353]",111;112
-581,35,PPDC,y,PPDCy,,"reesinck1987[190, (141)]",
+581,35,PPDC,y,PPDCy,,"reesink1987[190, (141)]",
 582,36,verb_object_order,OV,verb_object_orderOV,,,
 583,36,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 584,36,adposition_order,post,adposition_orderpost,,,
@@ -550,12 +550,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 632,39,demonstrative_order,NDem,demonstrative_orderNDem,,,
 633,39,article_distinct_third,n,article_distinct_thirdn,,,
 634,39,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-635,39,nominal_person,y,nominal_persony,,kratchovíl2014[391],116
-636,39,APC_order,post,APC_orderpost,,kratchovíl2014[391],116
-637,39,bound_person_order,n,bound_person_ordern,,kratchovíl2014[391],116
-638,39,person_allowed,all,person_allowedall,,kratchovíl2014[391],116
-639,39,person_third_available,y,person_third_availabley,,kratchovíl2014[391],116
-640,39,number_allowed,all,number_allowedall,,kratchovíl2014[391],116
+635,39,nominal_person,y,nominal_persony,,kratochvil2014[391],116
+636,39,APC_order,post,APC_orderpost,,kratochvil2014[391],116
+637,39,bound_person_order,n,bound_person_ordern,,kratochvil2014[391],116
+638,39,person_allowed,all,person_allowedall,,kratochvil2014[391],116
+639,39,person_third_available,y,person_third_availabley,,kratochvil2014[391],116
+640,39,number_allowed,all,number_allowedall,,kratochvil2014[391],116
 642,40,verb_object_order,OV,verb_object_orderOV,,,
 643,40,adposition_order,NoAdpos,adposition_orderNoAdpos,,,
 644,40,genitive_order,GenN,genitive_orderGenN,,,
@@ -655,12 +655,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 761,48,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
 762,48,article_distinct_third,y,article_distinct_thirdy,,,
 763,48,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-764,48,nominal_person,y,nominal_persony,,"garygamaleldin1982[78, 80]",6
-765,48,APC_order,pre,APC_orderpre,,"garygamaleldin1982[78, 80]",6
-766,48,bound_person_order,n,bound_person_ordern,,"garygamaleldin1982[78, 80]",6
-767,48,person_allowed,no 3,person_allowedno3,,"garygamaleldin1982[78, 80]",6
-768,48,person_third_available,n,person_third_availablen,,"garygamaleldin1982[78, 80]",6
-769,48,number_allowed,non-sg,number_allowednon-sg,,"garygamaleldin1982[78, 80]",6
+764,48,nominal_person,y,nominal_persony,,"garygamal1982[78, 80]",6
+765,48,APC_order,pre,APC_orderpre,,"garygamal1982[78, 80]",6
+766,48,bound_person_order,n,bound_person_ordern,,"garygamal1982[78, 80]",6
+767,48,person_allowed,no 3,person_allowedno3,,"garygamal1982[78, 80]",6
+768,48,person_third_available,n,person_third_availablen,,"garygamal1982[78, 80]",6
+769,48,number_allowed,non-sg,number_allowednon-sg,,"garygamal1982[78, 80]",6
 771,49,verb_object_order,VO,verb_object_orderVO,,,
 772,49,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 773,49,adposition_order,pre,adposition_orderpre,,,
@@ -727,12 +727,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 854,54,demonstrative_order_wals,Demonstrative before and after Noun,demonstrative_order_walsDemonstrativebeforeandafterNoun,,,
 855,54,article_distinct_third,y,article_distinct_thirdy,,,
 856,54,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-857,54,nominal_person,y,nominal_persony,,travispaul2019,24
-858,54,APC_order,pre,APC_orderpre,,travispaul2019,24
-859,54,bound_person_order,n,bound_person_ordern,,travispaul2019,24
-860,54,person_allowed,all,person_allowedall,,travispaul2019,24
-861,54,person_third_available,y,person_third_availabley,,travispaul2019,24
-862,54,number_allowed,all,number_allowedall,,travispaul2019,24
+857,54,nominal_person,y,nominal_persony,,paultravis2019,24
+858,54,APC_order,pre,APC_orderpre,,paultravis2019,24
+859,54,bound_person_order,n,bound_person_ordern,,paultravis2019,24
+860,54,person_allowed,all,person_allowedall,,paultravis2019,24
+861,54,person_third_available,y,person_third_availabley,,paultravis2019,24
+862,54,number_allowed,all,number_allowedall,,paultravis2019,24
 863,54,PPDC,y,PPDCy,,paultravis2019[422],
 864,55,verb_object_order,VO,verb_object_orderVO,,,
 865,55,verb_object_order_wals,VO,verb_object_order_walsVO,,,
@@ -744,10 +744,10 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 871,55,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
 872,55,article_distinct_third,n,article_distinct_thirdn,,,
 873,55,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-874,55,nominal_person,y,nominal_persony,,sneddon1996[170];(ewing2005),25
-875,55,APC_order,pre,APC_orderpre,,sneddon1996[170];(ewing2005),25
-876,55,bound_person_order,n,bound_person_ordern,,sneddon1996[170];(ewing2005),25
-879,55,number_allowed,unclear (+pl),number_allowedunclearpl,,sneddon1996[170];(ewing2005),25
+874,55,nominal_person,y,nominal_persony,,sneddon1996[170],25
+875,55,APC_order,pre,APC_orderpre,,sneddon1996[170],25
+876,55,bound_person_order,n,bound_person_ordern,,sneddon1996[170],25
+879,55,number_allowed,unclear (+pl),number_allowedunclearpl,,sneddon1996[170],25
 880,55,PPDC,y_nn,PPDCy_nn,,sneddon1996[169],
 881,56,verb_object_order,VO,verb_object_orderVO,,,
 882,56,adposition_order,pre,adposition_orderpre,,,
@@ -862,12 +862,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1011,64,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
 1012,64,article_distinct_third,n,article_distinct_thirdn,,,
 1013,64,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1014,64,nominal_person,y,nominal_persony,,d’jernes2002[255],35
-1015,64,APC_order,pre,APC_orderpre,,d’jernes2002[255],35
-1016,64,bound_person_order,n,bound_person_ordern,,d’jernes2002[255],35
-1017,64,person_allowed,all,person_allowedall,,d’jernes2002[255],35
-1018,64,person_third_available,y,person_third_availabley,,d’jernes2002[255],35
-1020,64,PPDC,y,PPDCy,,d’jernes2002[255],
+1014,64,nominal_person,y,nominal_persony,,djernes2002[255],35
+1015,64,APC_order,pre,APC_orderpre,,djernes2002[255],35
+1016,64,bound_person_order,n,bound_person_ordern,,djernes2002[255],35
+1017,64,person_allowed,all,person_allowedall,,djernes2002[255],35
+1018,64,person_third_available,y,person_third_availabley,,djernes2002[255],35
+1020,64,PPDC,y,PPDCy,,djernes2002[255],
 1021,65,verb_object_order,VO,verb_object_orderVO,,,
 1022,65,adposition_order,pre,adposition_orderpre,,,
 1023,65,genitive_order,NGen,genitive_orderNGen,,,
@@ -924,7 +924,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1085,69,verb_object_order,VO,verb_object_orderVO,,,
 1088,69,demonstrative_order,NDem,demonstrative_orderNDem,,,
 1089,69,article_distinct_third,y,article_distinct_thirdy,,,
-1093,69,bound_person_order,n,bound_person_ordern,,næsshovdhaugen2011,
+1093,69,bound_person_order,n,bound_person_ordern,,naesshovdhaugen2011,
 1098,70,verb_object_order,OV,verb_object_orderOV,,,
 1099,70,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 1100,70,adposition_order,post,adposition_orderpost,,,
@@ -1108,12 +1108,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1298,82,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1299,82,article_distinct_third,y,article_distinct_thirdy,,,
 1300,82,demonstrative_as_third,y,demonstrative_as_thirdy,,,
-1301,82,nominal_person,y,nominal_persony,,johannessen2008;siggurdssonwood2020[11f.],46
-1302,82,APC_order,pre,APC_orderpre,,johannessen2008;siggurdssonwood2020[11f.],46
-1303,82,bound_person_order,n,bound_person_ordern,,johannessen2008;siggurdssonwood2020[11f.],46
-1304,82,person_allowed,all,person_allowedall,,johannessen2008;siggurdssonwood2020[11f.],46
-1305,82,person_third_available,y,person_third_availabley,,johannessen2008;siggurdssonwood2020[11f.],46
-1306,82,number_allowed,non-sg,number_allowednon-sg,,johannessen2008;siggurdssonwood2020[11f.],46
+1301,82,nominal_person,y,nominal_persony,,johannessen2008;sigurdssonwood2020[11f.],46
+1302,82,APC_order,pre,APC_orderpre,,johannessen2008;sigurdssonwood2020[11f.],46
+1303,82,bound_person_order,n,bound_person_ordern,,johannessen2008;sigurdssonwood2020[11f.],46
+1304,82,person_allowed,all,person_allowedall,,johannessen2008;sigurdssonwood2020[11f.],46
+1305,82,person_third_available,y,person_third_availabley,,johannessen2008;sigurdssonwood2020[11f.],46
+1306,82,number_allowed,non-sg,number_allowednon-sg,,johannessen2008;sigurdssonwood2020[11f.],46
 1308,83,verb_object_order,VO,verb_object_orderVO,,,
 1309,83,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1310,83,adposition_order,pre,adposition_orderpre,,,
@@ -1161,12 +1161,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1362,86,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1363,86,article_distinct_third,y,article_distinct_thirdy,,,
 1364,86,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1365,86,nominal_person,y,nominal_persony,,corver2008[52],49
-1366,86,APC_order,pre,APC_orderpre,,corver2008[52],49
-1367,86,bound_person_order,n,bound_person_ordern,,corver2008[52],49
-1368,86,person_allowed,no 3,person_allowedno3,,corver2008[52],49
-1369,86,person_third_available,n,person_third_availablen,,corver2008[52],49
-1370,86,number_allowed,non-sg,number_allowednon-sg,,corver2008[52],49
+1365,86,nominal_person,y,nominal_persony,,corver2008vocative[52],49
+1366,86,APC_order,pre,APC_orderpre,,corver2008vocative[52],49
+1367,86,bound_person_order,n,bound_person_ordern,,corver2008vocative[52],49
+1368,86,person_allowed,no 3,person_allowedno3,,corver2008vocative[52],49
+1369,86,person_third_available,n,person_third_availablen,,corver2008vocative[52],49
+1370,86,number_allowed,non-sg,number_allowednon-sg,,corver2008vocative[52],49
 1371,86,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
 1372,87,verb_object_order,VO,verb_object_orderVO,,,
 1373,87,verb_object_order_wals,VO,verb_object_order_walsVO,,,
@@ -1195,12 +1195,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1396,88,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1397,88,article_distinct_third,y,article_distinct_thirdy,,,
 1398,88,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1399,88,nominal_person,y,nominal_persony,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",50
-1400,88,APC_order,pre,APC_orderpre,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",50
-1401,88,bound_person_order,n,bound_person_ordern,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",50
-1402,88,person_allowed,no 3,person_allowedno3,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",50
-1403,88,person_third_available,n,person_third_availablen,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",50
-1404,88,number_allowed,all,number_allowedall,,"lawrenz1993[ch. 6];rauh2003,2004;roehrs2005",50
+1399,88,nominal_person,y,nominal_persony,,lawrenz1993[ch. 6];rauh2003;rauh2004;roehrs2005,50
+1400,88,APC_order,pre,APC_orderpre,,lawrenz1993[ch. 6];rauh2003;rauh2004;roehrs2005,50
+1401,88,bound_person_order,n,bound_person_ordern,,lawrenz1993[ch. 6];rauh2003;rauh2004;roehrs2005,50
+1402,88,person_allowed,no 3,person_allowedno3,,lawrenz1993[ch. 6];rauh2003;rauh2004;roehrs2005,50
+1403,88,person_third_available,n,person_third_availablen,,lawrenz1993[ch. 6];rauh2003;rauh2004;roehrs2005,50
+1404,88,number_allowed,all,number_allowedall,,lawrenz1993[ch. 6];rauh2003;rauh2004;roehrs2005,50
 1405,88,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
 1406,89,verb_object_order,VO,verb_object_orderVO,,,
 1407,89,adposition_order,pre,adposition_orderpre,,,
@@ -1208,12 +1208,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1409,89,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1410,89,article_distinct_third,y,article_distinct_thirdy,,,
 1411,89,demonstrative_as_third,y,demonstrative_as_thirdy,,,
-1412,89,nominal_person,y,nominal_persony,,"hoehn,silvestrisquillaci2017[274]",52
-1413,89,APC_order,pre,APC_orderpre,,"hoehn,silvestrisquillaci2017[274]",52
-1414,89,bound_person_order,n,bound_person_ordern,,"hoehn,silvestrisquillaci2017[274]",52
-1415,89,person_allowed,all,person_allowedall,,"hoehn,silvestrisquillaci2017[274]",52
-1416,89,person_third_available,y,person_third_availabley,,"hoehn,silvestrisquillaci2017[274]",52
-1417,89,number_allowed,all,number_allowedall,,"hoehn,silvestrisquillaci2017[274]",52
+1412,89,nominal_person,y,nominal_persony,,hoehnetalICGLcalabria[274],52
+1413,89,APC_order,pre,APC_orderpre,,hoehnetalICGLcalabria[274],52
+1414,89,bound_person_order,n,bound_person_ordern,,hoehnetalICGLcalabria[274],52
+1415,89,person_allowed,all,person_allowedall,,hoehnetalICGLcalabria[274],52
+1416,89,person_third_available,y,person_third_availabley,,hoehnetalICGLcalabria[274],52
+1417,89,number_allowed,all,number_allowedall,,hoehnetalICGLcalabria[274],52
 1419,90,verb_object_order,VO,verb_object_orderVO,,,
 1420,90,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1421,90,adposition_order,pre,adposition_orderpre,,,
@@ -1224,12 +1224,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1426,90,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1427,90,article_distinct_third,y,article_distinct_thirdy,,,
 1428,90,demonstrative_as_third,y,demonstrative_as_thirdy,,,
-1429,90,nominal_person,y,nominal_persony,,choi2014[chs. 1+2];hoehn2016[sec. 5],51
-1430,90,APC_order,pre,APC_orderpre,,choi2014[chs. 1+2];hoehn2016[sec. 5],51
-1431,90,bound_person_order,n,bound_person_ordern,,choi2014[chs. 1+2];hoehn2016[sec. 5],51
-1432,90,person_allowed,all,person_allowedall,,choi2014[chs. 1+2];hoehn2016[sec. 5],51
-1433,90,person_third_available,y,person_third_availabley,,choi2014[chs. 1+2];hoehn2016[sec. 5],51
-1434,90,number_allowed,all,number_allowedall,,choi2014[chs. 1+2];hoehn2016[sec. 5],51
+1429,90,nominal_person,y,nominal_persony,,choi2014phd[chs. 1+2];hoehn2015unagr[sec. 5],51
+1430,90,APC_order,pre,APC_orderpre,,choi2014phd[chs. 1+2];hoehn2015unagr[sec. 5],51
+1431,90,bound_person_order,n,bound_person_ordern,,choi2014phd[chs. 1+2];hoehn2015unagr[sec. 5],51
+1432,90,person_allowed,all,person_allowedall,,choi2014phd[chs. 1+2];hoehn2015unagr[sec. 5],51
+1433,90,person_third_available,y,person_third_availabley,,choi2014phd[chs. 1+2];hoehn2015unagr[sec. 5],51
+1434,90,number_allowed,all,number_allowedall,,choi2014phd[chs. 1+2];hoehn2015unagr[sec. 5],51
 1435,90,PPDC,n,PPDCn,,"huttarhuttar1994[203, 329]",
 1436,91,verb_object_order,OV,verb_object_orderOV,,,
 1437,91,verb_object_order_wals,VO,verb_object_order_walsVO,,,
@@ -1299,9 +1299,9 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1507,95,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1508,95,article_distinct_third,y,article_distinct_thirdy,,,
 1509,95,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1510,95,nominal_person,y,nominal_persony,,"hoehn2016[546, 560]",57
-1511,95,APC_order,pre,APC_orderpre,,"hoehn2016[546, 560]",57
-1512,95,bound_person_order,n,bound_person_ordern,,"hoehn2016[546, 560]",57
+1510,95,nominal_person,y,nominal_persony,,"hoehn2015unagr[546, 560]",57
+1511,95,APC_order,pre,APC_orderpre,,"hoehn2015unagr[546, 560]",57
+1512,95,bound_person_order,n,bound_person_ordern,,"hoehn2015unagr[546, 560]",57
 1517,96,verb_object_order,VO,verb_object_orderVO,,,
 1518,96,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1519,96,adposition_order,pre,adposition_orderpre,,,
@@ -1328,22 +1328,22 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1541,97,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1542,97,article_distinct_third,y,article_distinct_thirdy,,,
 1543,97,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1544,97,nominal_person,y,nominal_persony,,"hualde1992[287, 290];hoehn2016[560]",59
-1545,97,APC_order,pre,APC_orderpre,,"hualde1992[287, 290];hoehn2016[560]",59
-1546,97,bound_person_order,n,bound_person_ordern,,"hualde1992[287, 290];hoehn2016[560]",59
-1549,97,number_allowed,non-sg,number_allowednon-sg,,"hualde1992[287, 290];hoehn2016[560]",59
+1544,97,nominal_person,y,nominal_persony,,"hualde1992catalan[287, 290];hoehn2015unagr[560]",59
+1545,97,APC_order,pre,APC_orderpre,,"hualde1992catalan[287, 290];hoehn2015unagr[560]",59
+1546,97,bound_person_order,n,bound_person_ordern,,"hualde1992catalan[287, 290];hoehn2015unagr[560]",59
+1549,97,number_allowed,non-sg,number_allowednon-sg,,"hualde1992catalan[287, 290];hoehn2015unagr[560]",59
 1551,98,verb_object_order,VO,verb_object_orderVO,,,
 1552,98,adposition_order,pre,adposition_orderpre,,,
 1553,98,genitive_order,NGen,genitive_orderNGen,,,
 1554,98,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1555,98,article_distinct_third,y,article_distinct_thirdy,,,
 1556,98,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1557,98,nominal_person,y,nominal_persony,,"alvarezetal1986[152, 301];hoehn2016[560]",60
-1558,98,APC_order,pre,APC_orderpre,,"alvarezetal1986[152, 301];hoehn2016[560]",60
-1559,98,bound_person_order,n,bound_person_ordern,,"alvarezetal1986[152, 301];hoehn2016[560]",60
-1560,98,person_allowed,no 3,person_allowedno3,,"alvarezetal1986[152, 301];hoehn2016[560]",60
-1561,98,person_third_available,n,person_third_availablen,,"alvarezetal1986[152, 301];hoehn2016[560]",60
-1562,98,number_allowed,non-sg,number_allowednon-sg,,"alvarezetal1986[152, 301];hoehn2016[560]",60
+1557,98,nominal_person,y,nominal_persony,,"alvarezetal1986[152, 301];hoehn2015unagr[560]",60
+1558,98,APC_order,pre,APC_orderpre,,"alvarezetal1986[152, 301];hoehn2015unagr[560]",60
+1559,98,bound_person_order,n,bound_person_ordern,,"alvarezetal1986[152, 301];hoehn2015unagr[560]",60
+1560,98,person_allowed,no 3,person_allowedno3,,"alvarezetal1986[152, 301];hoehn2015unagr[560]",60
+1561,98,person_third_available,n,person_third_availablen,,"alvarezetal1986[152, 301];hoehn2015unagr[560]",60
+1562,98,number_allowed,non-sg,number_allowednon-sg,,"alvarezetal1986[152, 301];hoehn2015unagr[560]",60
 1564,99,verb_object_order,VO,verb_object_orderVO,,,
 1565,99,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1566,99,adposition_order,pre,adposition_orderpre,,,
@@ -1354,9 +1354,9 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1571,99,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1572,99,article_distinct_third,y,article_distinct_thirdy,,,
 1573,99,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1574,99,nominal_person,y,nominal_persony,,"hoehn2016[555, 560]",61
-1575,99,APC_order,pre,APC_orderpre,,"hoehn2016[555, 560]",61
-1576,99,bound_person_order,n,bound_person_ordern,,"hoehn2016[555, 560]",61
+1574,99,nominal_person,y,nominal_persony,,"hoehn2015unagr[555, 560]",61
+1575,99,APC_order,pre,APC_orderpre,,"hoehn2015unagr[555, 560]",61
+1576,99,bound_person_order,n,bound_person_ordern,,"hoehn2015unagr[555, 560]",61
 1581,100,verb_object_order,VO,verb_object_orderVO,,,
 1582,100,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1583,100,adposition_order,pre,adposition_orderpre,,,
@@ -1367,12 +1367,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1588,100,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1589,100,article_distinct_third,y,article_distinct_thirdy,,,
 1590,100,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1591,100,nominal_person,y,nominal_persony,,debruyne1995[145];choi2014[210f.];hoehn2016[560],62
-1592,100,APC_order,pre,APC_orderpre,,debruyne1995[145];choi2014[210f.];hoehn2016[560],62
-1593,100,bound_person_order,n,bound_person_ordern,,debruyne1995[145];choi2014[210f.];hoehn2016[560],62
-1594,100,person_allowed,no 3,person_allowedno3,,debruyne1995[145];choi2014[210f.];hoehn2016[560],62
-1595,100,person_third_available,n,person_third_availablen,,debruyne1995[145];choi2014[210f.];hoehn2016[560],62
-1596,100,number_allowed,non-sg,number_allowednon-sg,,debruyne1995[145];choi2014[210f.];hoehn2016[560],62
+1591,100,nominal_person,y,nominal_persony,,debruyne1995[145];choi2014phd[210f.];hoehn2015unagr[560],62
+1592,100,APC_order,pre,APC_orderpre,,debruyne1995[145];choi2014phd[210f.];hoehn2015unagr[560],62
+1593,100,bound_person_order,n,bound_person_ordern,,debruyne1995[145];choi2014phd[210f.];hoehn2015unagr[560],62
+1594,100,person_allowed,no 3,person_allowedno3,,debruyne1995[145];choi2014phd[210f.];hoehn2015unagr[560],62
+1595,100,person_third_available,n,person_third_availablen,,debruyne1995[145];choi2014phd[210f.];hoehn2015unagr[560],62
+1596,100,number_allowed,non-sg,number_allowednon-sg,,debruyne1995[145];choi2014phd[210f.];hoehn2015unagr[560],62
 1598,101,verb_object_order,VO,verb_object_orderVO,,,
 1599,101,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1600,101,adposition_order,pre,adposition_orderpre,,,
@@ -1383,36 +1383,36 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1605,101,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1606,101,article_distinct_third,y,article_distinct_thirdy,,,
 1607,101,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1608,101,nominal_person,y,nominal_persony,,cardinaletti1994[202f.];hoehn2016[559],63
-1609,101,APC_order,pre,APC_orderpre,,cardinaletti1994[202f.];hoehn2016[559],63
-1610,101,bound_person_order,n,bound_person_ordern,,cardinaletti1994[202f.];hoehn2016[559],63
-1611,101,person_allowed,no 3,person_allowedno3,,cardinaletti1994[202f.];hoehn2016[559],63
-1612,101,person_third_available,n,person_third_availablen,,cardinaletti1994[202f.];hoehn2016[559],63
-1613,101,number_allowed,all,number_allowedall,,cardinaletti1994[202f.];hoehn2016[559],63
+1608,101,nominal_person,y,nominal_persony,,cardinaletti1994[202f.];hoehn2015unagr[559],63
+1609,101,APC_order,pre,APC_orderpre,,cardinaletti1994[202f.];hoehn2015unagr[559],63
+1610,101,bound_person_order,n,bound_person_ordern,,cardinaletti1994[202f.];hoehn2015unagr[559],63
+1611,101,person_allowed,no 3,person_allowedno3,,cardinaletti1994[202f.];hoehn2015unagr[559],63
+1612,101,person_third_available,n,person_third_availablen,,cardinaletti1994[202f.];hoehn2015unagr[559],63
+1613,101,number_allowed,all,number_allowedall,,cardinaletti1994[202f.];hoehn2015unagr[559],63
 1615,102,verb_object_order,VO,verb_object_orderVO,,,
 1616,102,adposition_order,pre,adposition_orderpre,,,
 1617,102,genitive_order,NGen,genitive_orderNGen,,,
 1618,102,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1619,102,article_distinct_third,y,article_distinct_thirdy,,,
 1620,102,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1621,102,nominal_person,y,nominal_persony,,"hoehn,silvestrisquillaci2016[142]",64
-1622,102,APC_order,pre,APC_orderpre,,"hoehn,silvestrisquillaci2016[142]",64
-1623,102,bound_person_order,n,bound_person_ordern,,"hoehn,silvestrisquillaci2016[142]",64
-1624,102,person_allowed,no 3,person_allowedno3,,"hoehn,silvestrisquillaci2016[142]",64
-1625,102,person_third_available,n,person_third_availablen,,"hoehn,silvestrisquillaci2016[142]",64
-1626,102,number_allowed,all,number_allowedall,,"hoehn,silvestrisquillaci2016[142]",64
+1621,102,nominal_person,y,nominal_persony,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],64
+1622,102,APC_order,pre,APC_orderpre,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],64
+1623,102,bound_person_order,n,bound_person_ordern,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],64
+1624,102,person_allowed,no 3,person_allowedno3,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],64
+1625,102,person_third_available,n,person_third_availablen,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],64
+1626,102,number_allowed,all,number_allowedall,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],64
 1628,103,verb_object_order,VO,verb_object_orderVO,,,
 1629,103,adposition_order,pre,adposition_orderpre,,,
 1630,103,genitive_order,NGen,genitive_orderNGen,,,
 1631,103,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1632,103,article_distinct_third,y,article_distinct_thirdy,,,
 1633,103,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1634,103,nominal_person,y,nominal_persony,,"hoehn,silvestrisquillaci2016[142]",65
-1635,103,APC_order,pre,APC_orderpre,,"hoehn,silvestrisquillaci2016[142]",65
-1636,103,bound_person_order,n,bound_person_ordern,,"hoehn,silvestrisquillaci2016[142]",65
-1637,103,person_allowed,no 3,person_allowedno3,,"hoehn,silvestrisquillaci2016[142]",65
-1638,103,person_third_available,n,person_third_availablen,,"hoehn,silvestrisquillaci2016[142]",65
-1639,103,number_allowed,all,number_allowedall,,"hoehn,silvestrisquillaci2016[142]",65
+1634,103,nominal_person,y,nominal_persony,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],65
+1635,103,APC_order,pre,APC_orderpre,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],65
+1636,103,bound_person_order,n,bound_person_ordern,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],65
+1637,103,person_allowed,no 3,person_allowedno3,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],65
+1638,103,person_third_available,n,person_third_availablen,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],65
+1639,103,number_allowed,all,number_allowedall,,hoehnetal2016CalabrUnagr;hoehnetalICGLcalabria[142],65
 1641,104,verb_object_order,VO,verb_object_orderVO,,,
 1642,104,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1643,104,adposition_order,pre,adposition_orderpre,,,
@@ -1439,12 +1439,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1665,105,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1666,105,article_distinct_third,y,article_distinct_thirdy,,,
 1667,105,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1668,105,nominal_person,y,nominal_persony,,hoehn2016[560],67
-1669,105,APC_order,pre,APC_orderpre,,hoehn2016[560],67
-1670,105,bound_person_order,n,bound_person_ordern,,hoehn2016[560],67
-1671,105,person_allowed,no 3,person_allowedno3,,hoehn2016[560],67
-1672,105,person_third_available,n,person_third_availablen,,hoehn2016[560],67
-1673,105,number_allowed,non-sg,number_allowednon-sg,,hoehn2016[560],67
+1668,105,nominal_person,y,nominal_persony,,hoehn2015unagr[560],67
+1669,105,APC_order,pre,APC_orderpre,,hoehn2015unagr[560],67
+1670,105,bound_person_order,n,bound_person_ordern,,hoehn2015unagr[560],67
+1671,105,person_allowed,no 3,person_allowedno3,,hoehn2015unagr[560],67
+1672,105,person_third_available,n,person_third_availablen,,hoehn2015unagr[560],67
+1673,105,number_allowed,non-sg,number_allowednon-sg,,hoehn2015unagr[560],67
 1675,106,verb_object_order,VO,verb_object_orderVO,,,
 1676,106,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1677,106,adposition_order,pre,adposition_orderpre,,,
@@ -1454,16 +1454,16 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1681,106,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1682,106,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1683,106,article_distinct_third,y,article_distinct_thirdy,,,
-1687,106,bound_person_order,n,bound_person_ordern,,"friedman2002,tomic2012",
+1687,106,bound_person_order,n,bound_person_ordern,,,
 1692,107,verb_object_order,VO,verb_object_orderVO,,,
 1693,107,adposition_order,pre,adposition_orderpre,,,
 1694,107,genitive_order,NoDom,genitive_orderNoDom,,,
 1695,107,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1696,107,article_distinct_third,y,article_distinct_thirdy,,,
 1697,107,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1698,107,nominal_person,y,nominal_persony,,papadimitriou2008[582 (144?)],68
-1699,107,APC_order,pre,APC_orderpre,,papadimitriou2008[582 (144?)],68
-1700,107,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582 (144?)],68
+1698,107,nominal_person,y,nominal_persony,,papadimitriou2008[582],68
+1699,107,APC_order,pre,APC_orderpre,,papadimitriou2008[582],68
+1700,107,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582],68
 1704,107,PPDC,y_nn,PPDCy_nn,,papadimitriou2008[581],
 1705,108,verb_object_order,VO,verb_object_orderVO,,,
 1706,108,verb_object_order_wals,VO,verb_object_order_walsVO,,,
@@ -1474,9 +1474,9 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1711,108,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1712,108,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1713,108,article_distinct_third,n,article_distinct_thirdn,,,
-1715,108,nominal_person,y,nominal_persony,,papadimitriou2008[582 (144?)],
-1716,108,APC_order,pre,APC_orderpre,,papadimitriou2008[582 (144?)],
-1717,108,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582 (144?)],
+1715,108,nominal_person,y,nominal_persony,,papadimitriou2008[582],
+1716,108,APC_order,pre,APC_orderpre,,papadimitriou2008[582],
+1717,108,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582],
 1722,109,verb_object_order,VO,verb_object_orderVO,,,
 1723,109,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1724,109,adposition_order,pre,adposition_orderpre,,,
@@ -1486,10 +1486,10 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1728,109,demonstrative_order,DemN,demonstrative_orderDemN,,,
 1729,109,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1730,109,article_distinct_third,n,article_distinct_thirdn,,,
-1732,109,nominal_person,y,nominal_persony,,papadimitriou2008[582 (144?)],
-1733,109,APC_order,pre,APC_orderpre,,papadimitriou2008[582 (144?)],
-1734,109,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582 (144?)],
-1737,109,number_allowed,non-sg,number_allowednon-sg,,papadimitriou2008[582 (144?)],
+1732,109,nominal_person,y,nominal_persony,,papadimitriou2008[582],
+1733,109,APC_order,pre,APC_orderpre,,papadimitriou2008[582],
+1734,109,bound_person_order,n,bound_person_ordern,,papadimitriou2008[582],
+1737,109,number_allowed,non-sg,number_allowednon-sg,,papadimitriou2008[582],
 1739,110,verb_object_order,VO,verb_object_orderVO,,,
 1740,110,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1741,110,adposition_order,pre,adposition_orderpre,,,
@@ -1516,11 +1516,11 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1763,111,demonstrative_order_wals,Noun-Demonstrative,demonstrative_order_walsNoun-Demonstrative,,,
 1764,111,article_distinct_third,y,article_distinct_thirdy,,,
 1765,111,demonstrative_as_third,y,demonstrative_as_thirdy,,,
-1766,111,nominal_person,y,nominal_persony,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012",133;134
-1768,111,bound_person_order,post,bound_person_orderpost,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012",133;134
-1769,111,person_allowed,no 3,person_allowedno3,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012",133;134
-1770,111,person_third_available,n,person_third_availablen,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012",133;134
-1771,111,number_allowed,all,number_allowedall,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012",133;134
+1766,111,nominal_person,y,nominal_persony,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012DP",133;134
+1768,111,bound_person_order,post,bound_person_orderpost,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012DP",133;134
+1769,111,person_allowed,no 3,person_allowedno3,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012DP",133;134
+1770,111,person_third_available,n,person_third_availablen,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012DP",133;134
+1771,111,number_allowed,all,number_allowedall,,"saltarelli1988[210];trask2003[122];derijk2008[482, 501f.];areta2009[67];artiagoitia2012DP",133;134
 1772,111,PPDC,n,PPDCn,,papadimitriou2008[581],
 1773,112,verb_object_order,OV,verb_object_orderOV,,,
 1774,112,verb_object_order_wals,OV,verb_object_order_walsOV,,,
@@ -1532,11 +1532,11 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1780,112,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 1781,112,article_distinct_third,y,article_distinct_thirdy,,,
 1782,112,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-1783,112,nominal_person,y,nominal_persony,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
-1785,112,bound_person_order,post,bound_person_orderpost,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
-1786,112,person_allowed,all,person_allowedall,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
-1787,112,person_third_available,y,person_third_availabley,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
-1788,112,number_allowed,all,number_allowedall,,"rust1965[18];boehm1985[133-145];haacke1976,1977,2013;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
+1783,112,nominal_person,y,nominal_persony,,"rust1965[18];boehm1985[133-145];haacke1976;haacke1977;haacke2013namamorph;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
+1785,112,bound_person_order,post,bound_person_orderpost,,"rust1965[18];boehm1985[133-145];haacke1976;haacke1977;haacke2013namamorph;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
+1786,112,person_allowed,all,person_allowedall,,"rust1965[18];boehm1985[133-145];haacke1976;haacke1977;haacke2013namamorph;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
+1787,112,person_third_available,y,person_third_availabley,,"rust1965[18];boehm1985[133-145];haacke1976;haacke1977;haacke2013namamorph;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
+1788,112,number_allowed,all,number_allowedall,,"rust1965[18];boehm1985[133-145];haacke1976;haacke1977;haacke2013namamorph;maho1998[140];lyons1999[142f., 311];himmelmann1997[215f.]",70
 1789,112,PPDC,y,PPDCy,,haacke1977[54],
 1790,113,verb_object_order,OV,verb_object_orderOV,,,
 1791,113,verb_object_order_wals,OV,verb_object_order_walsOV,,,
@@ -1553,7 +1553,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1803,113,person_allowed,all,person_allowedall,,"kilianhatz2008[40-43, 79]",71
 1804,113,person_third_available,y,person_third_availabley,,"kilianhatz2008[40-43, 79]",71
 1805,113,number_allowed,all,number_allowedall,,"kilianhatz2008[40-43, 79]",71
-1806,113,PPDC,y,PPDCy,,"kilianhatz2008[41, (2/3)];49,(25)",71
+1806,113,PPDC,y,PPDCy,,"kilianhatz2008[41, (2/3), 49,(25)]",71
 1807,114,verb_object_order,VO,verb_object_orderVO,,,
 1808,114,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 1810,114,genitive_order,NGen,genitive_orderNGen,,,
@@ -1580,10 +1580,10 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1845,116,APC_order,pre,APC_orderpre,,vanderwal2022[68f.],
 1846,116,bound_person_order,n,bound_person_ordern,,vanderwal2022[68f.],
 1849,116,number_allowed,all,number_allowedall,,vanderwal2022[68f.],
-1857,117,nominal_person,y,nominal_persony,,vanderwal(2022[68)],
-1858,117,APC_order,pre,APC_orderpre,,vanderwal(2022[68)],
-1859,117,bound_person_order,n,bound_person_ordern,,vanderwal(2022[68)],
-1862,117,number_allowed,all,number_allowedall,,vanderwal(2022[68)],
+1857,117,nominal_person,y,nominal_persony,,vanderwal2022[68],
+1858,117,APC_order,pre,APC_orderpre,,vanderwal2022[68],
+1859,117,bound_person_order,n,bound_person_ordern,,vanderwal2022[68],
+1862,117,number_allowed,all,number_allowedall,,vanderwal2022[68],
 1864,118,verb_object_order,VO,verb_object_orderVO,,,
 1865,118,adposition_order,pre,adposition_orderpre,,,
 1866,118,adposition_order_wals,Prepositions,adposition_order_walsPrepositions,,,
@@ -1665,7 +1665,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1956,123,person_allowed,all,person_allowedall,,"rennison1997[242, 250f.]",78
 1957,123,person_third_available,y,person_third_availabley,,"rennison1997[242, 250f.]",78
 1958,123,number_allowed,all,number_allowedall,,"rennison1997[242, 250f.]",78
-1959,123,PPDC,y,PPDCy,,johnrennison(pc),
+1959,123,PPDC,y,PPDCy,,,
 1960,124,verb_object_order,OV,verb_object_orderOV,,,
 1961,124,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 1962,124,adposition_order,post,adposition_orderpost,,,
@@ -1681,7 +1681,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1972,124,bound_person_order,n,bound_person_ordern,,carlson1994[207f.],79
 1973,124,person_allowed,all,person_allowedall,,carlson1994[207f.],79
 1974,124,person_third_available,y,person_third_availabley,,carlson1994[207f.],79
-1976,124,PPDC,n,PPDCn,,johnrennison(pc),
+1976,124,PPDC,n,PPDCn,,,
 1977,125,verb_object_order,OV,verb_object_orderOV,,,
 1978,125,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 1979,125,adposition_order,post,adposition_orderpost,,,
@@ -1697,7 +1697,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 1989,125,bound_person_order,n,bound_person_ordern,,haspelmath1993[259],131
 1991,125,person_third_available,y,person_third_availabley,,haspelmath1993[259],131
 1992,125,number_allowed,unclear,number_allowedunclear,,haspelmath1993[259],131
-1993,125,PPDC,n,PPDCn,,johnrennison(pc),
+1993,125,PPDC,n,PPDCn,,,
 1994,126,verb_object_order,OV,verb_object_orderOV,,,
 1995,126,verb_object_order_wals,OV,verb_object_order_walsOV,,,
 1996,126,adposition_order,post,adposition_orderpost,,,
@@ -1741,13 +1741,13 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 2044,129,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 2045,129,article_distinct_third,n,article_distinct_thirdn,,,
 2046,129,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-2047,129,nominal_person,y,nominal_persony,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",120
-2048,129,APC_order,pre,APC_orderpre,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",120
-2049,129,bound_person_order,n,bound_person_ordern,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",120
-2050,129,person_allowed,all,person_allowedall,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",120
-2051,129,person_third_available,y,person_third_availabley,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",120
-2052,129,number_allowed,non-sg,number_allowednon-sg,,"boskovichsieh2013[sec. 7.3, Huang et al. 2009:297f.]",120
-2053,129,PPDC,y,PPDCy,,"huangetal2009[298f., Mengying Xia (p.c.)]",
+2047,129,nominal_person,y,nominal_persony,,boskovichsieh2013[sec. 7.3];huangetal2009[297-299],120
+2048,129,APC_order,pre,APC_orderpre,,boskovichsieh2013[sec. 7.3];huangetal2009[297-299],120
+2049,129,bound_person_order,n,bound_person_ordern,,boskovichsieh2013[sec. 7.3];huangetal2009[297-299],120
+2050,129,person_allowed,all,person_allowedall,,boskovichsieh2013[sec. 7.3];huangetal2009[297-299],120
+2051,129,person_third_available,y,person_third_availabley,,boskovichsieh2013[sec. 7.3];huangetal2009[297-299],120
+2052,129,number_allowed,non-sg,number_allowednon-sg,,boskovichsieh2013[sec. 7.3];huangetal2009[297-299],120
+2053,129,PPDC,y,PPDCy,,huangetal2009[298f.],
 2054,130,verb_object_order,VO,verb_object_orderVO,,,
 2055,130,adposition_order,pre,adposition_orderpre,,,
 2056,130,genitive_order,GenN,genitive_orderGenN,,,
@@ -1767,12 +1767,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Examples
 2074,131,demonstrative_order_wals,Demonstrative-Noun,demonstrative_order_walsDemonstrative-Noun,,,
 2075,131,article_distinct_third,y,article_distinct_thirdy,,,
 2076,131,demonstrative_as_third,n,demonstrative_as_thirdn,,,
-2077,131,nominal_person,y,nominal_persony,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",121
-2078,131,APC_order,pre,APC_orderpre,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",121
-2079,131,bound_person_order,n,bound_person_ordern,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",121
-2080,131,person_allowed,no 3,person_allowedno3,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",121
-2081,131,person_third_available,n,person_third_availablen,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",121
-2082,131,number_allowed,non-sg,number_allowednon-sg,,"kenesei,vagofenyvesi1998[269];hoehn2016[559]",121
+2077,131,nominal_person,y,nominal_persony,,keneseietal1998[269];hoehn2015unagr[559],121
+2078,131,APC_order,pre,APC_orderpre,,keneseietal1998[269];hoehn2015unagr[559],121
+2079,131,bound_person_order,n,bound_person_ordern,,keneseietal1998[269];hoehn2015unagr[559],121
+2080,131,person_allowed,no 3,person_allowedno3,,keneseietal1998[269];hoehn2015unagr[559],121
+2081,131,person_third_available,n,person_third_availablen,,keneseietal1998[269];hoehn2015unagr[559],121
+2082,131,number_allowed,non-sg,number_allowednon-sg,,keneseietal1998[269];hoehn2015unagr[559],121
 2084,132,verb_object_order,VO,verb_object_orderVO,,,
 2085,132,verb_object_order_wals,VO,verb_object_order_walsVO,,,
 2086,132,adposition_order,post,adposition_orderpost,,,

@@ -8,13 +8,14 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
     "dc:identifier": "https://github.com/gfkpth/nominalperson_cldf/",
     "dc:license": "CC-BY",
+    "dc:source": "sources.bib",
     "dc:title": "Adnominal person database",
     "dcat:accessURL": "https://github.com/gfkpth/nominalperson_cldf",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/gfkpth/nominalperson_cldf",
             "rdf:type": "prov:Entity",
-            "dc:created": "8398852",
+            "dc:created": "c6015e5",
             "dc:title": "Repository"
         },
         {
