@@ -13,7 +13,7 @@ class Dataset(BaseDataset):
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         from cldfbench import CLDFSpec
-        return CLDFSpec(dir=self.cldf_dir, module='Generic')  # As long as we don't add values.
+#        return CLDFSpec(dir=self.cldf_dir, module='Generic')  # As long as we don't add values.
         return CLDFSpec(dir=self.cldf_dir, module='StructureDataset')
 
     def cmd_download(self, args):
@@ -53,7 +53,7 @@ class Dataset(BaseDataset):
 
         args.writer.cldf.add_component('CodeTable')
         args.writer.cldf.add_component('ParameterTable')
-        args.writer.cldf.add_component('ValueTable','Examples')
+#        args.writer.cldf.add_component('ValueTable','Examples')
 
         # load glottocodes
         print('Loading glottocodes')
@@ -280,7 +280,6 @@ class Dataset(BaseDataset):
         print('Writing ValuesTable')
         for val in values_dict:
             if values_dict[val].get('Source') and values_dict[val].get('Examples'):
-                print(values_dict[val]['Source'], type(values_dict[val]['Source']))
                 args.writer.objects['ValueTable'].append({
                                 'ID': val,
                                 'Language_ID': values_dict[val]['Language_ID'],
@@ -288,7 +287,7 @@ class Dataset(BaseDataset):
                                 'Value': values_dict[val]['Value'],
                                 'Code_ID': values_dict[val]['Code_ID'],
                                 'Source': values_dict[val]['Source'],
-                                'Examples': ';'.join(values_dict[val]['Examples'])      
+                                'Examples': values_dict[val]['Examples']      
                                 })
             elif values_dict[val].get('Source') and not values_dict[val].get('Examples'):
                 args.writer.objects['ValueTable'].append({
@@ -306,7 +305,7 @@ class Dataset(BaseDataset):
                                 'Parameter_ID': values_dict[val]['Parameter_ID'],
                                 'Value': values_dict[val]['Value'],
                                 'Code_ID': values_dict[val]['Code_ID'],
-                                'Examples': ';'.join(values_dict[val]['Examples'])
+                                'Examples': values_dict[val]['Examples']
                                 })
             else:
                 args.writer.objects['ValueTable'].append({
