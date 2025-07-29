@@ -53,6 +53,44 @@ class Dataset(BaseDataset):
 
         args.writer.cldf.add_component('CodeTable')
         args.writer.cldf.add_component('ParameterTable')
+        args.writer.cldf.add_columns(
+            'ValueTable',
+            {
+                'name': 'Examples',
+                'separator': ';',  # CLDF convention for multivalued fields in CSV
+                'datatype': 'string'
+            }
+        )
+        
+        args.writer.cldf.add_table('ValueExampleMapTable')
+        args.writer.cldf.add_columns(
+            'ValueExampleMapTable',
+            {
+                'name': 'Value_ID',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#valueReference',
+                'datatype': 'string'
+            },
+            {
+                'name': 'Example_ID',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#exampleReference',
+                'datatype': 'string'
+            }
+        )
+
+        args.writer.cldf.add_table('ExampleSourceMapTable')
+        args.writer.cldf.add_columns(
+            'ExampleSourceMapTable',
+            {
+                'name': 'Example_ID',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#exampleReference',
+                'datatype': 'string'
+            },
+            {
+                'name': 'Source_ID',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#sourceReference',
+                'datatype': 'string'
+            }
+        )
 #        args.writer.cldf.add_component('ValueTable','Examples')
 
         # load glottocodes
@@ -280,6 +318,7 @@ class Dataset(BaseDataset):
         print('Writing ValuesTable')
         for val in values_dict:
             if values_dict[val].get('Source') and values_dict[val].get('Examples'):
+                print('DEBUG:', val, values_dict[val])
                 args.writer.objects['ValueTable'].append({
                                 'ID': val,
                                 'Language_ID': values_dict[val]['Language_ID'],
@@ -327,6 +366,27 @@ class Dataset(BaseDataset):
         
         # add to the dataset
         args.writer.cldf.add_sources(str(target_sources_path))
+        
+        # populate mapping tables
+        for val in values_dict:
+            examples = values_dict[val].get('Examples')
+            if examples:
+                for ex_id in examples:
+                    args.writer.objects['ValueExampleMapTable'].append({
+                        'Value_ID': val,
+                        'Example_ID': ex_id
+                    })
+
+        for ex in args.writer.objects['ExampleTable']:
+            sources = ex.get('Source')
+            if sources:
+                if isinstance(sources, str):
+                    sources = [s.strip() for s in sources.split(';') if s.strip()]
+                for src_id in sources:
+                    args.writer.objects['ExampleSourceMapTable'].append({
+                        'Example_ID': ex['ID'],
+                        'Source_ID': src_id
+                    })
         
         
         
