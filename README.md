@@ -57,6 +57,7 @@ The file [nominalperson.sqlite](nominalperson.sqlite) contains an SQLite-version
 # Feature description
 
 For a description of most of the linguistically relevant properties used you can refer to
+
 a) the [parameter-codes.json](raw/parameter-codes.json)
 b) the list in [this previous project](https://github.com/gfkpth/nominal_person?tab=readme-ov-file#db-scheme).
 
