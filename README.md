@@ -104,7 +104,7 @@ cldf createdb cldf nominalperson.sqlite
 - tried copying in source.bib to allow generation of sqlite db, but still `cldf createdb --infer-primary-keys cldf nominalperson.sqlite` still fails at writing the ValueTable_SourceTable (i.e. probably a mapping table?) 
   - found the issue: inconsistencies in naming of references in sources.bib and the versions automatically generated from the regular references in the grammarchecks.csv table (examples.csv, by contrast, has direct access to the correct bib keys); to unify
 
-  ## Documentation
+## Documentation
 
 - write-up for usage, especially regarding parameter-codes.json
 - details for tutorial-like guide
@@ -113,3 +113,4 @@ cldf createdb cldf nominalperson.sqlite
     - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
 - adding sources requires sources as list (not as string, otherwise you need to reconvert to a list as I am doing now)
   - 
+- fix reference to actual metadata file in .github/workflows/cldf-validation.yml (last line is hard-coded to `cldf/cldf-metadata.json`, adapt this to the name of your metadata file in order to get automatic testing to work correctly)
