@@ -29,13 +29,14 @@ The file [nominalperson.sqlite](nominalperson.sqlite) contains an SQLite-version
 
 # Notes on the setup of a new CLDF
 
-For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>. 
+For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>. The information in the README files of [`cldfbench`](https://github.com/cldf/cldfbench) and [`pycldf`](https://github.com/cldf/pycldf) is also going to be helpful.
+
 In this section, I aim to document the concrete steps needed for my slightly more complex dataset.
 
 
 ## Preliminaries
 
-0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). [`pycldf`](https://github.com/cldf/pycldf) is going to be useful as well.
+0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). Also install [`pycldf`](https://github.com/cldf/pycldf).
 
 Using a virtual environment is recommended, I am using conda to create one inside the folder I want to use for the cldf.
 
