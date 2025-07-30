@@ -4,6 +4,31 @@ This repository contains a database with syntactic data on >100 languages with a
 
 A previous implementation of the data as a relational (SQL) database can be found [here](https://github.com/gfkpth/nominal_person). That repo also contains the a jupyter notebook extracting example sentences for nominal person from a LaTeX-file, see  [here](https://github.com/gfkpth/nominal_person/tree/main/db-creation-notes/CLDF).
 
+## Database stats
+
+cldf:v1.0:StructureDataset at cldf
+                     value
+-------------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dc:conformsTo        http://cldf.clld.org/v1.0/terms.rdf#StructureDataset
+dc:identifier        https://github.com/gfkpth/nominalperson_cldf/
+dc:license           CC-BY
+dc:source            sources.bib
+dc:title             Adnominal person database
+dcat:accessURL       https://github.com/gfkpth/nominalperson_cldf
+prov:wasDerivedFrom  [{'rdf:about': 'https://github.com/gfkpth/nominalperson_cldf', 'rdf:type': 'prov:Entity', 'dc:created': 'ef41cd2', 'dc:title': 'Repository'}, {'rdf:about': 'https://github.com/glottolog/glottolog', 'rdf:type': 'prov:Entity', 'dc:created': 'v5.1-17-g06771a4e45', 'dc:title': 'Glottolog'}]
+prov:wasGeneratedBy  [{'dc:title': 'python', 'dc:description': '3.13.5'}, {'dc:title': 'python-packages', 'dc:relation': 'requirements.txt'}]
+rdf:ID               nominalperson_cldf
+rdf:type             http://www.w3.org/ns/dcat#Distribution
+
+                Type              Rows
+--------------  --------------  ------
+values.csv      ValueTable        1800
+languages.csv   LanguageTable      134
+examples.csv    ExampleTable       158
+codes.csv       CodeTable           62
+parameters.csv  ParameterTable      17
+sources.bib     Sources            178
+
 ## Background: (Ad-)nominal person
 
 One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
