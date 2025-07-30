@@ -49,7 +49,10 @@ class Dataset(BaseDataset):
             'Walscode',
             {'name': 'ISOcodes', 'separator': ';', 'datatype': {'base': 'string', 'format': '[a-z]{3}'}}        # pre-coded ISO639P3code doesn't allow multiple values, but we have exceptional cases with two alternative iso codes
             )
-        args.writer.cldf.add_component('ExampleTable',{'name': 'Source', 'separator': ';', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source'})
+        args.writer.cldf.add_component('ExampleTable', 
+                                       {'name': 'Source', 'separator': ';', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source'},
+                                       {'name': 'Gloss_LaTeX', 'dc:description': 'String of the gloss using LaTeX macros. This is for convenience of presentation and will need at least the `leipzig` CTAN package installed. Some other manual macros could be included, so might not work out of the box.', 
+                                        'datatype': 'string'})
 
         args.writer.cldf.add_component('CodeTable')
         args.writer.cldf.add_component('ParameterTable')
@@ -296,11 +299,12 @@ class Dataset(BaseDataset):
                 'Primary_Text': row['Primary_Text'],
                 'Analyzed_Word': row['Analyzed_Word'].split(),
                 'Gloss': row['Gloss'].split(),
+                'Gloss_LaTeX': row['Gloss_LaTeX'],
                 'Translated_Text': row['Translated_Text'],
                 'Meta_Language_ID': meta_lang_id,
                 'LGR_Conformance': row['LGR_Conformance'],
                 'Comment': row['Comment'],
-                'Source': ex_sources                    
+                'Source': ex_sources 
             })
             
             
@@ -362,35 +366,16 @@ class Dataset(BaseDataset):
         print('Done\n')
         
         # copy sources.bib into cldf
-        print("Copying sources.bib")
+        print("Copying sources.bib and adding it to the dataset")
         raw_sources_path = self.raw_dir.joinpath('sources.bib')
         target_sources_path = self.cldf_dir.joinpath('sources.bib')
         if raw_sources_path.exists():
             shutil.copy2(raw_sources_path, target_sources_path)
         
-        # add to the dataset
+        # add sources.bib to the dataset
         args.writer.cldf.add_sources(str(target_sources_path))
         
-        # populate mapping tables
-        # for val in values_dict:
-        #     examples = values_dict[val].get('Examples')
-        #     if examples:
-        #         for ex_id in examples:
-        #             args.writer.objects['ValueExampleMapTable'].append({
-        #                 'Value_ID': val,
-        #                 'Example_ID': ex_id
-        #             })
-
-        # for ex in args.writer.objects['ExampleTable']:
-        #     sources = ex.get('Source')
-        #     if sources:
-        #         if isinstance(sources, str):
-        #             sources = [s.strip() for s in sources.split(';') if s.strip()]
-        #         for src_id in sources:
-        #             args.writer.objects['ExampleSourceMapTable'].append({
-        #                 'Example_ID': ex['ID'],
-        #                 'Source_ID': src_id
-        #             })
+        print('Done\n')
         
         
         

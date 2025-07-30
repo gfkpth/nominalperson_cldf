@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/gfkpth/nominalperson_cldf",
             "rdf:type": "prov:Entity",
-            "dc:created": "6947bd4",
+            "dc:created": "ef41cd2",
             "dc:title": "Repository"
         },
         {
@@ -324,6 +324,11 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
                         "separator": ";",
                         "name": "Source"
+                    },
+                    {
+                        "dc:description": "String of the gloss using LaTeX macros. This is for convenience of presentation and will need at least the `leipzig` CTAN package installed. Some other manual macros could be included, so might not work out of the box.",
+                        "datatype": "string",
+                        "name": "Gloss_LaTeX"
                     }
                 ],
                 "foreignKeys": [
