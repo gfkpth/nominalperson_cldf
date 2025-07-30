@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person. The code here creates a [CLDF](https://github.com/cldf/cldf/)-conformant database, a format designed for linguistic applications, from older (and somewhat unorderly) csv-files. The format also allows the automatic generation of an SQLite database.
+This repository contains a database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person. The code here creates a [CLDF](https://github.com/cldf/cldf/)-conformant database, a format designed for linguistic applications, from older (and somewhat unorderly) csv-files. The format also allows for the automatic generation of an SQLite database.
 
 A previous implementation of the data as a relational (SQL) database can be found [here](https://github.com/gfkpth/nominal_person). That repo also contains the a jupyter notebook extracting example sentences for nominal person from a LaTeX-file, see  [here](https://github.com/gfkpth/nominal_person/tree/main/db-creation-notes/CLDF).
 
@@ -9,19 +9,31 @@ A previous implementation of the data as a relational (SQL) database can be foun
 One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
 More detailed information on relevant phenomena and the range of cross-linguistic variation can be found in [Höhn (2020)](https://doi.org/10.5334/gjgl.1121) and [Höhn (2024)](https://doi.org/10.1515/lingty-2023-0080) as well as [my dissertation](https://ling.auf.net/lingbuzz/003618). If you use this data, I'd appreciate it if you'd let me know. If you are a linguist interested in (ad)nominal person and struggle with using this database, feel free to get in touch.
 
-Note that this is currently work in progress. 
 
 # Files
 
+- [cldf/](cldf/): contains the CLDF-version of the database
+- [raw/](raw/): contains the raw files used to generate the CLDF database
+  - when using the data in here to regenerate the database, make sure to run `cldfbench download nominalperson_cldf.py` first
+- [etc/](etc/): not currently used
+- [nominalperson.sqlite](nominalperson.sqlite): an SQLite-version of the database
+- [cldfbench_nominalperson_cldf.py](cldfbench_nominalperson_cldf.py): controls the generation of the CLDF database from the data in `raw/`
 
 
-## Notes on the setup of a new CLDF
+# SQLite database
+
+The file [nominalperson.sqlite](nominalperson.sqlite) contains an SQLite-version of the database. The database schema is visualised below:
+
+![Diagram of nominalperson.sqlite](assets/nominalperson-sqlite.png)
+
+
+# Notes on the setup of a new CLDF
 
 For the original tutorial see here: <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>. 
 In this section, I aim to document the concrete steps needed for my slightly more complex dataset.
 
 
-### Preliminaries
+## Preliminaries
 
 0. Ensure that the python program `cldfbench` is installed, for instructions see [here](https://github.com/cldf/cldfbench/blob/master/README.md). [`pycldf`](https://github.com/cldf/pycldf) is going to be useful as well.
 
@@ -32,8 +44,6 @@ conda create -p .venv python==3.12
 conda activate .venv
 pip install cldfbench pycldf
 ```
-
- c
 
 1. Create a new cldf structure. For consistency, make sure to provide as ID the name of the folder that you want to use.
 
@@ -65,7 +75,7 @@ glottolog = /path/of/your/local/glottolog/repository
 ```
 
 
-### Setting up the cldfbench_[projectname].py
+## Setting up the cldfbench_[projectname].py
 
 As described in the available tutorials, `cldfbench new` creates a general template on which to build. The crucial code for converting my csv-data into CLDF needs to go to `cldfbench-[projectname].py`. 
 
@@ -81,7 +91,7 @@ The following code validates the generated dataset and displays errors or warnin
 cldf validate cldf/
 ```
 
-### Generating an SQLite database
+## Generating an SQLite database
 
 The following code generates an SQLite database from the CLDF
 
@@ -89,28 +99,46 @@ The following code generates an SQLite database from the CLDF
 cldf createdb cldf nominalperson.sqlite
 ```
 
+# Versions
 
-# To Do/Questions:
+## v1.0 (2025-07-30)
+
+- first usable version
 
 
-## Implementation
+# To Do:
 
-- How to deal with complex words in examples, i.e. analyzed_words has two elements separated by space that are glossed as one element in original source. In LaTeX I encompass both elements in {} and have kept this for the examples.csv for now, but it fails at validation. (Applies to rows 73 and 148)
-- Associating examples to values in case there is more than one relevant example
-  - For regular normalisation in standard relational tables I'd expect to set up a separate table linking example ids to value ids, but given the handling of sources, CLDF doesn't seem to strictly require transforming data into first normal form to avoid multiple values, is that right?
-  - Apparently CLDF just needs a semicolon-separated list of example IDs and there is no actual enforced linking of the ValuesTable to the ExamplesTable (verify?)
-- fine-grained parameter-assignments of examples (ExampleTable) to values (ValuesTable)
-  - currently just a rough check: if demonstrative contained in gloss -> PPDC, otherwise just regular
-- tried copying in source.bib to allow generation of sqlite db, but still `cldf createdb --infer-primary-keys cldf nominalperson.sqlite` still fails at writing the ValueTable_SourceTable (i.e. probably a mapping table?) 
-  - found the issue: inconsistencies in naming of references in sources.bib and the versions automatically generated from the regular references in the grammarchecks.csv table (examples.csv, by contrast, has direct access to the correct bib keys); to unify
+## Content
+
+- automatic association of examples to specific parameter values is rather coarse at the moment, consider manual mapping
 
 ## Documentation
 
+- adding more detail to README
 - write-up for usage, especially regarding parameter-codes.json
 - details for tutorial-like guide
   - What are possible values for `args.writer.objects['ValueTable']`?
   - How does the following part skipped over in the tutorial work when needed?
     - "Because we only create a single CLDF dataset here, we do not need to call with self.cldf_writer(...) as ds: explicitly. Instead, an initialized cldfbench.cldf.CLDFWriter instance is available as args.writer."
-- adding sources requires sources as list (not as string, otherwise you need to reconvert to a list as I am doing now)
-  - 
-- fix reference to actual metadata file in .github/workflows/cldf-validation.yml (last line is hard-coded to `cldf/cldf-metadata.json`, adapt this to the name of your metadata file in order to get automatic testing to work correctly)
+  - sources and examples need to be supplied to CLDF as list (not as string, even though the output CSV files list them as strings)
+  - add note to fix reference to actual metadata file in .github/workflows/cldf-validation.yml (last line is hard-coded to `cldf/cldf-metadata.json`, adapt this to the name of your metadata file in order to get automatic testing to work correctly)
+
+
+# Acknowledgements
+
+I am very grateful to Robert Forkel for help with fixing issues and getting a better understanding of the way CLDF works. 
+
+Parts of the data reported here were collected while working in a project funded through the European Research Council Advanced Grant No. 269752 “Rethinking Comparative Syntax” (PI Ian Roberts).
+
+# License
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
