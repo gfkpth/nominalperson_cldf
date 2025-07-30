@@ -18,9 +18,9 @@ ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID
 16,9,Paluṟu wati nyara waṟangku mutaka palyanu,Paluṟu	wati	nyara	waṟa-ngku	mutaka	palya-nu,3SG.NOM	man	distant	tall-ERG	car	fix-PST,The tall man over there (in contrast to the other one) fixed the car.,87,MORPHEME_ALIGNED,,"bowe1990[34, (114)]"
 17,10,Nyulu nhayun waarigan gaday waangguwunaarnay.,Nyulu	nhayun	waarigan	gada-y	waanggu=wunaarna-y.,3SG.NOM	that.ABS	moon.ABS	come-PST	sleep=lie+REDUP-PST,[Then] the Moon came and lay down to sleep.,87,MORPHEME_ALIGNED,,"haviland1979[157, (423)]"
 18,10,Bidha nyulu biini.,Bidha	nyulu	biini.,child.ABS	3SG.NOM	die.PST,The child died.,87,MORPHEME_ALIGNED,,"haviland1979[157, (424a)]"
-19,11,nyulu jalbu,nyulu	jalbu,3SG	woman,the woman,87,MORPHEME_ALIGNED,,patz2002[202; gloss extrapolated]
+19,11,nyulu jalbu,nyulu	jalbu,3SG	woman,the woman,87,MORPHEME_ALIGNED,gloss extrapolated,patz2002[202]
 20,11,Yurra karrkay dungay bana mana!,Yurra	karrkay	dunga-y	bana	mana!,2PL.NOM(SARG)	child.ABS(SARG)	go-IMP	water.ABS(OBJ)	get.IMP,You children go and get water!,87,MORPHEME_ALIGNED,,"patz2002[203, (620)]"
-21,11,Pastor nyulu…,Pastor	nyulu…,pastor	3SG,"Pastor, he…",87,MORPHEME_ALIGNED,,"patz2002[202, (611); gloss extrapolated]"
+21,11,Pastor nyulu…,Pastor	nyulu…,pastor	3SG,"Pastor, he…",87,MORPHEME_ALIGNED,gloss extrapolated,"patz2002[202, (611)]"
 22,11,Ngayu babi wilbuman yindu ngamu nganjin dungariny mayi bakanka.,Ngayu	babi	wilbuman	yindu	ngamu	nganjin	dunga-ri-ny	mayi	baka-nka.,1SG.NOM(SARG)	father's.mother.ABS(SARG)	old.woman.ABS(SARG)	other.ABS(SARG)	mother.ABS(SARG)	1PL.EXCL.NOM(SARG)	go-PL-PST	food.ABS(OBJ)	dig-PURP,"I, grandmother, another old woman and mother, we went out to dig for food (yams).",87,MORPHEME_ALIGNED,,"patz2002[203, (618)]"
 23,12,niya jungarra dangkaa,niya	jungarra	dangkaa,he	big	man,the big man,87,WORD_ALIGNED,,evans1995[239]
 24,54,izaho vehivavy,izaho	vehivavy,1SG.DEF	woman,I woman,87,WORD_ALIGNED,,"paultravis2019[411, (6a)]"
@@ -43,7 +43,7 @@ ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID
 41,76,na:vu bra:hmaNaru vidyeyannu mareyaba:radu.,na:vu	bra:hmaNaru	vidyeyannu	mareyaba:radu.,we	Brahmin.PL	education.ACC	forget.INF.PROH,We Brahmins shouldnt forget education.,87,WORD_ALIGNED,,"sridhar1990[209, (755)]"
 42,77,ɲaŋŋaɭ intyakkaar adhikavum sasyabhuukkukaɭ aaɳə,ɲaŋŋaɭ	intyakkaar	adhikavum	sasyabhuukkukaɭ	aaɳə,we.EXCL	Indians	mostly	vegetarian.PL	be.PRS,We Indians are mostly vegetarians.,87,WORD_ALIGNED,,"asherkumari1997[262, (1340)]"
 43,78,naaŋka iŋliişkaaraŋkellaam kaaramaana vastu caappiʈaratille,naaŋka	iŋliişkaaraŋkellaam	kaaramaana	vastu	caappiʈaratille,we	English.person.PL.all	spicy	thing	eat.PRS.NOM.NEG,We English do not eat hot things.,87,WORD_ALIGNED,,asher1985[146]
-44,80,ni fyfyrwyr,ni	fyfyrwyr,we	SOFTMUT.student.PL,we students,87,WORD_ALIGNED,provided by David Willis (personal communication),hoehn2024[Supplementary Material S3]
+44,80,ni fyfyrwyr,ni	fyfyrwyr,we	SOFTMUT.student.PL,we students,87,WORD_ALIGNED,provided by David Willis (personal communication),hoehn2025nompers[Supplementary Material S3]
 45,81,lad os voksne snakke i fred,lad	os	voksne	snakke	i	fred,let.IMP	1.PL.ACC	adults	talk.INF	in	peace,Let us adults talk in peace.’,87,WORD_ALIGNED,,"schroeter2021[29, (32b)]"
 46,82,við/ þið Íslendigar,við/	þið	Íslendigar,we	you.PL	Icelanders,we/ you Icelanders,87,WORD_ALIGNED,,"sigurdssonwood2020[11, (16a)]"
 47,83,til oss (to) (gamle) professorane,til	oss	(to)	(gaml-e)	professor-a-ne,to	us	two	old-DEF	professor-PL-DEF,to us (two) (old) professors,87,MORPHEME_ALIGNED,,"julien2005[129, (4.36)]"
@@ -56,7 +56,7 @@ ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID
 54,92,āmhi̅ bāyakā nehmi̅ts āplyā kutumbã̅n sāṭhi̅ khapto,āmhi̅	bāyakā	nehmi̅ts	āplyā	kutumbã̅n	sāṭhi̅	khapto,we	women	always-EMPH	REFL	families	for	work.hard-1PL,We women always work hard for the sake of our families.,87,WORD_ALIGNED,,"pandharipande1997[386, (1141)]"
 55,93,asĩĩ pañjaabii garam mijaaj de ãã.,asĩĩ	pañjaabii	garam	mijaaj	de	ãã.,we	Punjabi	hot	nature	GEN.M.PL	are,We Punjabis are hot blooded/tempered.,87,WORD_ALIGNED,,"bhatia1993[228, (703)]"
 56,94,ma irania,ma	irani-a,we	Iranian-PL,we Iranians,87,WORD_ALIGNED,,"mahootian1997[212, (356)]"
-57,95,noi pikurarli adrem pini.,noi	pikurar-li	adrem	pini.,we	shepherd-DEF.PL	baled	bread,We shepherds baked bread.,87,MORPHEME_ALIGNED,"elicited, see also Höhn (2016:546)",hoehn2024[Supplementary Material S3]
+57,95,noi pikurarli adrem pini.,noi	pikurar-li	adrem	pini.,we	shepherd-DEF.PL	baled	bread,We shepherds baked bread.,87,MORPHEME_ALIGNED,"elicited, see also Höhn (2016:546)",hoehn2025nompers[Supplementary Material S3]
 58,96,Voi avocații vă apărați clienții.,Voi	avocații	vă	apărați	clienții.,you.PL	lawyers-DEF	CL.2PL	defend	cuzstomers-DEF,You lawyers defend your clients.,87,WORD_ALIGNED,,"cornilescunicolae2014[10, (20a)]"
 59,97,nosaltres els bombers,nosaltres	els	bombers,we	DET.PL	firemen,we firemen,87,WORD_ALIGNED,,hualde1992catalan[290]
 60,98,nos os estudantes,nos	os	estudantes,we	DET.PL	students,we students,87,WORD_ALIGNED,,"hoehn2015unagr[560, (36a)]"
@@ -70,12 +70,12 @@ ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID
 68,107,'nami Po'matsemse no na pʌ'maga 'nikutri,'nami	Po'matsem-se	no	na	pʌ'maga	'nikutri,we.DAT	Pomak.DAT.PL-DET.PROX	1PL.ACC	NEG	help.3SG	nobody,Nobody helps us Pomaks.,87,MORPHEME_ALIGNED,,papadimitriou2008[582]
 69,110,My lingwiści lubimy formalizację.,My	lingwiści	lubimy	formalizację.,we	linguists	like.1PL	formalisation,We linguists like formalisation.,87,WORD_ALIGNED,,"rutkowski2002[161f., (3b)]"
 70,112,sa k͜hoeta ké nĩ ra ǁ'o.,sa	k͜hoe-ta	ké	nĩ	ra	ǁ'o.,ART.ADDR	person-1PL.INCL.COMMON	TOP?	COMPEL	PROG	die,We humans have to die.,87,MORPHEME_ALIGNED,,"boehm1985[133, (27b)]"
-71,113,Hè é tó Khwétò dì góέ à tó ò ǁé Qúvaǁè ǂxàátè à.,{Hè	é}	tó	Khwé-tò	dì	góέ	à	tó	ò	ǁé	Qúva-ǁè	ǂxà-á-tè	à.,DEM	2PL.COMMON	Khwe-2PL.COMMON	POSS	cattle	OBJ	2PL.COMMON	POSS	1PL.M	White-1PL.M	give-I-PRS	OBJ,"Here are yours, the Khwes cows that we, the Whites, give you.",87,MORPHEME_ALIGNED,,"kilianhatz2008[41, (1) quoting Köhler 1989:514f.]"
+71,113,Hè_é tó Khwétò dì góέ à tó ò ǁé Qúvaǁè ǂxàátè à.,Hè_é	tó	Khwé-tò	dì	góέ	à	tó	ò	ǁé	Qúva-ǁè	ǂxà-á-tè	à.,DEM	2PL.COMMON	Khwe-2PL.COMMON	POSS	cattle	OBJ	2PL.COMMON	POSS	1PL.M	White-1PL.M	give-I-PRS	OBJ,"Here are yours, the Khwes cows that we, the Whites, give you.",87,MORPHEME_ALIGNED,,"kilianhatz2008[41, (1) quoting Köhler 1989:514f.]"
 72,115,Nubaha wow mukire.,N-ubah-a	wow	mu-kire.,1SG.SUBJ-respect-FV	2SG	NCL1-rich.man,I respect you rich man.,87,MORPHEME_ALIGNED,,"vanderwal2022[69, (73a)]"
-73,118,Ffe abantu abaavu ffe tubonaabona.,Ffe	abantu	abaavu	ffe	tubonaabona.,we	people	poor	1PL	suffer,We poor people suffer.,87,WORD_ALIGNED,elicited with Jenneke van der Wal from Saudah Namyalo (pers. comm.),hoehn2024[Supplementary Material S3]
+73,118,Ffe abantu abaavu ffe tubonaabona.,Ffe	abantu	abaavu	ffe	tubonaabona.,we	people	poor	1PL	suffer,We poor people suffer.,87,WORD_ALIGNED,elicited with Jenneke van der Wal from Saudah Namyalo (pers. comm.),hoehn2025nompers[Supplementary Material S3]
 74,119,itwe abanyankore nituhinga ebinyoobwa,itwe	abanyankore	ni-tu-hinga	ebinyoobwa,we	Banyankole	PRS.IPFV-1PL-cultivate	groundnuts,We Banyankole grow groundnuts.,87,MORPHEME_ALIGNED,,"taylor1985[131, (368)]"
 75,120,ntə̂m. yε kó luzíŋ ↓é bï andzéé bǐ k yéè ntswé ninyá bɔ. atá…,ntə̂m.	yε	kó	luzíŋ	↓é	bï	andzéé	bǐ	k	yéè	ntswé	ninyá	bɔ.	atá[…],taste	and	LOC	life	of	us	Nzadi.people	we	NEG.PRS	sell	fish	that	NEG	even,"… tasty. In the tradition of us Nzadi, we dont sell that fish. Even…",87,WORD_ALIGNED,,"craneetal2011[279, (10)]"
-76,121,Nyinyi wanafunzi mmecheka.,Nyinyi	wa-nafunzi	m-me-cheka.,you.PL	NCL2-student	2PL-PST-laugh,You students laughed.,87,MORPHEME_ALIGNED,"elicited from Vital Kazimoto (pers. comm.), cf. also Höhn (2016:546)",hoehn2024[Supplementary Material S3]
+76,121,Nyinyi wanafunzi mmecheka.,Nyinyi	wa-nafunzi	m-me-cheka.,you.PL	NCL2-student	2PL-PST-laugh,You students laughed.,87,MORPHEME_ALIGNED,"elicited from Vital Kazimoto (pers. comm.), cf. also Höhn (2016:546)",hoehn2025nompers[Supplementary Material S3]
 77,122,yìa vɨ́ɨ ndâa gə́ ntó',yìa	vɨ́ɨ	ndâa	gə́	ntó',we.EXCL	people	smithy	go-PRS	palace,"We, the blacksmiths, go to the palace.",87,WORD_ALIGNED,,"schaub1985[197, (134a)]"
 78,123,ʊkɔ (a) korombʌ,ʊkɔ	(a)	korombʌ,we	ART	Koromba,we Koromba,87,WORD_ALIGNED,,"rennison1997[251, (585)]"
 79,124,wùu shìin taanré,wùu	shìin	taanré,we	person.NCL1.PL	three,we three,87,WORD_ALIGNED,,"carlson1994[208, (45a)]"
@@ -143,11 +143,11 @@ ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID
 141,0,wareware nihonjin,wareware	nihonjin,we	Japanese,we Japanese,87,WORD_ALIGNED,,hinds1988[254]
 142,1,wuli ttokttokhan enehakcatul,wuli	ttokttokhan	enehakcatul,we	smart	linguists,,87,WORD_ALIGNED,,"choi2014phd[151, (15)]"
 143,1,ttokttokhan wuli enehakcatul,ttokttokhan	wuli	enehakcatul,smart	we	linguists,we smart linguists,87,WORD_ALIGNED,,"choi2014phd[151, (15)]"
-144,79,kalaallit uagut,kalaalli-t	uagut,Greenlander-ABS.PL	we,we Greenlanders,87,MORPHEME_ALIGNED,,fortescue1984[110; gloss extrapolated]
+144,79,kalaallit uagut,kalaalli-t	uagut,Greenlander-ABS.PL	we,we Greenlanders,87,MORPHEME_ALIGNED,gloss extrapolated,fortescue1984[110]
 145,79,uagut kalaaliusugut,uagut	kalaali-u-sugut,we	Greenlander-be-1PL.PTCP,we Greenlanders,87,MORPHEME_ALIGNED,,fortescue1984[257]
-146,130,tau⁵¹ hou²⁴ ʔat⁵⁵ jen¹¹ kjã:u²⁴,tau⁵¹	hou²⁴	{ʔat⁵⁵	jen¹¹	kjã:u²⁴},1PL	two	sister,"we, the two sisters",87,WORD_ALIGNED,,"fan2019[137, (40)]"
+146,130,tau⁵¹ hou²⁴ ʔat⁵⁵_jen¹¹_kjã:u²⁴,tau⁵¹	hou²⁴	ʔat⁵⁵_jen¹¹_kjã:u²⁴,1PL	two	sister,"we, the two sisters",87,WORD_ALIGNED,,"fan2019[137, (40)]"
 147,3,biz Türkler vatanımızı severiz,biz	Türk-ler	vatan-ımız-ı	sev-er-iz,we	Turk-PL	mother.country-1PL-ACC	love-AOR-1PL,We Turks love our country,87,MORPHEME_ALIGNED,,"kornfilt1997[297, (1075)]"
-148,87,you linguists,you	linguist-s,2SG.PL	linguist-PL,you linguists,87,MORPHEME_ALIGNED,,hoehn2024[Supplementary Material S3]
+148,87,you linguists,you	linguist-s,2SG.PL	linguist-PL,you linguists,87,MORPHEME_ALIGNED,,hoehn2025nompers[Supplementary Material S3]
 149,31,forapi da,forapi	da,Forapi	1SG,"I, Forapi",87,MORPHEME_ALIGNED,,haiman1980[226]
 150,31,forapiga,forapi-ga,Forapi-2SG,"You, Forapi",87,MORPHEME_ALIGNED,,haiman1980[226]
 151,31,nonokama da,,,I your maternal uncle,87,,,haiman1980[226]
