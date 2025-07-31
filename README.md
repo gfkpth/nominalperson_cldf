@@ -1,8 +1,16 @@
-# Overview
+
+
+# Crosslinguistc database of nominal person
+
+[![CLDF validation](https://github.com/cldf-datasets/wals/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/wals/actions?query=workflow%3ACLDF-validation)
 
 This repository contains a database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person. The code here creates a [CLDF](https://github.com/cldf/cldf/)-conformant database, a format designed for linguistic applications, from older (and somewhat unorderly) csv-files. The format also allows for the automatic generation of an SQLite database.
 
 A previous implementation of the data as a relational (SQL) database can be found [here](https://github.com/gfkpth/nominal_person). That repo also contains the a jupyter notebook extracting example sentences for nominal person from a LaTeX-file, see  [here](https://github.com/gfkpth/nominal_person/tree/main/db-creation-notes/CLDF).
+
+## How to cite
+
+
 
 ## Background: (Ad-)nominal person
 
