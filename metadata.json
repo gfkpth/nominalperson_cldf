@@ -1,6 +1,6 @@
 {
     "id": "nominalperson_cldf",
-    "title": "Crosslinguistic database on nominal person",
+    "title": "Crosslinguistic database on nominal person phenomena",
     "description": "A database with syntactic data on >100 languages with a focus on properties relating to the phenomenon of (ad)nominal person",
     "license": "CC-BY",
     "url": "https://github.com/gfkpth/nominalperson_cldf/",
