@@ -1,6 +1,6 @@
 
 
-# Crosslinguistic database of nominal person phenomena
+# Crosslinguistic database on nominal person
 
 [![CLDF validation](https://github.com/cldf-datasets/wals/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/wals/actions?query=workflow%3ACLDF-validation)
 
