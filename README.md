@@ -10,7 +10,7 @@ A previous implementation of the data as a relational (SQL) database can be foun
 
 ## How to cite
 
-Höhn, Georg F. K. (2025). Crosslinguistic dataset on nominal person (v0.9.0). Zenodo. https://doi.org/10.5281/zenodo.16605840
+Höhn, G. F. K. (2025). Crosslinguistic dataset on nominal person (v0.9.0). Zenodo. https://doi.org/10.5281/zenodo.16605840
 
 ## Background: (Ad-)nominal person
 
