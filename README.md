@@ -15,7 +15,7 @@ Höhn, G. F. K. (2025). Crosslinguistic dataset on nominal person (v0.9.0). Zeno
 ## Background: (Ad-)nominal person
 
 One common form of nominal person are personal pronouns forming co-constituents of a co-referring nominal expression as in English *we linguists*.
-More detailed information on relevant phenomena and the range of cross-linguistic variation can be found in [Höhn (2020)](https://doi.org/10.5334/gjgl.1121) and [Höhn (2024)](https://doi.org/10.1515/lingty-2023-0080) as well as [my dissertation](https://ling.auf.net/lingbuzz/003618). If you use this data, I'd appreciate it if you'd let me know. If you are generally interested in (ad)nominal person and have further questions about the data(base), also feel free to get in touch.
+More detailed information on relevant phenomena and the range of cross-linguistic variation can be found in [Höhn (2020)](https://doi.org/10.5334/gjgl.1121) and [Höhn (2024)](https://doi.org/10.1515/lingty-2023-0080) as well as [Höhn (2017)](https://ling.auf.net/lingbuzz/003618). If you use this data, I'd appreciate it if you'd let me know. If you are generally interested in (ad)nominal person and have further questions about the data(base), also feel free to get in touch.
 
 
 ## Dataset Properties
