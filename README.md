@@ -147,7 +147,7 @@ cldf createdb cldf nominalperson.sqlite
 
 # Versions
 
-## v1.0 (2025-07-30)
+## v0.9.0 (2025-07-30)
 
 - first usable version
 
